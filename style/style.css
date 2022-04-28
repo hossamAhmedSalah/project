@@ -93,7 +93,7 @@ footer a:hover{
     justify-content: space-between;
 }
 .footerContainer .footerTeam{
-    width: 10%;
+    width: 15%;
     flex-direction: column;
     display: flex;
     margin: 40px;
@@ -103,7 +103,7 @@ footer a:hover{
 }
 
 .footerContainer .footerAbout{
-    width: 10%;
+    width: 13%;
     flex-direction: column;
     display: flex;
     margin: 40px;
