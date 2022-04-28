@@ -1,0 +1,183 @@
+/* *{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: google; src: url('fonts/google.ttf');
+}
+
+body{
+    font-family: google;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.sob{
+    margin-top: 15px;
+    height: 1.5rem !important;
+    width: 5rem !important;
+}
+#box{
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* on top */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 12vh;
+    padding-top: 10vh;
+}
+
+form{
+    text-align: center;
+}
+label{
+    font-size: 1.3rem;
+}
+input{
+    height: 1.7rem;
+    width: 14rem;
+}
+
+#book{
+    margin-top: 13px !important;
+    margin: auto;
+    min-width: 65vh;
+    max-width: 90vh;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*end of content*/
+
+::-webkit-scrollbar{
+    width: 0.750em;
+}   
+
+.gone{
+    opacity: 0.2;    
+}
+
+.logout{
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    border: none;
+    display: none;
+}
+
+#go{
+    float: right;
+    margin-top: 1.7vh;
+}
+
+#x{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 9vh;
+    height: 5vh;
+    z-index: 2;
+    font-size: 4vh;
+}
+
+
+#sair{
+    max-height:190px; 
+    overflow-y :scroll; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:224px;
+    display: none;
+    padding-top: 3px;
+    z-index: 1;
+}
+#sair a{
+    margin: 0 0 2px 6px;
+    display: block;
+}
+#des{
+    width: 224px;
+}
+
+#pair{
+    max-height:190px; 
+    overflow-y :scroll; 
+    overflow-x:hidden; 
+    position:absolute;
+    width:224px;
+    display: none;
+    padding-top: 3px;
+    z-index: 1;
+
+}
+#pair a{
+    margin: 0 0 2px 6px;
+    display: block;
+}
+#dep{
+    width: 224px;
+}
+
+#date h4{
+    margin: 5px 0 0 0;
+}
+#date{
+    padding: 10px;
+    max-height: 10vh;
+}
+
+#arr{
+    float: right;
+}
+#dept{
+    float: left;
+}
+
+#numb{
+    width: 40px;
+}
+
+#signbox{
+    margin-left: 5vh;
+    float: left;
+}
+
+#regbox{
+    margin-right: 5vh;
+    float: right;
+}
+
+.temp{
+    padding: 10px;
+}
+
+#one{
+    display: block;
+    position: relative;
+    margin-top: 7vh;
+    padding: 10px;
+}
+
+#one label{
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+#one input{
+    vertical-align: middle;
+}
+
+#one label span{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#passen{
+    display: inline;
+    float: right;
+    padding: 0 10px 10px 10px;
+}

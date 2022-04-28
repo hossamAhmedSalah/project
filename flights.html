@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flights</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/gs.css">
+        <link id="kek" rel="stylesheet" href="style/light.css">
+        <link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script/flights.js"></script>
+        <script src="script/theme.js"></script>  
+    </head>
+    <body>
+        <header class="header">
+            <img src="style/images/logo.png" alt="" class="logo">
+            <nav class="nav-bar">
+                <a href="index.html">Home</a> 
+                <a href="#where-to-go"> Where to go </a>  
+                <a href="#what-to-do"> What to do </a>  
+                <a href="#countries"> Countries <i class="fa-solid fa-earth-africa"></i></a>  
+                <a href="#Hotel"> Hotel <i class="fa-solid fa-hotel"></i> </a>  
+                <a href="flights.html"> Flights <i class="fa-solid fa-plane-up"></i></a> 
+                <a href="#food"> Food <i class="fa-solid fa-bowl-food"></i> </a> 
+            </nav>
+            <div class="buttons">
+                <button class="logout" id="log">logout</button>
+                <button type="button" class="btn-style" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up<i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+                <button type="button" class="btn-style" id="btn"><i class="fa-solid fa-moon-cloud"></i></button>
+            </div>
+        </header>
+
+        <div id="lol">
+            <div id="cn">
+                <div id="book">
+
+                    <div class="temp" style="float:right;">
+                        <label for="des">To</label><br>
+                        <input type="text" id="des" name="des" placeholder="Choose Arrival"><br>
+                        <div id="sair">
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                        </div>
+                    </div>
+                    <div class='temp' style="float:left;">
+                        <label for="dep">From</label><br>
+                        <input type="text" id="dep" name="dep" placeholder="Choose Departure"><br>
+                        <div id="pair">
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                            <a>egypt</a>
+                            <a>japan</a>
+                            <a>lamo</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div id="date">
+                        <label for="dates">Dates</label><br>
+                        <div id="dept">
+                            <h4>Departing</h4>
+                            <input type="date" name="depa" placeholder="dd-mm-yyyy" value=""
+                            min="2022-05-03" max="2022-08-31">
+                        </div>
+                        <div id="arr">
+                            <h4>Arriving</h4>
+                            <input type="date" name="arr" placeholder="dd-mm-yyyy" value=""
+                            min="2022-05-03" max="2022-08-31"><br>
+                        </div>
+                    </div>
+                    <div id="one">
+                        <label> <span>One way</span><input id="chk" type="checkbox"></label>
+                    </div>
+                    <div id="passen">
+                        <label for="class">Class:</label>
+                        <select name="class">
+                            <option>Economy</option>
+                            <option>Business Class</option>
+                        </select>
+                        <br>
+                        <label for="passen">Number of passengers:</label>
+                        <input type="number" id="numb" min="1" max="10" value="1" step="1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerContainer">
+                <div class="footerTeam">
+                     <h3>Developers</h3>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Hossam Ahmed</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Hamid Walid</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Hazem Ahmed</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Hazem Walid</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Hafez Adel</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Gamal Eldeen Ayman</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Basma Alaa</a>
+                     <a href=""><i class="fa-brands fa-facebook"></i>Toqa Mahmoud</a>
+    
+                </div>
+                <div class="footerAbout">
+                    <a href="">Home</a>
+                    <a href="">Where to go</a>
+                    <a href="">What to do</a>
+                    <a href="">Covid-19</a>
+                    <a href="">Feedback</a>
+               </div>
+               <div class="footercopyr">
+                <span>&copy; Travelism</span>
+           </div>
+            </div>
+        </footer>
+    
+    </body>
+</html>

@@ -1,0 +1,54 @@
+::-webkit-scrollbar-track{
+    background: #004f88;
+}
+::-webkit-scrollbar-thumb{
+    background: #7bb1c9;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #3091d6;
+}
+
+body{
+    background-color: #00508985;
+}
+
+.header{
+    background-color: #015088;
+}
+
+.nav-bar a{
+    color: #ddd3d3;
+}
+
+.nav-bar a:hover{
+    color:  #ffffff;
+}
+
+footer{
+    background-color: #015088;
+    border: 1px solid black;
+}
+
+.footerContainer{
+    color: #ddd3d3;
+}
+
+.footerContainer a{
+    color: #ddd3d3;
+}
+
+#book{
+    background-color: #8485b4d0;
+
+}
+
+#x{
+    color: #ddd3d3;
+}
+
+#pair{
+    background-color: black;
+}
+#sair{
+    background-color: black;
+}

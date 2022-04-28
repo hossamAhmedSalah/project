@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/gs.css">
+        <link id="kek" rel="stylesheet" href="style/light.css">
+        <link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="script/log.js"></script>
+        <script src="script/theme.js"></script>  
+    </head>
+    <body>
+        <header class="header">
+            <img src="style/images/logo.png" alt="" class="logo">
+            <nav class="nav-bar">
+                <a href="index.html">Home</a> 
+                <a href="#where-to-go"> Where to go </a>  
+                <a href="#what-to-do"> What to do </a>  
+                <a href="#countries"> Countries <i class="fa-solid fa-earth-africa"></i></a>  
+                <a href="#Hotel"> Hotel <i class="fa-solid fa-hotel"></i> </a>  
+                <a href="flights.html"> Flights <i class="fa-solid fa-plane-up"></i></a> 
+                <a href="#food"> Food <i class="fa-solid fa-bowl-food"></i> </a> 
+            </nav>
+            <div class="buttons">
+                <button class="logout" id="log">logout</button>
+                <button type="button" class="btn-style" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up<i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+                <button type="button" class="btn-style" id="btn">theme <i class="fa-solid fa-moon-cloud"></i></button>
+            </div>
+        </header>
+    <div id="lol">
+        <div id="box">
+            <div id="signbox">
+                <h2 style="text-align: center">Sign in</h2>
+                <form method="post" id="signin" onsubmit="return false">
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter Email"><br>
+                    
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="pass" name="pass" placeholder="Enter Password"><br>
+                    
+                    <input id="sub" class="sob" type="submit" value="Sign In">
+                </form>
+            </div>  
+            <div id="regbox">
+                <h2 style="text-align: center">Sign Up</h2>
+                <form method="post" id="signup" onsubmit="return false">
+                    <label for="user">Username:</label><br>
+                    <input type="text" id="nuser" name="user" placeholder="Enter Username"><br>
+                    
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="nemail" name="email" placeholder="Enter Email"><br>
+                    
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="npass" name="pass" placeholder="Enter Password"><br>
+
+                    <label for="gender">Gender: </label>
+                    <select name="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select><br>
+                    
+                    <input id="nsub" class="sob" type="submit" value="Sign Up">
+                </form>
+            </div>  
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="footerTeam">
+                 <h3>Developers</h3>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hossam Ahmed</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hamid Walid</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hazem Ahmed</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hazem Walid</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hafez Adel</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Gamal Eldeen Ayman</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Basma Alaa</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Toqa Mahmoud</a>
+
+            </div>
+            <div class="footerAbout">
+                <a href="">Home</a>
+                <a href="">Where to go</a>
+                <a href="">What to do</a>
+                <a href="">Covid-19</a>
+                <a href="">Feedback</a>
+           </div>
+           <div class="footercopyr">
+            <span>&copy; Travelism</span>
+       </div>
+        </div>
+    </footer>
+</body>
+</html>
