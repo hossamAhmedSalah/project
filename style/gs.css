@@ -62,13 +62,6 @@ input{
     opacity: 0.2;    
 }
 
-.logout{
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: underline;
-    border: none;
-    display: none;
-}
-
 #go{
     float: right;
     margin-top: 1.7vh;

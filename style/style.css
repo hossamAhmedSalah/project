@@ -65,6 +65,13 @@ body{
     min-height: 75vh;
 }
 
+.logout{
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+    border: none;
+    display: none;
+}
+
 /* end of content */
 footer{
     min-height: 15vh;
