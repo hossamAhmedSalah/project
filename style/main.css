@@ -1,0 +1,130 @@
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.9;
+}
+.text{
+    z-index: 10;
+}
+.text h2 {
+    position: absolute;
+    top: 400px;
+    left: 60px;
+    font-size: 5em;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+}
+.text h3 {
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    font-size: 4em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.text p{
+    position: absolute;
+    top: 550px;
+    left: 66px;
+    font-size: 1.1em;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+}
+.WhatTodo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#counteries h1{
+    margin-top: 40px;
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Oleo Script', cursive;
+    
+}
+.content{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+.content{
+    margin-top: 30px;
+}
+    
+.city-card {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 45px;
+    min-height: 3px;
+    width: 25em;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;    
+}
+    
+.city-card:hover {
+    transform: scale(1.1);
+}
+    
+.city-card:hover .city-image{
+    opacity: 0.9;
+}
+    
+.city-image img{
+    width: 100%
+}
+    
+.city-info {
+    padding: 1em;
+}
+    
+.city-title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+    
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+    
+.more-details:hover {
+    color: #ff4655;
+}
+section .mwa3ed{
+    margin-top: 30px ;
+}
+caption{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Oleo Script', cursive;
+}
+section .mwa3ed table{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+table, th, td {
+    border: solid 1px #000;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse; 
+    margin: auto;
+}

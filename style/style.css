@@ -79,6 +79,13 @@ footer{
     padding-bottom: 80px;
 
 }
+
+footer a:hover{
+    color: red;
+    margin-left: 8px;
+    transition-duration: 0.4s;
+}
+
 .footerContainer{
     width: 100%;
     height: 260px;
@@ -86,6 +93,7 @@ footer{
     justify-content: space-between;
 }
 .footerContainer .footerTeam{
+    width: 10%;
     flex-direction: column;
     display: flex;
     margin: 40px;
@@ -95,6 +103,7 @@ footer{
 }
 
 .footerContainer .footerAbout{
+    width: 10%;
     flex-direction: column;
     display: flex;
     margin: 40px;

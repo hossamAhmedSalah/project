@@ -4,60 +4,199 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Greece</title>
+        <title>Travelism</title>
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/gs.css">
+        <link rel="stylesheet" href="style/main.css">
         <link id="kek" rel="stylesheet" href="style/light.css">
         <link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="script/theme.js"></script>  
     </head>
-    <body>
-        <header class="header">
-            <img src="style/images/logo.png" alt="" class="logo">
-            <nav class="nav-bar">
-                <a href="index.html">Home</a> 
-                <a href="#where-to-go"> Where to go </a>  
-                <a href="#what-to-do"> What to do </a>  
-                <a href="#countries"> Countries <i class="fa-solid fa-earth-africa"></i></a>  
-                <a href="#Hotel"> Hotel <i class="fa-solid fa-hotel"></i> </a>  
-                <a href="flights.html"> Flights <i class="fa-solid fa-plane-up"></i></a> 
-                <a href="#food"> Food <i class="fa-solid fa-bowl-food"></i> </a> 
-            </nav>
-            <div class="buttons">
-                <button class="logout" id="log">logout</button>
-                <button type="button" class="btn-style" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up<i class="fa-solid fa-arrow-right-to-bracket"></i></button>
-                <button type="button" class="btn-style" id="btn"><i class="fa-solid fa-moon-cloud"></i></button>
-            </div>
-        </header>
+<body>
+    <header class="header">
+        <img src="style/images/logo.png" alt="" class="logo">
+        <nav class="nav-bar">
+            <a href="index.html">Home</a> 
+            <a href="#where-to-go"> Where to go </a>  
+            <a href="#what-to-do"> What to do </a>  
+            <a href="#countries"> Countries <i class="fa-solid fa-earth-africa"></i></a>  
+            <a href="#Hotel"> Hotel <i class="fa-solid fa-hotel"></i> </a>  
+            <a href="flights.html"> Flights <i class="fa-solid fa-plane-up"></i></a> 
+            <a href="#food"> Food <i class="fa-solid fa-bowl-food"></i> </a> 
+        </nav>
+        <div class="buttons">
+            <button class="logout" id="log">logout</button>
+            <button type="button" class="btn-style" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up<i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+            <button type="button" class="btn-style" id="btn"><i class="fa-solid fa-moon-cloud"></i></button>
+        </div>
+    </header>
+    <div id="lol">
+        <section>
+            <video src="./videos/paris_-_40645 (Original).mp4" autoplay loop muted></video>
+            <div class="text">
+                <h2>Never Stop</h2> 
+                <h3>Exploring The World</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-        <div id="lol"></div>
-
-        <footer>
-            <div class="footerContainer">
-                <div class="footerTeam">
-                     <h3>Developers</h3>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Hossam Ahmed</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Hamid Walid</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Hazem Ahmed</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Hazem Walid</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Hafez Adel</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Gamal Eldeen Ayman</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Basma Alaa</a>
-                     <a href=""><i class="fa-brands fa-facebook"></i>Toqa Mahmoud</a>
-    
+            </div> 
+        </section>
+        <!-- cards for the counteries -->
+        <section id="counteries">
+            <h1>Best 7 Counteries for Traveling</h1>
+            <div class="content">
+                <div class="city-card">
+                    <div class="city-image">
+                        <img src="./img/main/egypt.png" />
+                    </div>
+                    <div class="city-info">
+                        <strong class="city-title">
+                            <span>Egypt</span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
                 </div>
-                <div class="footerAbout">
-                    <a href="">Home</a>
-                    <a href="">Where to go</a>
-                    <a href="">What to do</a>
-                    <a href="">Covid-19</a>
-                    <a href="">Feedback</a>
-               </div>
-               <div class="footercopyr">
-                <span>&copy; Travelism</span>
-           </div>
+                <div class="city-card">
+                    <div class="city-image">
+                        <img src="./img/main/Greece.png" />
+                    </div>
+                    <div class="city-info">
+                        <strong class="city-title">
+                            <span>Greece</span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <div class="city-image">
+                        <img src="./img/main/italy.png" />
+                    </div>
+                    <div class="city-info">
+                        <strong class="city-title">
+                            <span>italy</span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <div class="city-image">
+                        <img src="./img/main/india.png" />
+                    </div>
+                    <div class="city-info">
+                        <strong class="city-title">
+                            <span>India</span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <div class="city-image">
+                        <img src="./img/main/Spain.png" />
+                    </div>
+                    <div class="city-info">
+                        <strong class="city-title">
+                            <span>Spain</span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
+                <div class="city-card">
+                    <div class="city-image">
+                        <img src="./img/main/Turkey.png" />
+                    </div>
+                    <div class="city-info">
+                        <strong class="city-title">
+                            <span>Turkey</span>
+                            <a href="#" class="more-details">More details</a>
+                        </strong>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </body>
+        </section>
+        <!-- table about package information  -->
+        <section>
+            <div class="mwa3ed">
+                <table>
+                    <caption>Upcoming tours</caption>
+                    <thead>
+                        <tr>
+                            <th>Name Of Country</th>
+                            <th>Tours</th>
+                            <th>Airline</th>
+                            <th>Cities</th>
+                            <th>Types of Hotels</th>
+                            <th>Price Range</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Turkey</td>
+                            <td>10</td>
+                            <td>Pegasus,Turkish airlines,Mahan Air,Atlas Global,British Airline,etc.</td>
+                            <td>Famagusta,Lefkosha,Girne,Guzelyurt</td>
+                            <td>Five,Four and three-stars hotels</td>
+                            <td>700&rarr;<del>3000</del>2500&#36;</td>
+
+                        </tr>
+                        <tr>
+                            <td>Egypt</td>
+                            <td>15</td>
+                            <td>Alexandria Airlines,AlMasria Universal Airlines	,AMC Airlines	</td>
+                            <td>Giza,Luxor,Aswan</td>
+                            <td>Five and Four-stars hotels</td>
+                            <td>800&rarr;<del>3000</del>2500&#36;</td>
+
+                        </tr>
+                        <tr>
+                            <td>India</td>
+                            <td>10</td>
+                            <td>AirAsia India,Air India	,Air India Express</td>
+                            <td>Mumbai,Delhi,Bangalore</td>
+                            <td>five,four and three-stars hotels</td>
+                            <td>700&rarr;<del>2000</del>1500&#36;</td>
+
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td>Greece</td>
+                                <td>15</td>
+                                <td>Aegean Airlines	,Bluebird Airways,Ellinair	</td>
+                                <td>Athens,Thessaloniki ,Patras </td>
+                                <td>five,four and three-stars hotels</td>
+                                <td>700&rarr;<del>2900</del>2200&#36;</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footerContainer">
+            <div class="footerTeam">
+                 <h3>Developers</h3>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hossam Ahmed</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hamid Walid</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hazem Ahmed</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hazem Walid</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Hafez Adel</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Gamal Eldeen Ayman</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Basma Alaa</a>
+                 <a href=""><i class="fa-brands fa-facebook"></i>Toqa Mahmoud</a>
+
+            </div>
+            <div class="footerAbout">
+                <a href="">Home</a>
+                <a href="">Where to go</a>
+                <a href="">What to do</a>
+                <a href="">Covid-19</a>
+                <a href="">Feedback</a>
+           </div>
+           <div class="footercopyr">
+            <span>&copy; Travelism</span>
+       </div>
+        </div>
+    </footer>
+</body>
 </html>

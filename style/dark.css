@@ -24,9 +24,82 @@ body{
     color:  #ffffff;
 }
 
+/* content */
+
+/* greece */
+.input{
+    background-color:  rgb(187, 183, 183);
+}
+
+.info{
+    color:maroon;
+}
+
+.about{
+    border: solid 0px gray;
+    background-color: white;
+}
+
+.where{
+    color: rgb(16, 16, 103);
+}
+
+.his{
+    color: rgb(16, 16, 103);
+}
+
+.imp{
+    color: rgb(80, 78, 78);
+
+}
+
+.contener{
+    border: 0px solid white;
+}
+
+.Average{
+    color: rgb(16, 16, 103);
+}
+
+.clim{
+    color: rgb(80, 78, 78);
+}
+
+.tabli thead tr{
+    background-color: rgb(239, 240, 240);
+}
+
+.tabli tbody tr{
+    border-right: 1px solid #dddddd;
+}
+
+#story{
+    background-color: #e63d4bb6;
+}
+
+.contener2{
+    border: 0px solid white;
+}
+
+.card2{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+}
+
+.time{
+    color: rgb(148, 146, 146);
+}
+
+/* end of greece */
+
+/* footer */
+
 footer{
     background-color: #015088;
     border: 1px solid black;
+}
+
+footer a:hover{
+    color:  #ffffff;
 }
 
 .footerContainer{
