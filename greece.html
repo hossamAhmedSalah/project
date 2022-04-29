@@ -9,26 +9,29 @@
         <link rel="stylesheet" href="style/decoration.css">
         <link id="kek" rel="stylesheet" href="style/light.css">
         <link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="script/theme.js"></script>  
     </head>
     <body>
-        <header class="header">
-            <img src="style/images/logo.png" alt="" class="logo">
-            <nav class="nav-bar">
-                <a href="index.html">Home</a> 
-                <a href="#where-to-go"> Where to go </a>  
-                <a href="#what-to-do"> What to do </a>  
-                <a href="#countries"> Countries <i class="fa-solid fa-earth-africa"></i></a>  
-                <a href="#Hotel"> Hotel <i class="fa-solid fa-hotel"></i> </a>  
-                <a href="flights.html"> Flights <i class="fa-solid fa-plane-up"></i></a> 
-                <a href="#food"> Food <i class="fa-solid fa-bowl-food"></i> </a> 
-                <a href="#covid-19">Covid-19</a>
-            </nav>
+        <header class="navbar">
+            <div class="logo">
+                <img src="style/images/logo.png" alt="" class="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Where to go</a></li>
+                    <li><a href="#">What to do</a></li>
+                    <li><a href="#">Covid-19</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
             <div class="buttons">
                 <button class="logout" id="log">logout</button>
-                <button type="button" class="btn-style" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up<i class="fa-solid fa-arrow-right-to-bracket"></i></button>
-                <button type="button" class="btn-style" id="btn"><i class="fa-solid fa-moon-cloud"></i></button>
+                <button type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
+                <button type="button" id="btn"></button>
             </div>
         </header>
     <div id="lol">
