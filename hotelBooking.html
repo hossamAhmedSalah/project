@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/hotelStyle.css">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link id="kek" rel="stylesheet" href="style/light.css">
+    <link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
+    <script src="script/theme.js"></script>  
+    <script src="script/hotelCode.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="style/images/logo.png" alt="" class="logo"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Where to go</a></li>
+                <li><a href="#">What to do</a></li>
+                <li><a href="#">Covid-19</a></li>
+                <li><a href="hotelBooking.html">Hotel</a></li>
+                <li><a href="flights.html">Flight</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </div>
+        <div id="buttonwrap">
+            <button class="buttons" class="logout" id="log">logout</button>
+            <button class="buttons" type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
+            <button class="buttons" type="button" id="btn"></button>
+        </div>
+    </header>
+    <div id="lol">
+        <section class="main">
+            <h3>Hotel photos</h3>
+            <div class="img-cont">
+                <button type="button" id="ribtn"> <i class="fa-solid fa-circle-arrow-left"></i> </button>
+                <div class="inerimg">
+                <img src="images/hotel/hotel1.jfif" width="300px" height="300px" style="order: 2;">
+                <img src="images/hotel/hotel4.jfif" width="300px" height="300px">
+                <img src="images/hotel/hotel5.jfif" width="300px" height="300px" style="order: 1;">
+            </div>
+                <button type="button" id="lebtn"> <i class="fa-solid fa-circle-arrow-right"></i> </button>
+            </div>
+        </section> 
+        <!--book a hotel-->
+        <section class="bookHotel">
+            <div>
+                <input type="text" placeholder="the City..">
+            </div>
+            <div>
+                <label for="check-in">check in</label>
+                <input type="date" name="check-in">
+            </div>
+            <div>
+                <label for="check-out">check out</label>
+            <input type="date" name="check-out">
+            </div>
+            <div>
+                <input type="number" placeholder="adults">
+                <input type="number" placeholder="childrens">
+                <input type="number" placeholder="rooms">
+            </div>
+        <button id="searchotel"><i class="fa-solid fa-magnifying-glass"></i> search</button>
+        </section>
+        <section class="bestOffers">
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+            <div class="container">
+                <div class="imagecard">
+                    <img src="images/hotel/hotel6.jfif">
+                </div>
+                <div class="captioncard">
+                    <h2>  BEST <span>prices</span> in UK </h2>
+                </div>
+            
+            </div>
+        </section>
+        <section class="reviews">
+        <div class="recontainer">
+        <div class="circleImage">
+            <img src="images/face (2).jfif">
+        </div>
+        <div class="capcomment">
+
+            <p>The rooms were clean, very comfortable, 
+                and the staff was amazing. They went over and beyond to help make our stay enjoyable.
+                I highly recommend this hotel for anyone visiting downtown (L).</p>
+        </div>
+
+        
+        </div> 
+
+
+        <div class="recontainer blue">
+            <div class="circleImage">
+                <img src="images/hotel/face4.jpeg">
+            </div>
+            <div class="capcomment">
+
+            <p>Excellent property and very convenient to USC activities.
+                Front desk staff is extremely efficient, pleasant and helpful.
+                
+                </p>
+            </div>
+
+            
+        </div>
+
+        <div class="recontainer">
+            <div class="circleImage">
+                <img src="images/hotel/face (2).jfif">
+            </div>
+            <div class="capcomment">
+
+            <p> had a wonderful experience at the (HN). Every staff member I encountered, 
+                from the valet to the check- in to the cleaning staff were delightful and eager to help! 
+                Thank you! Will recommend to my colleagues!</p>
+
+
+            </div>
+
+            
+        </div>
+
+        <div class="recontainer blue">
+            <div class="circleImage">
+                <img src="images/hotel/face3.jfif">
+            </div>
+            <div class="capcomment">
+
+            <p>The best hotel I’ve ever been privileged enough to stay at. Gorgeous building,
+                and it only gets more breathtaking when you walk in. 
+                High quality rooms, 
+                and high quality service. Also, they are one of few hotels
+                that allow people under 21 to book a reservation</p>
+            </div>
+
+            
+        </div>
+        </section>
+
+        <section class="video">
+            <h2>see how our hotels looks like!</h2>
+            <div class="videocont">
+            <video controls>
+                <!--
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                -->
+            </video>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h2> Hossam Ahmed Salah&#169 </h2>
+            <div class="links">
+                <a href="https://www.facebook.com/hossam.ahmed.9615566/"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/hossam_ahmed_salah/"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="https://github.com/hossamAhmedSalah"><i class="fa-brands fa-github-square"></i></a>
+                <a href="https://codepen.io/HOSSAM_AHMED-SALAH"><i class="fa-brands fa-codepen"></i></a>
+            </div>
+            
+        </section>
+    </div>
+</body>
+</html>
