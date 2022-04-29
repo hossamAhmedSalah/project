@@ -24,6 +24,8 @@ function setCookie(cName, cValue, expDays) {
 }
 
 function newa(){
+    document.getElementById('alertwrap').style.display='inline';
+
     var nsub = document.getElementById("signup");
 
     let user = nsub.elements[0].value;
@@ -41,16 +43,18 @@ function newa(){
         else    
             pre='Ms. ';
 
-        alert("Account was successfully made "+pre+user);
+        myalert("Account was successfully made "+pre+user);
         location.reload();
     }
     else{
-        alert("Please enter all fields");
+        myalert("Please enter all fields");
         nsub.reset();
     }
 }
 
 function get(){
+    document.getElementById('alertwrap').style.display='inline';
+
     var sub = document.getElementById("signin");
 
     fetch("./script/data.txt")
@@ -70,28 +74,38 @@ function get(){
             let p = lines[n+1];
 
             if(email==e && pass==p){
-                alert("Welcome "+lines[n+2]);
+                myalert("Welcome "+lines[n+2]);
                 setCookie('email',lines[n],30);
                 setCookie('pass',lines[n+1],30);
                 setCookie('user',lines[n+2],30);
                 document.getElementById("log").style.display='inline';
-                window.location.href='index.html';
+                var bttn = document.getElementById("alertbtn");
+                bttn.addEventListener("click",function(){
+                    window.location.href='index.html';
+                });
             }
             else if(email==getCookie("nemail=") && pass==getCookie('npass=')){
-                alert("Welcome "+getCookie("nuser="));
+                myalert("Welcome "+getCookie("nuser="));
                 setCookie('email',getCookie('nemail='),30);
                 setCookie('pass',getCookie('npass='),30);
                 setCookie('user',getCookie('nuser='),30);
                 document.getElementById("log").style.display='inline';
-                window.location.href='index.html';
+                bttn.addEventListener("click",function(){
+                    window.location.href='index.html';
+                });
             }
-            else if(email==e && pass!=p){
-                alert("Wrong password");
+            else if(email==e && pass!=p && email!=""){
+                myalert("Wrong password");
                 sub.elements[1].value="";
             }
             else{
-                alert("Wrong credentials");
+                myalert("Wrong credentials");
                 sub.reset();
             }
         });
+}
+
+function myalert(str){
+    let box = document.getElementById("alerttext");
+    box.innerHTML=str;
 }

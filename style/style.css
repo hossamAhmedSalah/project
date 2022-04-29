@@ -18,10 +18,11 @@ body{
 	height: 80px;
 	background-color: #0067b2;
 	display: flex;
+    /* position: fixed; */
 	justify-content: space-around;
-    position: fixed;
 	align-items: center;
 	color: #ffd242;
+    z-index: 1;
 }
 
 .logo{
@@ -47,7 +48,7 @@ body{
 	transition: 0.4s;
     color: white;
 } 
-.buttons button{
+.buttons{
 	text-decoration: none;
 	color: #000;
 	font-size: 14px;
@@ -58,7 +59,7 @@ body{
     background-color: #0067b2;
     color: #ffd242;
 }
-.buttons button:hover{
+.buttons:hover{
 	border: 2px solid #0067b2;
     background-color: #ffd242;
     color: #0067b2;
@@ -84,7 +85,6 @@ footer{
     min-height: 15vh;
     margin-top: 40px;
     padding-bottom: 80px;
-
 }
 
 footer a:hover{

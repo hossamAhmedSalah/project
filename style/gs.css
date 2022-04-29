@@ -15,6 +15,7 @@ body{
 
 
 .sob{
+    padding: 0px !important;
     margin-top: 15px;
     height: 1.5rem !important;
     width: 5rem !important;
@@ -22,13 +23,13 @@ body{
 #box{
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: relative;
     /* on top */
     left: 0;
     width: 100%;
     height: 100%;
     margin-top: 12vh;
-    padding-top: 10vh;
+    padding: 10vh 25vh 0 25vh;
 }
 
 form{
@@ -173,4 +174,39 @@ input{
     display: inline;
     float: right;
     padding: 0 10px 10px 10px;
+}
+
+#alerttext{
+    color: #0067b2;
+    text-align: center;
+    /* margin: 32vh auto 1vh auto; */
+}
+
+#alertbtn{
+    width: 6vh;
+    margin: 4vh 27vh 0 27vh;
+}
+
+#alertbox{
+    box-shadow: -0.7vh 0.7vh #ffd242;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 25vh !important;
+    margin: auto;
+    height: 40vh;
+    width: 60vh;
+    padding-top: 15vh;
+}
+
+#alertwrap{
+    display: none;
+    position: fixed;
+    padding: 0;
+    margin:0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2 !important;
+    background-color: rgba(0, 0, 0, 0.466);
 }

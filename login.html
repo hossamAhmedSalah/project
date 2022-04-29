@@ -29,10 +29,10 @@
                     <li><a href="#">News</a></li>
                 </ul>
             </div>
-            <div class="buttons">
-                <button class="logout" id="log">logout</button>
-                <button type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
-                <button type="button" id="btn"></button>
+            <div id="buttonwrap">
+                <button class="buttons" class="logout" id="log">logout</button>
+                <button class="buttons" type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
+                <button class="buttons" type="button" id="btn"></button>
             </div>
         </header>
     <div id="lol">
@@ -46,9 +46,10 @@
                     <label for="password">Password:</label><br>
                     <input type="password" id="pass" name="pass" placeholder="Enter Password"><br>
                     
-                    <input id="sub" class="sob" type="submit" value="Sign In">
+                    <input id="sub" class="sob buttons" type="submit" value="Sign In">
                 </form>
-            </div>  
+            </div>
+
             <div id="regbox">
                 <h2 style="text-align: center">Sign Up</h2>
                 <form method="post" id="signup" onsubmit="return false">
@@ -67,9 +68,16 @@
                         <option value="female">female</option>
                     </select><br>
                     
-                    <input id="nsub" class="sob" type="submit" value="Sign Up">
+                    <input id="nsub" class="sob buttons" type="submit" value="Sign Up">
                 </form>
-            </div>  
+            </div> 
+            
+        </div>
+        <div id="alertwrap">
+            <div id="alertbox">
+                <h2 id="alerttext"></h2>
+                <button id="alertbtn" class="buttons" onclick="document.getElementById('alertwrap').style.display='none'">OK</button>
+            </div>
         </div>
     </div>
 
@@ -77,14 +85,14 @@
         <div class="footerContainer">
             <div class="footerTeam">
                  <h3>Developers</h3>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Hossam Ahmed</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Hamid Walid</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Hazem Ahmed</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Hazem Walid</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Hafez Adel</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Gamal Eldeen Ayman</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Basma Alaa</a>
-                 <a href=""><i class="fa-brands fa-facebook"></i>Toqa Mahmoud</a>
+                 <a href="">Hossam Ahmed</a>
+                 <a href=""></i>Hamid Walid</a>
+                 <a href=""></i>Hazem Ahmed</a>
+                 <a href=""></i>Hazem Walid</a>
+                 <a href=""></i>Hafez Adel</a>
+                 <a href=""></i>Gamal Eldeen Ayman</a>
+                 <a href=""></i>Basma Alaa</a>
+                 <a href=""></i>Toqa Mahmoud</a>
 
             </div>
             <div class="footerAbout">
