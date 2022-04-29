@@ -24,7 +24,8 @@ function setCookie(cName, cValue, expDays) {
 }
 
 function newa(){
-    document.getElementById('alertwrap').style.display='inline';
+    document.getElementById('alertwrap').style.display='block';
+    document.getElementById('alertbox').style.animation='fading 0.3s';
 
     var nsub = document.getElementById("signup");
 
@@ -38,13 +39,16 @@ function newa(){
         setCookie('nemail',email,90);
         setCookie('npass',pass,90);
         setCookie('nuser',user,90);
-        if(gen=='male')
+        if(gen=='Male')
             pre='Mr. ';
         else    
             pre='Ms. ';
 
         myalert("Account was successfully made "+pre+user);
-        location.reload();
+        var bttn = document.getElementById("alertbtn");
+        bttn.addEventListener("click",function(){
+            location.reload();
+        });
     }
     else{
         myalert("Please enter all fields");
@@ -53,7 +57,9 @@ function newa(){
 }
 
 function get(){
-    document.getElementById('alertwrap').style.display='inline';
+    document.getElementById('alertwrap').style.display='block';
+    document.getElementById('alertbox').style.animation='fading 0.3s';
+
 
     var sub = document.getElementById("signin");
 

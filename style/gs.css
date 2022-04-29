@@ -39,8 +39,9 @@ label{
     font-size: 1.3rem;
 }
 input{
-    height: 1.7rem;
-    width: 14rem;
+    height: 1.9rem;
+    width: 18rem;
+    margin-bottom: 8px;
 }
 
 #book{
@@ -188,6 +189,7 @@ input{
 }
 
 #alertbox{
+    transition-duration: 0.4s;
     box-shadow: -0.7vh 0.7vh #ffd242;
     border-radius: 5px;
     background-color: white;
@@ -209,4 +211,16 @@ input{
     height: 100%;
     z-index: 2 !important;
     background-color: rgba(0, 0, 0, 0.466);
+}
+
+@keyframes fading{
+    0% {
+         opacity: 0;
+         transform: scale(0)
+    }
+
+    100% {
+         opacity: 1;
+         transform: scale(1)
+    }
 }
