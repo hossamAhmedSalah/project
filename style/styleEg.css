@@ -5,6 +5,7 @@
 
 body{
     background-color: #eee;
+    overflow-x: hidden;
 }
 
 .menu ul li a:hover{
@@ -149,7 +150,7 @@ table a{
     background:#0067B3;
     color: white;
     padding: 30px;
-    background-image: url(images/back.jpg) ;
+    background-image: url(/images/back.jpg) ;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,7 +254,7 @@ polygon(50% 0%,
     text-align: center;
 }
 .Audio{
-    background-image: url(images/patren\ \(6\).jfif);
+    background-image: url(/images/patren\ \(6\).jfif);
     border-radius: 10px;
     padding: 3px;
     margin-top: 4px;
