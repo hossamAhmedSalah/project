@@ -73,10 +73,7 @@ body{
     min-height: 75vh;
 }
 
-.logout{
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: underline;
-    border: none;
+#log{
     display: none;
 }
 
