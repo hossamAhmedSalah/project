@@ -8,6 +8,11 @@
     background: #1186da;
 }
 
+::selection{
+    background-color: rgb(15, 2, 33);
+    color: #FFD53D;
+}
+
 body{
     background-color: #d1e2ea;
 }
@@ -90,6 +95,52 @@ body{
 }
 
 /* end of greece */
+
+/* egypt */
+.con{
+    background-color:#fff;
+    border: 1px solid #0067B3;
+    color: black;
+}
+
+.caption h3{
+    color: black;
+    background-color: #FFD53D;
+}
+
+.caption video{
+    background-color: #FFD53D;
+}
+
+table{
+    border: 1px solid #FFD53D;
+    background-color: #FFD53D;
+    color: black;
+}
+
+table td{
+    background-color:#147da3;
+    color: #fff;
+}
+
+iframe{
+    border: 5px solid #FFD53D;
+}
+
+#Flag td{
+    background-color: #FFD53D;
+    color: black;
+}
+
+table a{
+    color: black;    
+}
+
+.comcont{
+    background-color: #d1e2ea;
+ }
+
+/* end of egypt */
 
 /* footer */
 
