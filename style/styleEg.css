@@ -1,93 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@700&family=Pacifico&display=swap');
-
-*{
-    box-sizing: border-box;
-  
-    text-decoration: none;
-    font-family:cursive;
-    margin: 0;
-    padding: 0;
-}
 ::selection{
    background-color: rgb(15, 2, 33);
    color: #FFD53D;
-   
 }
+
 body{
     background-color: #eee;
 }
-.header {
-    width: 100%;
-    height: 104px;
-    background-color: #0067b2;
-    display: flex;
-    justify-content: space-around;
-    color: #ffd242;
-    position: fixed;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: baseline;
-    z-index: 999;
-    border: 1px solid #fed53d;
-    border-radius: 15px;
-}
 
-h1{
-    font-size: 50px;
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-}
-.menu ul{
-	display: flex;
-	align-items: center;
-    list-style: none;
-}
-.menu ul li a{
-	text-decoration: none;
-	color: #ffd242;
-	padding: 5px 12px;
-	letter-spacing: 1px;
-	font-size: 20px;
-    font-weight: 700;
-
-}
 .menu ul li a:hover{
 	color: white;
-    transition: 0.6s ;
+    transition: 0.6s !important;
 } 
+
 .dropdown-menu{
     display: none;
 }
+
 .menu ul li:hover .dropdown-menu{
     display: block;
     position: absolute;
     background-color: #0067b2;
     padding: 15px;
-    
 }
 
-.button-style{
-    text-decoration: none;
-    color: #ffd242;
-    padding: 12px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border: 2px solid #ffd242;
-    background-color: #0067b2;
-    border-radius: 12px;
-    cursor: pointer;
-}
-
-.button-style:hover{
-	background-color: #ffd242;
-	transition: 0.6s;
-    color: #0067b2;
-}
 /*
  background-image: url(images/egy.jfif);
     background-size: cover;
@@ -97,8 +32,6 @@ main{
     height: 300vh;
     width: 100vw;
     display: grid;
-  
-   
 }
 
 section{
@@ -300,51 +233,7 @@ polygon(50% 0%,
      border: none;
      border-radius: 10px;
  }
- footer{
-    margin-top: 40px;
-    background-color: #0067b2;
-    padding-bottom: 80px;
-    border: 1px solid #fed53d;
-    border-radius: 15px;
-
-}
-.footerContainer{
-    width: 100%;
-    height: 350px;
-    color: #fed53d;
-    display: flex;
-    justify-content: space-between;
-}
-.footerContainer .footerTeam{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footerTeam h3{
-    margin-bottom: 30px;
-}
-
-.footerContainer .footerAbout{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footercopyr{
-    margin: 40px;
-    font-weight: 600;
-    font-size: 35px;
-}
-.footerContainer a{
-    padding-top: 5px;
-    text-decoration: none;
-    color: #fed53d;
-    font-weight: 600;
-}
-.footerAbout a{
-    padding-top: 14px;
-    font-weight: 600;
-    font-size: 21px;
-}
+ 
 .win{
     background-color: green;
 }
