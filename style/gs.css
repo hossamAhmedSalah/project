@@ -250,3 +250,8 @@ input{
     justify-content: space-between ;
     align-items: baseline;
 }
+
+
+input[type=text]:focus {
+    border: 7px solid rgba(99, 102, 102, 0.281);
+  }
