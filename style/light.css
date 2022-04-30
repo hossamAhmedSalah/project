@@ -31,6 +31,47 @@ body{
 
 /* content */
 
+/* main */
+
+.content div{
+    background-color: #f9fbfc;
+}
+
+.content a:hover{
+    color: #FFD53D;
+}
+
+.navbar{
+	background-color: #0067b2;
+	color: #ffd242;
+}
+
+.menu ul li a{
+	color: #ffd242;
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+.buttons{
+    border: 2px solid #ffd242;
+    background-color: #0067b2;
+    color: #ffd242;
+}
+
+.buttons:hover{
+    border: 2px solid #0067b2;
+    background-color: #ffd242;
+    color: #0067b2;
+}
+
+#counteries h1{
+    color:  black;
+}
+
+/* end of main */
+
 /* greece */
 .input{
     background-color:  rgb(187, 183, 183);
@@ -56,6 +97,10 @@ body{
 .imp{
     color: rgb(80, 78, 78);
 
+}
+
+.information{
+    color: black;
 }
 
 .contener{
@@ -103,6 +148,10 @@ body{
     color: black;
 }
 
+table caption{
+    color: black;
+}
+
 .caption h3{
     color: black;
     background-color: #FFD53D;
@@ -138,8 +187,39 @@ table a{
 
 .comcont{
     background-color: #d1e2ea;
- }
+}
 
+.comment{
+    border: 1px solid black;
+    background:#0067B3;
+    color: white;
+}
+
+.stars label{
+    background-color: silver;
+}
+
+.win{
+    background-color: green;
+}
+.lose{
+    background-color: red;
+}
+.titleF{
+    background-color: #0067b2;
+}
+.draw{
+    background-color: #eee;
+    color: #0067b2;
+}
+#submit{
+    background-color: #FFD53D;
+}
+
+.upload input~ [type=text]{
+    background-color: #eee;
+
+}
 /* end of egypt */
 
 /* footer */

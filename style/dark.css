@@ -1,15 +1,20 @@
 ::-webkit-scrollbar-track{
-    background: #004f88;
+    background: #02345a;
 }
 ::-webkit-scrollbar-thumb{
-    background: #7bb1c9;
+    background: #015088;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background: #3091d6;
+    background: #2876ad;
+}
+
+::selection{
+    background-color: rgb(15, 2, 33);
+    color: #FFD53D;
 }
 
 body{
-    background-color: #00508985;
+    background-color: #272a2e;
 }
 
 .header{
@@ -26,6 +31,44 @@ body{
 
 /* content */
 
+/* main */
+
+.content div{
+    background-color: #d0d7db;
+}
+
+.navbar{
+	background-color: #05273f;
+	color: #ffd242;
+}
+
+.menu ul li a{
+	color: #ffd242;
+}
+
+.menu ul li a:hover{
+    color: white;
+}
+
+.buttons{
+    border: 2px solid #ffd242;
+	background-color: #05273f;
+    color: #ffd242;
+}
+
+.buttons:hover{
+    border: 2px solid #05273f;
+    background-color: #ffd242;
+    color: #05273f;
+}
+
+#counteries h1{
+    color:  #ffffff;
+}
+
+/* end of main */
+
+
 /* greece */
 .input{
     background-color:  rgb(187, 183, 183);
@@ -41,16 +84,24 @@ body{
 }
 
 .where{
-    color: rgb(16, 16, 103);
+    color: #c8c8ee;
 }
 
 .his{
-    color: rgb(16, 16, 103);
+    color: #c8c8ee;
 }
 
 .imp{
-    color: rgb(80, 78, 78);
+    color: rgb(110, 108, 108);
 
+}
+
+.information{
+    color: #c8c8ee;
+}
+
+.card,.card2{
+    background-color: #535457;
 }
 
 .contener{
@@ -58,11 +109,11 @@ body{
 }
 
 .Average{
-    color: rgb(16, 16, 103);
+    color: #c8c8ee;
 }
 
 .clim{
-    color: rgb(80, 78, 78);
+    color: rgb(110, 108, 108);
 }
 
 .tabli thead tr{
@@ -81,38 +132,117 @@ body{
     border: 0px solid white;
 }
 
-.card2{
-    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+.card2,.card{
+    box-shadow: 0 5px 25px rgba(126, 125, 125, 0.5);
 }
 
 .time{
-    color: rgb(148, 146, 146);
+    color: #292727;
 }
 
+.ant{
+    color: #c8c8ee;
+}
 /* end of greece */
 
 /* egypt */
+.con{
+    background-color:#aec7e7;
+    border: 1px solid #0067B3;
+    color: black;
+}
 
+table caption{
+    color: white;
+}
 
+.caption h3{
+    color: rgb(255, 255, 255);
+    background-color: #FFD53D;
+}
+
+.caption video{
+    background-color: #FFD53D;
+}
+
+table{
+    border: 1px solid #FFD53D;
+    background-color: #FFD53D;
+    color: black;
+}
+
+table td{
+    background-color:#147da3;
+    color: #fff;
+}
+
+iframe{
+    border: 5px solid #FFD53D;
+}
+
+#Flag td{
+    background-color: #FFD53D;
+    color: black;
+}
+
+table a{
+    color: black;    
+}
+
+.comcont{
+    background-color: #272a2e;
+}
+
+.comment{
+    border: 1px solid black;
+    background:#0067B3;
+    color: white;
+}
+
+.stars label{
+    background-color: silver;
+}
+
+.win{
+    background-color: green;
+}
+.lose{
+    background-color: red;
+}
+.titleF{
+    background-color: #0067b2;
+}
+.draw{
+    background-color: #eee;
+    color: #0067b2;
+}
+#submit{
+    background-color: #FFD53D;
+}
+
+.upload input~ [type=text]{
+    background-color: #eee;
+
+}
 /* end of egypt */
 
 /* footer */
 
 footer{
-    background-color: #015088;
+    background-color: #05273f;
     border: 1px solid black;
 }
 
 footer a:hover{
-    color:  #ffffff;
+	color: #ffd242;
 }
 
 .footerContainer{
-    color: #ddd3d3;
+    color:  #ffffff;
 }
 
 .footerContainer a{
-    color: #ddd3d3;
+    color:  #ffffff;
 }
 
 #book{

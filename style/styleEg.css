@@ -23,6 +23,7 @@ body{
     background-size: cover;
 */
 main{
+    margin-top: -12vh;
     padding: 100px 10px 10px 10px;
     height: 300vh;
     width: 100vw;
@@ -34,8 +35,6 @@ section{
 }
 /*our colors #0067B3   #40B0DF #FFD53D light*/
 .con{
-    background-color:#fff;
-    border: 1px solid #0067B3;
     border-radius: 13px;
     padding: 10px;
     margin-top: 10px;
@@ -68,8 +67,6 @@ main{
 .caption h3{
     margin-top: 10px;
     padding: 10px;
-    color: black;
-    background-color: #FFD53D;
     font-size: 1.4em;
     border-radius: 10px;
    transition: 0.7s ease;
@@ -79,8 +76,6 @@ main{
 }
 .caption video{
     margin-top: 10px;
-    background-color: #FFD53D;
-
     border-radius: 15px;
 }
 .destinations{
@@ -96,11 +91,8 @@ main{
    
 }
 table{
- border: 1px solid #FFD53D;
  margin-bottom: 10px;
  padding: 20px;
- background-color: #FFD53D;
- color: black;
  text-align: center;
 
    
@@ -108,28 +100,19 @@ table{
 table td{
   
     padding: 10px;
-    background-color:#147da3;
-    color: #fff;
     border-radius: 10px;
 }
 iframe{
     border-radius: 10px;
-    border: 5px solid #FFD53D;
     
 }
-#Flag td{
-    background-color: #FFD53D;
-    color: black;
-}
+
 table a{
-    color: black;
     font-size: 1.1em;
     
 }
 /*comment style*/
-.comcont{
-   background-color: #EEE;
-}
+
 .comment{
     min-width: 320px;
     min-height: 412px;
@@ -138,10 +121,7 @@ table a{
     align-items: center;
     flex-direction: column;
     margin-top: 3520px;
-    border: 1px solid black;
     border-radius: 15px;
-    background:#0067B3;
-    color: white;
     padding: 30px;
     background-image: url(/images/back.webp) ;
     background-attachment: fixed;
@@ -179,7 +159,6 @@ table a{
 }
 .stars label{
     display: inline-block;
-    background-color: silver;
     clip-path: 
    polygon(50% 0%,61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
    transition: 0.4s ease-in-out;
@@ -187,16 +166,8 @@ table a{
     
 }
 .stars label:hover{
-   background-color: gold;
     transform: rotate(-0.25turn);
   
-}
-.stars label:hover~label{
-    background-color: gold;
-}
-#star1:hover{
-  background-color: aqua;
-     
 }
 /*clip-path: 
 polygon(50% 0%,
@@ -217,30 +188,15 @@ polygon(50% 0%,
     
  }
  .upload input~ [type=text]{
-    background-color: #eee;
     font-size: 1.2em;
     
-   
 }
  #submit{
-     background-color: #FFD53D;
      border: none;
      border-radius: 10px;
  }
  
-.win{
-    background-color: green;
-}
-.lose{
-    background-color: red;
-}
-.titleF{
-    background-color: #0067b2;
-}
-.draw{
-    background-color: #eee;
-    color: #0067b2;
-}
+
 .balltab td{
     padding-right: 50px;
     padding-left: 9px;

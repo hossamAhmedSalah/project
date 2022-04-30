@@ -47,10 +47,8 @@ video{
 #counteries h1{
     margin-top: 40px;
     text-align: center;
-    color: #000000;
     font-size: 50px;
     font-weight: 700;
-    font-family: 'Oleo Script', cursive;
     
 }
 .content{
@@ -113,7 +111,6 @@ caption{
     margin: 20px;
     font-size: 30px;
     font-weight: 500;
-    font-family: 'Oleo Script', cursive;
 }
 section .mwa3ed table{
     margin: auto;
