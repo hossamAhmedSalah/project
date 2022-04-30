@@ -216,6 +216,7 @@ input{
 }
 
 #aircard img{
+    margin-right: 10px;
     border-radius: 15px;
     float: left;
     height: 110px;
@@ -232,4 +233,20 @@ input{
 
 #aircard div{
     margin-top: 20px;
+}
+
+#aname{
+    font-size: 2rem;
+}
+#niceone{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#istuf{
+    display: flex;
+    justify-content: space-between ;
+    align-items: baseline;
 }
