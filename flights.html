@@ -39,77 +39,40 @@
         <div id="lol">
             <div id="cn">
                 <div id="book">
-
                     <div class="temp" style="float:right;">
                         <label for="des">To</label><br>
                         <input type="text" id="des" name="des" placeholder="Choose Arrival"><br>
                         <div id="sair">
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
+                            <a>Egypt</a>
+                            <a>Greece</a>
+                            <a>Italy</a>
+                            <a>India</a>
+                            <a>Spain</a>
+                            <a>Turkey</a>
+                            <a>France</a>
+                            <a>USA</a>
+                            <a>UK</a>
+                            <a>Brazil</a>
+                            <a>China</a>
+                            <a>Palestine</a> 
                         </div>
                     </div>
                     <div class='temp' style="float:left;">
                         <label for="dep">From</label><br>
                         <input type="text" id="dep" name="dep" placeholder="Choose Departure"><br>
                         <div id="pair">
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
-                            <a>egypt</a>
-                            <a>japan</a>
-                            <a>lamo</a>
+                            <a>Egypt</a>
+                            <a>Greece</a>
+                            <a>Italy</a>
+                            <a>India</a>
+                            <a>Spain</a>
+                            <a>Turkey</a>
+                            <a>France</a>
+                            <a>USA</a>
+                            <a>UK</a>
+                            <a>Brazil</a>
+                            <a>China</a>
+                            <a>Palestine</a>                            
                         </div>
                     </div>
                     <br>
@@ -129,18 +92,51 @@
                         </div>
                     </div>
                     <div id="one">
-                        <label> <span>One way</span><input id="chk" type="checkbox"></label>
+                        <label><span>One way</span><input id="chk" type="checkbox"></label>
                     </div>
                     <div id="passen">
-                        <label for="class">Class:</label>
-                        <select name="class">
-                            <option>Economy</option>
-                            <option>Business Class</option>
-                        </select>
+                        <div id="qqq">
+                            <label for="class">Class:</label>
+                            <select name="class" id="clselect">
+                                <option name="Economy">Economy</option>
+                                <option name="Business">Business Class</option>
+                            </select>
+                        </div>
                         <br>
-                        <label for="passen">Number of passengers:</label>
-                        <input type="number" id="numb" min="1" max="10" value="1" step="1">
+                        <div id="ppp" style="padding-right: 87px; margin-top: -48px;">
+                            <label for="passen">Passengers</label>
+                            <br>
+                            <label for="nadult">Adults</label>
+                            <input type="number" class="numb" min="1" max="10" value="1" step="1">
+                            <br>
+                            <label for="nadult">Children</label>
+                            <input type="number" class="numb" min="0" max="10" value="0" step="1">
+                            <br>
+                            <label for="nadult">Infants</label>
+                            <input type="number" class="numb" min="0" max="10" value="0" step="1">
+
+                        </div>
                     </div>
+                    <div id="sss">
+                        <button id="ssub" class="buttons">Find</button>
+                    </div>
+                </div>
+                <div id="results">
+                    <div id="aircard" class="pls">
+                        <img src="/style/flight/flopair.webp">
+                        <p id="aname">flopair</p>
+                        <div id="stuf" style="float: right;">
+                            <p id="from">flight</p>
+                            <p id="to">flight</p>
+                            <p id="aclass">class</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="falertwrap">
+                <div id="falertbox">
+                    <h2 id="falerttext"></h2>
+                    <button id="falertbtn" class="buttons" onclick="document.getElementById('falertwrap').style.display='none'">OK</button>
                 </div>
             </div>
         </div>

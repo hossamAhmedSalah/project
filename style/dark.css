@@ -268,3 +268,10 @@ footer a:hover{
 #alertbox{
     background-color: #1f252b;
 }
+
+#pair a,#sair a{
+    color: #147da3;
+}
+#pair a:hover, #sair a:hover{
+    background-color: #ffd242;
+}

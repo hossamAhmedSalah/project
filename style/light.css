@@ -249,17 +249,21 @@ footer a:hover{
     color: black;
 }
 
-#pair{
-    background-color: #95979b;
-}
-#sair{
-    background-color: #95979b;
+#pair,#sair{
+    background-color: #e5e8ee;
 }
 
-#alerttext{
+#alerttext,#falerttext{
     color: #0067b2;
 }
 
-#alertbox{
+#alertbox,#falertbox{
     background-color: white;
+}
+
+#pair a,#sair a{
+    color: black;
+}
+#pair a:hover, #sair a:hover{
+    background-color: #a3d9ee;
 }
