@@ -178,7 +178,6 @@ input{
 }
 
 #alerttext{
-    color: #0067b2;
     text-align: center;
     /* margin: 32vh auto 1vh auto; */
 }
@@ -192,7 +191,6 @@ input{
     transition-duration: 0.4s;
     box-shadow: -0.7vh 0.7vh #ffd242;
     border-radius: 5px;
-    background-color: white;
     margin-top: 25vh !important;
     margin: auto;
     height: 40vh;

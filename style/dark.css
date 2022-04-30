@@ -48,12 +48,12 @@ body{
 
 .buttons{
     border: 2px solid #ffd242;
-	background-color: #05273f;
+	background-color: var(--second-dark);
     color: #ffd242;
 }
 
 .buttons:hover{
-    border: 2px solid #05273f;
+    border: 2px solid var(--second-dark);
     background-color: #ffd242;
     color: #05273f;
 }
@@ -259,4 +259,12 @@ footer a:hover{
 
 #signbox h2,#regbox h2,form label{
     color: rgb(212, 214, 216);
+}
+
+#alerttext{
+    color: var(--second-dark);
+}
+
+#alertbox{
+    background-color: #1f252b;
 }

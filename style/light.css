@@ -255,3 +255,11 @@ footer a:hover{
 #sair{
     background-color: #95979b;
 }
+
+#alerttext{
+    color: #0067b2;
+}
+
+#alertbox{
+    background-color: white;
+}
