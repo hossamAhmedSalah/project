@@ -107,25 +107,42 @@ function meow(){
     var dep = document.getElementById("dep").value;
     var des = document.getElementById("des").value;
 
-    var images = ['style/flight/egyptair.webp','style/flight/flopair.webp','style/flight/emirates.webp','style/flight/japan.webp','style/flight/omanair.webp','style/flight/singapore.webp']
-    var names = ['Egypt Air','Flopair','Emirates', 'Japan Airlines', 'Oman Air', 'Singapore Airlines'];
+    var images = ['style/flight/egyptair.webp','style/flight/flopair.webp','style/flight/emirates.webp','style/flight/japan.webp','style/flight/omanair.webp','style/flight/singapore.webp','style/flight/gulf.webp','style/flight/italy.webp']
+    var names = ['Egypt Air','Flopair','Emirates', 'Japan Airlines', 'Oman Air', 'Singapore Airlines','Gulf Air','Italy Airways'];
     let num = Math.floor(Math.random() * 6);
+    let adult = document.getElementById("adu").value*1;
+    let children = document.getElementById("chi").value*0.7;
+    let infant = document.getElementById("inf").value*0.4;
 
-    console.log("kek1"+num);
+    let passen = adult+children+infant;
+
+    let clls=0;
+    if($("#clselect").val()=='Economy'){
+        clls=1;
+    }
+    else{
+        clls=1.5;
+    }
+
     for(let x=0;x<num;x++){
-        let kek = Math.floor(Math.random() * 6);
+        let kek = Math.floor(Math.random() * 8);
+        let pprice = 300+Math.floor(Math.random() * 600);
+        let time = 2+Math.floor(Math.random() * 6);
+        
         $divclone = $("#aircard").clone();
-        console.log("kek2"+kek);
+        console.log(pprice);
 
         $divclone.attr("class", "");
         $divclone.find("img").attr('src',images[kek]);
         $divclone.find("#aname").html(names[kek]);
+        $divclone.find("#price").html("$"+(passen*pprice*clls));
+        $divclone.find("#time").html(time+" hrs");
         $divclone.find("#from").html(dep);
         $divclone.find("#to").html(des);
         $divclone.find("#aclass").html($("#clselect").val());
 
         $divclone.attr("style", "fading 0.4s");
-        $("#results").append($divclone);
+        $("#results").append($divclone).fadeIn(600);
     }
     
 }
