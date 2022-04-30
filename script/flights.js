@@ -62,7 +62,36 @@ function lmao(){
         des.value='';
     }
     else{
-        meow();
+        if($('#chk').is(':checked')){
+            meow();
+        }
+        else{
+            let darr = document.getElementById("darr").value;
+            let ddepa = document.getElementById("ddepa").value;
+
+            let arrm = darr.split("-")[1];
+            let arrd = darr.split("-")[2];
+
+            let depam = ddepa.split("-")[1];
+            let depad = ddepa.split("-")[2];
+
+            if(arrm<depam){
+                myalert('Arrival cant be before departure');
+                darr.value='';
+            }
+            else if(arrm==depam){
+                if(arrd<depad){
+                    myalert('Arrival cant be before departure');
+                    darr.value='';
+                }
+                else{
+                    meow();
+                }
+            }
+            else{
+                meow();
+            }
+        }
     }
 }
 
@@ -78,13 +107,13 @@ function meow(){
     var dep = document.getElementById("dep").value;
     var des = document.getElementById("des").value;
 
-    var images = ['style/flight/bingsus.webp','style/flight/flopair.webp','style/flight/chad.webp','style/flight/ket.webp','style/flight/ameno.webp']
-    var names = ['Bingsus','Flopair','Chad air', 'Ket travels', 'Ameno flights'];
-    let num = Math.floor(Math.random() * 8);
+    var images = ['style/flight/egyptair.webp','style/flight/flopair.webp','style/flight/emirates.webp','style/flight/japan.webp','style/flight/omanair.webp','style/flight/singapore.webp']
+    var names = ['Egypt Air','Flopair','Emirates', 'Japan Airlines', 'Oman Air', 'Singapore Airlines'];
+    let num = Math.floor(Math.random() * 6);
 
     console.log("kek1"+num);
     for(let x=0;x<num;x++){
-        let kek = Math.floor(Math.random() * 5);
+        let kek = Math.floor(Math.random() * 6);
         $divclone = $("#aircard").clone();
         console.log("kek2"+kek);
 
@@ -95,6 +124,8 @@ function meow(){
         $divclone.find("#to").html(des);
         $divclone.find("#aclass").html($("#clselect").val());
 
+        $divclone.attr("style", "fading 0.4s");
         $("#results").append($divclone);
     }
+    
 }

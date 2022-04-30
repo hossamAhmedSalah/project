@@ -47,6 +47,7 @@
                             <a>Greece</a>
                             <a>Italy</a>
                             <a>India</a>
+                            <a>Japan</a>
                             <a>Spain</a>
                             <a>Turkey</a>
                             <a>France</a>
@@ -65,6 +66,7 @@
                             <a>Greece</a>
                             <a>Italy</a>
                             <a>India</a>
+                            <a>Japan</a>
                             <a>Spain</a>
                             <a>Turkey</a>
                             <a>France</a>
@@ -82,12 +84,12 @@
                         <label for="dates">Dates</label><br>
                         <div id="dept">
                             <h4>Departing</h4>
-                            <input type="date" name="depa" placeholder="dd-mm-yyyy" value=""
+                            <input type="date" id="ddepa" placeholder="dd-mm-yyyy" value=""
                             min="2022-05-03" max="2022-08-31">
                         </div>
                         <div id="arr">
                             <h4>Arriving</h4>
-                            <input type="date" name="arr" placeholder="dd-mm-yyyy" value=""
+                            <input type="date" id="darr" placeholder="dd-mm-yyyy" value=""
                             min="2022-05-03" max="2022-08-31"><br>
                         </div>
                     </div>
@@ -124,11 +126,15 @@
                 <div id="results">
                     <div id="aircard" class="pls">
                         <img src="/style/flight/flopair.webp">
-                        <p id="aname">flopair</p>
                         <div id="stuf" style="float: right;">
                             <p id="from">flight</p>
                             <p id="to">flight</p>
                             <p id="aclass">class</p>
+                        </div>
+                        <div id="istuf" style="float: left;">
+                            <p id="aname">flopair</p>
+                            <p id="price">$1200</p>
+                            <p id="time">2 hrs</p>
                         </div>
                     </div>
                 </div>

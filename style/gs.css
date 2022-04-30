@@ -229,3 +229,7 @@ input{
 .pls{
     display: none !important;
 }
+
+#aircard div{
+    margin-top: 20px;
+}
