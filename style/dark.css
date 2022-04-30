@@ -13,20 +13,16 @@
     color: #FFD53D;
 }
 
+:root{
+    --main-dark: #272a2e;
+    --second-dark: #015088;
+    /* --second-dark:#89A7BC; */
+    --font-color:#EEEEEE;
+    --font-color-old: #ffd242; 
+}
+
 body{
-    background-color: #272a2e;
-}
-
-.header{
-    background-color: #015088;
-}
-
-.nav-bar a{
-    color: #ddd3d3;
-}
-
-.nav-bar a:hover{
-    color:  #ffffff;
+    background-color: var(--main-dark);
 }
 
 /* content */
@@ -38,7 +34,7 @@ body{
 }
 
 .navbar{
-	background-color: #05273f;
+	background-color: var(--second-dark);
 	color: #ffd242;
 }
 
@@ -190,7 +186,7 @@ table a{
 }
 
 .comcont{
-    background-color: #272a2e;
+    background-color:  var(--second-dark);
 }
 
 .comment{
@@ -217,7 +213,8 @@ table a{
     color: #0067b2;
 }
 #submit{
-    background-color: #FFD53D;
+    color: var(--font-color);
+    background-color: var(--second-dark);
 }
 
 .upload input~ [type=text]{
@@ -229,7 +226,7 @@ table a{
 /* footer */
 
 footer{
-    background-color: #05273f;
+    background-color: var(--second-dark);
     border: 1px solid black;
 }
 
@@ -247,7 +244,6 @@ footer a:hover{
 
 #book{
     background-color: #8485b4d0;
-
 }
 
 #x{
@@ -259,4 +255,8 @@ footer a:hover{
 }
 #sair{
     background-color: black;
+}
+
+#signbox h2,#regbox h2,form label{
+    color: rgb(212, 214, 216);
 }

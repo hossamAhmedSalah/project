@@ -146,10 +146,13 @@ table a{
     
 }
 #submit{
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 10px;
     position: relative;
-    left:338px;
+    left:300px;
+   border: none;
+   border-radius: 10px;
 
 }
 .stars{
