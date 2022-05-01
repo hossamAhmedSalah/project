@@ -308,7 +308,7 @@ footer a:hover{
 .hj{
     background-color: #45474a;
 }
-.art{
+.art1{
     color: white;
 }
 .trv{
@@ -334,7 +334,11 @@ footer a:hover{
     color: white;
     border-radius: 30px;
 }
+.pol{
+    color: white;
+}
 .po{
+    
     border-radius: 30px;
     background-color: #45474a;
 }
@@ -346,5 +350,5 @@ footer a:hover{
     background-color: #272a2e;
 }
 .qatar{
-    background-color: #272a2e;
+    background-color: #45474a;
 }
