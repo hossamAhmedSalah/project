@@ -86,8 +86,13 @@ body{
     background-color: white;
 }
 
-.where{
+.wherey{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
     color: rgb(16, 16, 103);
+    margin: 45px 90px;
 }
 
 .his{
@@ -100,10 +105,16 @@ body{
 }
 
 .information{
-    color: black;
+    font-size: 1.6em;
+    font-family: Cursive;
 }
 
 .contener{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
     border: 0px solid white;
 }
 
@@ -114,9 +125,45 @@ body{
 .clim{
     color: rgb(80, 78, 78);
 }
+.tabli{
+    border-collapse: collapse;
+    margin: 70px 144px;
+    font-size: 1.1em;
+    min-width: 600px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(1 1 1 / 30%);
+   
+}
+.tabli thead tr{
+    background-color: rgb(239, 240, 240);
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabli th,
+.tabli td{
+    padding: 12px 15px;
+}
+
+.tabli tbody tr{
+    border-right: 1px solid #dddddd;
+}
+
+.tabli tbody{
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
 
 .tabli thead tr{
     background-color: rgb(239, 240, 240);
+    text-align: left;
+    font-weight: bold;
 }
 
 .tabli tbody tr{
@@ -130,14 +177,21 @@ body{
 .contener2{
     border: 0px solid white;
 }
+.card{
+    color: white;
+}
 
 .card2{
+    
     box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
 }
 
 .time{
+    font-size: 12px;
+    font-weight: 100;
     color: rgb(148, 146, 146);
 }
+
 
 /* end of greece */
 
@@ -327,6 +381,11 @@ body{
 .info3inner2{color: chocolate;}
 .info4{color: #ffd53d;}
 .info5{background-color: #fff;}
+ HEAD
+.card:hover{
+    background-color: #ffd53d;
+    color: #fff;
+}
 .card{background-color: #101010;}
 .card:hover{background-color: #ffd53d;
     color: #fff;}
@@ -343,3 +402,4 @@ body{
     #signbox input[type=email]:focus,#signbox input[type=password]:focus,#signbox input[type=text]:focus{
         background-color: rgba(80, 77, 77, 0.178);
     }
+    
