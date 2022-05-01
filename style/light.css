@@ -321,3 +321,15 @@ body{
 .qatar{
     background-color: white;
 }
+
+.yellow{color: yellow;}
+.info1{background-color: blueviolet;}
+.evil{color: yellow;}
+.info2{background-color: aqua;}
+.info3{background-color: #101010;}
+.info3inner2{color: chocolate;}
+.info4{color: #ffd53d;}
+.info5{background-color: #fff;}
+.card{background-color: #101010;}
+.card:hover{background-color: #ffd53d;
+    color: #fff;}
