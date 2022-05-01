@@ -13,212 +13,837 @@
     <script src="script/hotelCode.js"></script>
 </head>
 <body>
-    <header class="navbar">
-        <div class="logo">
-            <a href="index.html"><img src="style/images/logo.png" alt="" class="logo"></a>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Where to go</a></li>
-                <li><a href="what.html">What to do</a></li>
-                <li><a href="covid.html">Covid-19</a></li>
-                <li><a href="hotelBooking.html">Hotel</a></li>
-                <li><a href="flights.html">Flight</a></li>
-                <li><a href="#">Food</a></li>
-                <li><a href="#">News</a></li>
-            </ul>
-        </div>
-        <div id="buttonwrap">
-            <button class="buttons" class="logout" id="log">logout</button>
-            <button class="buttons" type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
-            <button class="buttons" type="button" id="btn"></button>
-        </div>
+    
+    <header class="header">
+        <div>
+			<h1 id="logo"><i class="fa-solid fa-plane-circle-check"></i>Travelism</h1>
+		</div>
+		<div class="menu">
+			<div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Where to go</a></li>
+                    <li><a href="#">What to do</a></li>
+                    <li><a href="#"> <i class="fa-solid fa-caret-down"></i> counteries</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                              <li><a href="#">Egypt</a></li>
+                              <li><a href="#">Greek</a></li>
+                              <li><a href="#">India</a></li>
+                              <li><a href="#">France</a></li>
+                              <li><a href="#">Turkey</a></li>
+                              <li><a href="#">Itali</a></li>
+                              <li><a href="#">Spain</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Covid-19</a></li>
+                    <li><a href="#">News</a></li>
+                    <li>
+                        <div class="buttons">
+                            <Button type="button" class="icon-style">
+                                <i class="fa-solid fa-moon"></i>
+                            </Button>
+                            <Button type="button" class="icon-style">
+                                <i class="fa-solid fa-user"></i>
+                            </Button>
+                            <label >user-name</label>
+                            
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+		
+        
     </header>
-    <div id="lol">
-        <section class="main">
-            <h3>Hotel photos</h3>
-            <div class="img-cont">
-                <button type="button" id="ribtn"> <i class="fa-solid fa-circle-arrow-left"></i> </button>
-                <div class="inerimg">
-                <img src="images/hotel/hotel1.jfif" width="300px" height="300px" style="order: 2;">
-                <img src="images/hotel/hotel4.jfif" width="300px" height="300px">
-                <img src="images/hotel/hotel5.jfif" width="300px" height="300px" style="order: 1;">
-            </div>
-                <button type="button" id="lebtn"></button>
-            </div>
-        </section> 
-        <!--book a hotel-->
-        <section class="bookHotel">
-            <div>
-                <input type="text" placeholder="the City..">
-            </div>
-            <div>
-                <label for="check-in">check in</label>
-                <input type="date" name="check-in">
-            </div>
-            <div>
-                <label for="check-out">check out</label>
-            <input type="date" name="check-out">
-            </div>
-            <div>
-                <input type="number" placeholder="adults">
-                <input type="number" placeholder="childrens">
-                <input type="number" placeholder="rooms">
-            </div>
-        <button id="searchotel"><i class="fa-solid fa-magnifying-glass"></i> search</button>
-        </section>
-        <section class="bestOffers">
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
+     <section class="main" id="main">
+         <h3>Hotel photos</h3>
+        <div class="img-cont">
+           
+            <div class="inerimg">
+            <img src="images/hotel1.jfif" width="300px" height="300px" style="order: 2;">
+            <img src="images/hotel4.jfif" width="300px" height="300px">
+            <img src="images/hotel5.jfif" width="300px" height="300px" style="order: 1;">
+           </div>
             
-            </div>
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
+        </div>
+     </section> 
+     <!--book a hotel-->
+     <section class="bookHotel" id="booknow">
+         <div>
+            <input type="text" placeholder="the City.." id="city">
+         </div>
+         <div>
+             <label for="check-in">check in</label>
+            <input type="date" name="check-in" id="check-in">
+         </div>
+         <div>
+            <label for="check-out">check out</label>
+           <input type="date" name="check-out" id="check-out">
+        </div>
+        <div>
+            <input type="number" placeholder="adults" id="adults">
+            <input type="number" placeholder="childrens" id="children">
+            <input type="number" placeholder="rooms" id="rooms">
+        </div>
+       <button id="searchotel" onclick="create()">
+           <i class="fa-solid fa-magnifying-glass"></i> search</button>
+        <button id="hideSearch" onclick="hide()">hide the results</button>
+        <button id="show" onclick="show()">show results</button>
+     </section>
+     <section class="results" id="result">
+       <div class="fakeHotel">
+           <h3 class="state">country</h3>
+           <h3 id="name1" class="hotelName">hotel name</h3>
+           <img class="randomimg" src="images/hotel5.jfif" alt="hotel image">
+           <h3 class="price">price 1000$</h3>
+       </div>
+       <div class="fakeHotel">
+        <h3 class="state">country</h3>
+        <h3 id="name2"  class="hotelName">hotel name</h3>
+        <img class="randomimg" src="images/hotel5.jfif" alt="hotel image">
+        <h3 class="price">price 1000$</h3>
+    </div>
+    <div class="fakeHotel">
+        <h3 class="state">country</h3>
+        <h3 id="name3"  class="hotelName">hotel name</h3>
+        <img class="randomimg" src="images/hotel5.jfif" alt="hotel image">
+        <h3 class="price">price 1000$</h3>
+    </div>
+    <div class="fakeHotel">
+        <h3 class="state">country</h3>
+        <h3 id="name4"  class="hotelName">hotel name</h3>
+        <img  class="randomimg" src="images/hotel5.jfif" alt="hotel image">
+        <h3 class="price">price 1000$</h3>
+    </div>
+    <div class="fakeHotel">
+        <h3 class="state">country</h3>
+        <h3 id="name5"  class="hotelName">hotel name</h3>
+        <img class="randomimg" src="images/hotel5.jfif" alt="hotel image">
+        <h3 class="price"4>price 1000$</h3>
+    </div>
+    <div class="fakeHotel">
+        <h3 class="state">country</h3>
+        <h3 id="name6"  class="hotelName">hotel name</h3>
+        <img class="randomimg" src="images/hotel5.jfif" alt="hotel image">
+        <h3 class="price">price 1000$</h3>
+    </div>
+       <script>
+           const city = document.querySelector("#city");
+           const rooms = document.querySelector("#rooms");
+           const chickIn = document.querySelector("#chick-in");
+           const chickOut = document.querySelector("#chick-out");
+           const hideSearch = document.querySelector("#hideSearch");
+           let sectionResult = document.querySelector("#result");  
+           let hotelName1 = document.querySelector("#name1");
+           let  hotelName2 = document.querySelector("#name2");
+           let  hotelName3 = document.querySelector("#name3");
+           let  hotelName4 = document.querySelector("#name4");
+           let  hotelName5 = document.querySelector("#name5");
+           let  hotelName6 = document.querySelector("#name6");
+           const citynames = document.querySelectorAll(".state");
+          const randomImages = document.querySelectorAll(".randomimg");
+          const hotelNames = document.querySelectorAll(".hotelName");
+          const countryList = [
+                "Afghanistan",
+                "Albania",
+                "Algeria",
+                "American Samoa",
+                "Andorra",
+                "Angola",
+                "Anguilla",
+                "Antarctica",
+                "Antigua and Barbuda",
+                "Argentina",
+                "Armenia",
+                "Aruba",
+                "Australia",
+                "Austria",
+                "Azerbaijan",
+                "Bahamas (the)",
+                "Bahrain",
+                "Bangladesh",
+                "Barbados",
+                "Belarus",
+                "Belgium",
+                "Belize",
+                "Benin",
+                "Bermuda",
+                "Bhutan",
+                "Bolivia (Plurinational State of)",
+                "Bonaire, Sint Eustatius and Saba",
+                "Bosnia and Herzegovina",
+                "Botswana",
+                "Bouvet Island",
+                "Brazil",
+                "British Indian Ocean Territory (the)",
+                "Brunei Darussalam",
+                "Bulgaria",
+                "Burkina Faso",
+                "Burundi",
+                "Cabo Verde",
+                "Cambodia",
+                "Cameroon",
+                "Canada",
+                "Cayman Islands (the)",
+                "Central African Republic (the)",
+                "Chad",
+                "Chile",
+                "China",
+                "Christmas Island",
+                "Cocos (Keeling) Islands (the)",
+                "Colombia",
+                "Comoros (the)",
+                "Congo (the Democratic Republic of the)",
+                "Congo (the)",
+                "Cook Islands (the)",
+                "Costa Rica",
+                "Croatia",
+                "Cuba",
+                "Curaçao",
+                "Cyprus",
+                "Czechia",
+                "Côte d'Ivoire",
+                "Denmark",
+                "Djibouti",
+                "Dominica",
+                "Dominican Republic (the)",
+                "Ecuador",
+                "Egypt",
+                "El Salvador",
+                "Equatorial Guinea",
+                "Eritrea",
+                "Estonia",
+                "Eswatini",
+                "Ethiopia",
+                "Falkland Islands (the) [Malvinas]",
+                "Faroe Islands (the)",
+                "Fiji",
+                "Finland",
+                "France",
+                "French Guiana",
+                "French Polynesia",
+                "French Southern Territories (the)",
+                "Gabon",
+                "Gambia (the)",
+                "Georgia",
+                "Germany",
+                "Ghana",
+                "Gibraltar",
+                "Greece",
+                "Greenland",
+                "Grenada",
+                "Guadeloupe",
+                "Guam",
+                "Guatemala",
+                "Guernsey",
+                "Guinea",
+                "Guinea-Bissau",
+                "Guyana",
+                "Haiti",
+                "Heard Island and McDonald Islands",
+                "Holy See (the)",
+                "Honduras",
+                "Hong Kong",
+                "Hungary",
+                "Iceland",
+                "India",
+                "Indonesia",
+                "Iran (Islamic Republic of)",
+                "Iraq",
+                "Ireland",
+                "Isle of Man",
+                "Israel",
+                "Italy",
+                "Jamaica",
+                "Japan",
+                "Jersey",
+                "Jordan",
+                "Kazakhstan",
+                "Kenya",
+                "Kiribati",
+                "Korea (the Democratic People's Republic of)",
+                "Korea (the Republic of)",
+                "Kuwait",
+                "Kyrgyzstan",
+                "Lao People's Democratic Republic (the)",
+                "Latvia",
+                "Lebanon",
+                "Lesotho",
+                "Liberia",
+                "Libya",
+                "Liechtenstein",
+                "Lithuania",
+                "Luxembourg",
+                "Macao",
+                "Madagascar",
+                "Malawi",
+                "Malaysia",
+                "Maldives",
+                "Mali",
+                "Malta",
+                "Marshall Islands (the)",
+                "Martinique",
+                "Mauritania",
+                "Mauritius",
+                "Mayotte",
+                "Mexico",
+                "Micronesia (Federated States of)",
+                "Moldova (the Republic of)",
+                "Monaco",
+                "Mongolia",
+                "Montenegro",
+                "Montserrat",
+                "Morocco",
+                "Mozambique",
+                "Myanmar",
+                "Namibia",
+                "Nauru",
+                "Nepal",
+                "Netherlands (the)",
+                "New Caledonia",
+                "New Zealand",
+                "Nicaragua",
+                "Niger (the)",
+                "Nigeria",
+                "Niue",
+                "Norfolk Island",
+                "Northern Mariana Islands (the)",
+                "Norway",
+                "Oman",
+                "Pakistan",
+                "Palau",
+                "Palestine, State of",
+                "Panama",
+                "Papua New Guinea",
+                "Paraguay",
+                "Peru",
+                "Philippines (the)",
+                "Pitcairn",
+                "Poland",
+                "Portugal",
+                "Puerto Rico",
+                "Qatar",
+                "Republic of North Macedonia",
+                "Romania",
+                "Russian Federation (the)",
+                "Rwanda",
+                "Réunion",
+                "Saint Barthélemy",
+                "Saint Helena, Ascension and Tristan da Cunha",
+                "Saint Kitts and Nevis",
+                "Saint Lucia",
+                "Saint Martin (French part)",
+                "Saint Pierre and Miquelon",
+                "Saint Vincent and the Grenadines",
+                "Samoa",
+                "San Marino",
+                "Sao Tome and Principe",
+                "Saudi Arabia",
+                "Senegal",
+                "Serbia",
+                "Seychelles",
+                "Sierra Leone",
+                "Singapore",
+                "Sint Maarten (Dutch part)",
+                "Slovakia",
+                "Slovenia",
+                "Solomon Islands",
+                "Somalia",
+                "South Africa",
+                "South Georgia and the South Sandwich Islands",
+                "South Sudan",
+                "Spain",
+                "Sri Lanka",
+                "Sudan (the)",
+                "Suriname",
+                "Svalbard and Jan Mayen",
+                "Sweden",
+                "Switzerland",
+                "Syrian Arab Republic",
+                "Taiwan",
+                "Tajikistan",
+                "Tanzania, United Republic of",
+                "Thailand",
+                "Timor-Leste",
+                "Togo",
+                "Tokelau",
+                "Tonga",
+                "Trinidad and Tobago",
+                "Tunisia",
+                "Turkey",
+                "Turkmenistan",
+                "Turks and Caicos Islands (the)",
+                "Tuvalu",
+                "Uganda",
+                "Ukraine",
+                "United Arab Emirates (the)",
+                "United Kingdom of Great Britain and Northern Ireland (the)",
+                "United States Minor Outlying Islands (the)",
+                "United States of America (the)",
+                "Uruguay",
+                "Uzbekistan",
+                "Vanuatu",
+                "Venezuela (Bolivarian Republic of)",
+                "Viet Nam",
+                "Virgin Islands (British)",
+                "Virgin Islands (U.S.)",
+                "Wallis and Futuna",
+                "Western Sahara",
+                "Yemen",
+                "Zambia",
+                "Zimbabwe",
+                "Åland Islands"
+         ];
+          const colors = [
+              "#FFAEBC",
+              "#A0E7E5",
+              "#B4F8C8",
+              "#FBE7C6",
+              "#189AB4",
+              "#E7F2F8",
+              "#74BDCB",
+              "#FFA384",
+              "#E88D72",
+              "#FC2E20"
+             
+              
+          ];
+          
+          
+           function create(){
+             const prices = document.querySelectorAll('.price');
+              prices.forEach(price => {
+                price.innerHTML = Math.floor(Math.random()*1900)+130.99+ " $";
+                //Math.floor(Math.random() * 45)
+             });
+              prices.forEach(price => {
+                 price.style.backgroundColor = colors[Math.floor(Math.random()*9)];
+             });
+             hotelNames.forEach(hotelName => {
+                  hotelName.style.backgroundColor = colors[Math.floor(Math.random()*9)];
+             });
+               
 
-            </div>
+             const randomHotelName = [
+              "upreme Estate Resort" ,
+               " Ancient Cloak Resort" ,
+               " Brass Circus Hotel" ,
+               " Tranquil Pinnacle Hotel" ,
+               " Sunset Bay Hotel & Spa" ,
+               " Atlantic Emperor Resort" ,
+               " Serene Bay Resort" ,
+               " Illustrious Nimbus Hotel & Spa" ,
+               " Elite Residence Hotel" ,
+               " Sunrise Canopy Resort" ,
+                "Serene Citadel Hotel" ,
+               " Autumn Sword Resort" ,
+                "Epitome Hotel" ,
+               " Drizzle Hotel & Spa" ,
+                "Snooze Resort" ,
+               " Slumber Resort" ,
+              " Grandiose Oak Hotel",
+               " Majestic Haven Hotel",
+              " Crimson Veil Hotel",
+               "Quiet Manor Hotel & Spa",
+               " Mellow Brewery Resort & Spa",
+               " Primal Heirloom Hotel",
+              "  Enigma Resort",
+                "Refresh Resort & Spa",
+               " Travel Resort",
+               " Holiday Hotel & Spa",
+                "Elder Mansion Resort",
+               " Sapphire Gardens Motel",
+              "  Noble Pyramid Motel",
+               " Elder Brewery Resort",
+               " Summer Summit Hotel",
+               " Soft Jungle Resort",
+               " Starlight Resort",
+               " Anomaly Hotel",
+              " Starlight Hotel",
+               " Crown Hotel",
+               "Pacific Square Resort",
+                "Sunny Pool Resort",
+               " King's Forest Hotel",
+               " Parallel Grove Resort",
+               " Sublime Bazaar Resort",
+               " Grandiose Veil Hotel",
+               " Seascape Resort",
+              " Fantasy Hotel",
+               " Vertex Hotel",
+               " Daydream Resort & Spa",
+               " Sapphire Temple Hotel & Spa",
+               " Emerald Bliss Resort",
+                "Jade Galaxy Hotel & Spa",
+               " Atlantic Ridge Hotel",
+                "Mellow Cottage Hotel & Spa",
+                "Sunrise Dream Resort",
+               " Windmill Motel",
+                "Travel Hotel & Spa",
+               " Majestic Hotel & Spa",
+               " Nostalgia Resort",
+            ];
+            //Array of images
+            const imageSrc = [
+              "images/x.webp",
+              "images/x2.webp",
+              "images/x3.webp",
+              "images/x4.webp",
+              "images/x5.webp",
+              "images/x6.webp",
+              "images/x7.webp",
+              "images/x8.webp",
+              "images/x9.webp",
+              "images/x10.webp",
+              "images/x11.webp",
+              "images/x12.webp",
+              "images/x13.webp",
+              "images/x14.webp",
+              "images/x15.webp"
+            
+            ] 
+            randomImages.forEach(randomImage => {
+                randomImage.setAttribute("src", imageSrc[ Math.floor(Math.random() * 14)] );
+            });
+              // let randomIndex = Math.floor(Math.random() * 15);
+               //console.log(randomHotelName[randomIndex]);
+             sectionResult.style.visibility= 'visible';
+             sectionResult.style.height = '900px';
+             
+              hotelName1.innerHTML = randomHotelName[Math.floor(Math.random() * 45)];
+              hotelName2.innerHTML = randomHotelName[Math.floor(Math.random() * 45)];
+              hotelName3.innerHTML =randomHotelName[Math.floor(Math.random() * 45)];
+              hotelName4.innerHTML = randomHotelName[Math.floor(Math.random() * 45)];
+              hotelName5.innerHTML = randomHotelName[Math.floor(Math.random() * 45)];
+              hotelName6.innerHTML = randomHotelName[Math.floor(Math.random() * 45)];
 
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
+              if(city.value == ''){
+                   console.log("workiing")
+                   citynames.forEach(cityname => {
+                      
+                       console.log(cityname.innerHTML = countryList[Math.floor(Math.random()*countryList.length)]);
+                     //cityname.innerHTML = countryList[Math.floor(Math.random()*countryList.length)];
+                    cityname[1].innerHTML = countryList[Math.floor(Math.random()*countryList.length)]; //works
+                    //lol cityname[index] of any number works on the first card, cityname not an array
+                   // cityname.innerHTML = 'lolyland'; not working
+
+                   });
+               };
+            citynames.forEach(cityname => {
+                cityname.innerHTML = city.value;
+            }); 
             
+           };
+           function hide(){
+            sectionResult.style.visibility= 'hidden';
+             sectionResult.style.height = '0';
+           };
+           function show(){
+            sectionResult.style.visibility= 'visible';
+             sectionResult.style.height = '900px';
+             sectionResult.style.marginBottom = '100px'
+           };
+        
+       </script>
+
+
+
+
+
+
+
+
+     </section>
+     <section class="bestOffers">
+        <div class="container">
+            <div class="imagecard">
+               <a href="#main"> <img src="images/Europe.jfif"></a>
             </div>
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
             
+        
+        </div>
+        <div class="container">
+            <div class="imagecard">
+               <a href="#main"> <img src="images/USA.jfif"></a>
             </div>
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
             
+
+        </div>
+
+        <div class="container">
+            <div class="imagecard">
+               <a href="#main" > <img src="images/uk.jfif"></a>
             </div>
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
             
+        
+        </div>
+        <div class="container">
+            <div class="imagecard">
+                <a href="#main" > <img src="images/EG.jfif"></a>
+                
             </div>
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
             
+        
+        </div>
+        <div class="container">
+            <div class="imagecard">
+                <a href="#main" > <img src="images/ma3reb.jfif"></a>
+                
             </div>
-            <div class="container">
-                <div class="imagecard">
-                    <img src="images/hotel/hotel6.jfif">
-                </div>
-                <div class="captioncard">
-                    <h2>  BEST <span>prices</span> in UK </h2>
-                </div>
+           
+        
+        </div>
+        <div class="container">
+            <div class="imagecard">
+                <a href="#main" >  <img src="images/Moraqo.jfif"></a>
+               
+            </div>
             
+        
+        </div>
+        <div class="container">
+            <div class="imagecard">
+                <a href="#main" > <img src="images/japan.jfif">
             </div>
-        </section>
-        <section class="reviews">
-        <div class="recontainer">
+            
+        </div>
+        <div class="container">
+            <div class="imagecard">
+                <a href="#main" > <img src="images/india.jfif"></a>
+               
+            </div>
+            
+        
+        </div>
+     </section>
+     <section class="reviews">
+         <div class="filters">
+            <h2>comments</h2>
+            <label for="cars">filters:</label>
+
+            <div  id="starsRating" ">
+            <button  value="5"  class="ratingStars" onclick="Filter5()">⭐⭐⭐⭐⭐</button >
+            <button  value="4" class="ratingStars" onclick="Filter4()">⭐⭐⭐⭐</button >
+            <button  value="3" class="ratingStars" onclick="Filter3()">⭐⭐⭐</button >
+            <button value="2" class="ratingStars" onclick="Filter2()">⭐⭐</button >
+            <button  value="1" class="ratingStars" onclick="Filter1()">⭐</button >
+            </div>
+           
+               
+         </div>
+    <div class="recontainer">
+       <div class="circleImage">
+           <img class="imgP" src="images/face (2).jfif">
+       </div>
+       <div class="capcomment">
+
+        <p class="lierComments">The rooms were clean, very comfortable, 
+            and the staff was amazing. They went over and beyond to help make our stay enjoyable.
+             I highly recommend this hotel for anyone visiting downtown (L).</p>
+       </div>
+
+       
+    </div> 
+
+
+    <div class="recontainer blue">
         <div class="circleImage">
-            <img src="images/hotel/face (2).jfif">
+            <img   class="imgP" src="images/face4.jpeg">
         </div>
         <div class="capcomment">
-
-            <p>The rooms were clean, very comfortable, 
-                and the staff was amazing. They went over and beyond to help make our stay enjoyable.
-                I highly recommend this hotel for anyone visiting downtown (L).</p>
+ 
+         <p class="lierComments">Excellent property and very convenient to USC activities.
+              Front desk staff is extremely efficient, pleasant and helpful.
+               
+            </p>
         </div>
-
+ 
         
-        </div> 
+     </div>
+
+     <div class="recontainer">
+        <div class="circleImage">
+            <img  class="imgP" src="images/face (2).jfif">
+        </div>
+        <div class="capcomment">
+ 
+         <p class="lierComments"> had a wonderful experience at the (HN). Every staff member I encountered, 
+             from the valet to the check- in to the cleaning staff were delightful and eager to help! 
+             Thank you! Will recommend to my colleagues!</p>
 
 
-        <div class="recontainer blue">
-            <div class="circleImage">
-                <img src="images/hotel/face4.jpeg">
-            </div>
-            <div class="capcomment">
+        </div>
+ 
+        
+     </div>
 
-            <p>Excellent property and very convenient to USC activities.
-                Front desk staff is extremely efficient, pleasant and helpful.
+     <div class="recontainer blue">
+        <div class="circleImage">
+            <img   class="imgP" src="images/face3.jfif">
+        </div>
+        <div class="capcomment">
+ 
+         <p class="lierComments">The best hotel I’ve ever been privileged enough to stay at. Gorgeous building,
+              and it only gets more breathtaking when you walk in. 
+              High quality rooms, 
+             and high quality service. Also, they are one of few hotels
+              that allow people under 21 to book a reservation</p>
+        </div>
+       
+        
+        
+     </div>
+     </section>
+
+     <section class="video">
+         <h2>see how our hotels looks like!</h2>
+         <div class="videocont">
+           <video controls>
+               
+               <source src="videos/hotel.mp4" type="video/mp4">
+              
+        
+           </video>
+         </div>
+         <!--script------------------------------------------->
+         <script>
+             const selectStars = document.getElementById("starsRating");
+             const starsButton = document.querySelectorAll(".ratingStars");
+           
+             const commpar = document.querySelectorAll(".lierComments");
+             const  imgP = document.querySelectorAll(".imgP");
+             const five = [
+                 "The rooms were clean, very comfortable, and the staff was amazing. They went over and beyond to help make our stay enjoyable. I highly recommend this hotel for anyone visiting downtown (L).",
+                 "Excellent property and very convenient to USC activities. Front desk staff is extremely efficient, pleasant and helpful.",
+                 "had a wonderful experience at the (HN). Every staff member I encountered, from the valet to the check- in to the cleaning staff were delightful and eager to help! Thank you! Will recommend to my colleagues!",
+                 "The best hotel I’ve ever been privileged enough to stay at. Gorgeous building, and it only gets more breathtaking when you walk in. High quality rooms, and high quality service. Also, they are one of few hotels that allow people under 21 to book a reservation",
+                 "Loved the Downtown Location and Atmosphere. Just about name it and you’re within walking distance.Service was Terrific and Room was 5 Star."
+             ];
+             const four = [
+                 "very good hotel",
+                 "I think I would come again",
+                 " nice staff",
+                 "I enjoyed my time",
+                 "Every just melt into a bed? It was so amazing! The staff was so friendly. I’ll be back in a month!",
+                 "Quaint downtown hotel with super friendly staff and beautifully clean rooms. The restaurant downstairs has amazing food!",
+                 "Beautiful downtown hotel with nice roof top bar. Rooms have historic feel with old hard wood floors, yet modern as bathrooms have white subway tiles with TVs in each bathroom. Staff is wonderful and accommodating providing upgrades when available.26.",
+                 
+             ];
+             const three = [
+             "The bed was extremely comfortable. The room was spacious and clean. The vintage aesthetics were awesome. Wish we weren’t just passing through!",
+                 "The hotel was wonderful. It was even better than expected. The price was amazing. There were great restaurants within walking distance. Would definitely stay there again.",
+                 "Walking distance to everything downtown. Beautiful rooms, great ambiance in the hotel dining room and bar. We didn’t eat so I can’t rate the food, although others looked like they were enjoying it! We will come again!",
+                 "Great location. We really loved the character of the hotel. The restaurant was fantastic and staff was friendly and helpful.",
+             ];
+             const two = [
+                 "very bad hotel 🤐",
+                 "really impolite staff 🙂",
+                 "good but not enough 😫",
+                 "bad two is more than you deserve 😕"
+             ];
+             const one = [
+                 "It was a lot of people hanging out around my room and police being called. The TV didn’t work. 😡",
+                 "The rooms stink. They are not clean. I requested a non smoking room and both rooms smelled like smoke. Bathrooms were gross and bugs were everywhere! ! The door did not seem secure and was not evened out so bugs got in easily. The second room was full of gnats.",
+                 "The neighbours had police visit them 2 nights in a row. They were loud.",
+                 "return me my money thieves 🤬",
+                 "I was told that my room would have several amenities like microwave and a.c. unfortunately There was only a mini fridge in my room and the air conditioner didn’t work at all which is and was a problem in 100⁰ weather.",
+                 " First, I got in the room and there was no heat. I called the front desk and they said they had to cut it on. I left for a few hours came back and heat still wasn’t on. First night I slept in my clothes to stay warm. In the morning I was woken up by extremely loud guest which seems like they were fighting.",
+                 "The room smelled like cigarette smoke, the shower was disgusting, the toilet had cigarette ashes, the bed sheets were stained, the towels were stained, the floor felt greasy, the mirror was dirty and the overall hotel was very dirty."
+             ];
+             
+             const comImages = [
+                 
+                 "images/face (2).jfif",
+                 "images/face4.jpeg",
+                 "images/face3.jfif"
+                 
+             ]
+            // console.log( selectStars[3].value);
+            /* commpar.forEach(par=> {
+                     par.innerHTML = five[Math.floor(Math.random()*3)]; 
+                     console.log( par.innerHTML = five[Math.floor(Math.random()*3)] );
+                 });*/
+             function Filter5(){
+                // console.log(starsButton[2].value);
                 
-                </p>
-            </div>
-
+               
+                    commpar.forEach(par=> {
+                     par.innerHTML = five[Math.floor(Math.random()*3)]; 
+                     console.log( par.innerHTML = five[Math.floor(Math.random()*3)] );
+                 });
+                   imgP.forEach(imgp => {
+                       imgp.setAttribute('src', comImages[Math.floor(Math.random()*3)] );
+                      
+                   });
+             };
+             function Filter4(){
+                // console.log(starsButton[2].value);
+                
+               
+                    commpar.forEach(par=> {
+                     par.innerHTML = four[Math.floor(Math.random()*7)]; 
+                     console.log( par.innerHTML = four[Math.floor(Math.random()*7)] );
+                 });
+                 imgP.forEach(imgp => {
+                       imgp.setAttribute('src', comImages[Math.floor(Math.random()*3)] );
+                   });
+             };
+             function Filter3(){
+                // console.log(starsButton[2].value);
+                
+               
+                    commpar.forEach(par=> {
+                     par.innerHTML = four[Math.floor(Math.random()*3)]; 
+                     console.log( par.innerHTML = four[Math.floor(Math.random()*3)] );
+                 });
+                 imgP.forEach(imgp => {
+                       imgp.setAttribute('src', comImages[Math.floor(Math.random()*3)] );
+                   });
+             };
+             function Filter2(){
+                // console.log(starsButton[2].value);
+                
+               
+                    commpar.forEach(par=> {
+                     par.innerHTML = two[Math.floor(Math.random()*3)]; 
+                     console.log( par.innerHTML = two[Math.floor(Math.random()*3)] );
+                 });
+                 imgP.forEach(imgp => {
+                       imgp.setAttribute('src', comImages[Math.floor(Math.random()*3)] );
+                   });
+             };
+             function Filter1(){
+                // console.log(starsButton[2].value);
+                
+               
+                    commpar.forEach(par=> {
+                     par.innerHTML = one[Math.floor(Math.random()*7)]; 
+                     console.log( par.innerHTML = one[Math.floor(Math.random()*7)] );
+                 });
+                 imgP.forEach(imgp => {
+                       imgp.setAttribute('src', comImages[Math.floor(Math.random()*3)] );
+                   });
+             };
             
-        </div>
+         </script>
+     </section>
 
-        <div class="recontainer">
-            <div class="circleImage">
-                <img src="images/hotel/face (2).jfif">
-            </div>
-            <div class="capcomment">
+     <section class="footer">
+         <h2> Hossam Ahmed Salah&#169 </h2>
+         <div class="links">
+            <a href="https://www.facebook.com/hossam.ahmed.9615566/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/hossam_ahmed_salah/"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="https://github.com/hossamAhmedSalah"><i class="fa-brands fa-github-square"></i></a>
+            <a href="https://codepen.io/HOSSAM_AHMED-SALAH"><i class="fa-brands fa-codepen"></i></a>
+         </div>
+        
+     </section>
+    <!-- footer -->
 
-            <p> had a wonderful experience at the (HN). Every staff member I encountered, 
-                from the valet to the check- in to the cleaning staff were delightful and eager to help! 
-                Thank you! Will recommend to my colleagues!</p>
-
-
-            </div>
-
-            
-        </div>
-
-        <div class="recontainer blue">
-            <div class="circleImage">
-                <img src="images/hotel/face3.jfif">
-            </div>
-            <div class="capcomment">
-
-            <p>The best hotel I’ve ever been privileged enough to stay at. Gorgeous building,
-                and it only gets more breathtaking when you walk in. 
-                High quality rooms, 
-                and high quality service. Also, they are one of few hotels
-                that allow people under 21 to book a reservation</p>
-            </div>
-
-            
-        </div>
-        </section>
-
-        <section class="video">
-            <h2>see how our hotels looks like!</h2>
-            <div class="videocont">
-            <video controls>
-                <!--
-                <source src="movie.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg">
-                -->
-            </video>
-            </div>
-        </section>
-    </div>
     <footer>
         <div class="footerContainer">
             <div class="footerTeam">
@@ -245,5 +870,6 @@
        </div>
         </div>
     </footer>
+    
 </body>
 </html>
