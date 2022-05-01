@@ -2,20 +2,21 @@ window.onload = function(){
 
     let sign = document.getElementById("sign");
 
-    if(getCookie("email=")!=""){
-        sign.innerHTML=getCookie("user=");
-        sign.style.width=(sign.innerHTML.length+3).toString()+"vh";
-        sign.removeAttribute("onclick");
-        document.getElementById("log").style.display='inline';
-    }
-
     if(document.cookie == ''){
         if(window.matchMedia('(prefers-color-scheme: light)').matches){
+            setCookie('email','',90);
             document.cookie = 'set=light';
         }
         else{
             document.cookie = 'set=dark';
         }
+    }
+
+    if(getCookie("email=")!=""){
+        sign.innerHTML=getCookie("user=");
+        sign.style.width=(sign.innerHTML.length+3).toString()+"vh";
+        sign.removeAttribute("onclick");
+        document.getElementById("log").style.display='inline';
     }
 
     let link = document.getElementById('kek');
@@ -55,10 +56,16 @@ function dark(){
 
 function getCookie(str){
     if(document.cookie == ''){
-        setCookie("email",'',90);
+        return "";
     }
-    const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
-    return cookieValue;
+
+    if(document.cookie!= undefined){
+        console.log(document.cookie.split('; '));
+        const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
+        return cookieValue;
+    }
+    return "";
+
 }
 
 function setCookie(cName, cValue, expDays) {
