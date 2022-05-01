@@ -84,21 +84,20 @@ video{
 }
 
 .in{
+    
     width: 97%;
     border: 1px rgb(22, 18, 155) solid;
     margin: 50px 25px;
     border-radius: 30px;
 }
 .hj{
-    overflow: hidden;
-    border: 1px rgb(22, 18, 155) solid;
     border-radius: 30px;
     width: 97%;
     height: 110vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 25px;
+    position: relative;
 }
 
 .slider{
@@ -192,6 +191,17 @@ video{
     align-items: center;
     padding-left: 40px;
     font-size: 1.3em;
+    font-weight: 200;
+    font-family: SourceSans,sans-serif;
+    letter-spacing: 1px;
+    padding-top:10px;
+}
+.art2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 1.2em;
     font-weight: 200;
     font-family: SourceSans,sans-serif;
     letter-spacing: 1px;
