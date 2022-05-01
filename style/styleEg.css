@@ -1,6 +1,6 @@
-body{
-    overflow-x: hidden;
-}
+/*body{
+    overflow-x: hidden; /*ruin the header*/
+}*/
 
 *{
     box-sizing: border-box;
