@@ -1,0 +1,401 @@
+body {color: #151b25;}
+header *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color: #0067b3;
+}
+
+header .inner{
+    width: 100%; 
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-left: 50px;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px;
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 25px;
+}
+
+header nav li:last-of-type{
+    margin-right: 25;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #ffd53d;
+    color: #101010;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+    background-color: #e9c646;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+footer *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #0067b3;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffd53d;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	margin-left: 8px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #151b25;
+  }
+
+  .slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  .bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .bar:hover{
+    background: #fff;
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .slide img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+  #r4:checked ~ .s1{
+    margin-left: -60%;
+  }
+  #r5:checked ~ .s1{
+    margin-left: -80%;
+  }
+  .savinglife{
+      min-height: 500px;
+  }
+.yellow{
+    color: yellow;
+    margin-left: 100px;
+}
+.info1{
+  width: 100%;
+  height: 350px;
+  padding: 2px;
+  overflow: hidden;
+}
+.infofinal{
+  min-height: 200px;
+}
+.evil{
+  margin-left: 50px;
+}
+.info2{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.info2inner1{
+  float: right;
+  height: 350px;
+  display: flex;
+}
+.info2inner2{
+  margin-left: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.info3{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+.info3inner1{
+  float: left;
+  height: 350px;
+  display: flex;
+}
+.info3inner2{
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.info4{
+  text-align: center;
+}
+.container1{
+height: 400px;
+display: flex;
+justify-content: center;
+}
+.card{
+  margin: 25px;
+  width: 250px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.card_img{
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+.car_1{
+  background-image: url(/indimg/greaves_best_indian_restaurants_karavalli.jpg);
+}
+.car_2{
+  background-image: url(/indimg/greaves_indian_restaurants_bukhara.jpg);
+}
+.car_3{
+  background-image: url(/indimg/greaves_indian_restaurants_the_bangala_no_credit.jpg);
+}
+.card:hover{
+  transform: scale(1.03);
+  margin: 3px;
+  transition: .8s;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box ;
+}
+
+@font-face{
+  font-family: google; src: url('fonts/google.ttf');
+}
+
+body{
+  font-family: google;
+}
+
+.navbar{
+  min-height: 10vh;
+width: 100%;
+height: 80px;
+display: flex;
+  /* position: fixed; */
+justify-content: space-around;
+align-items: center;
+  z-index: 1;
+}
+
+.logo{
+  position: relative;
+  width: 4.333in;
+  height: 0.903;
+}
+
+.menu ul{
+display: flex;
+align-items: center;
+  list-style: none;
+}
+.menu ul li a{
+text-decoration: none;
+padding: 5px 12px;
+letter-spacing: 2px;
+font-size: 20px;
+  font-weight: 700;
+}
+.menu ul li a:hover{
+transition: 0.4s;
+} 
+.buttons{
+text-decoration: none;
+color: #000;
+font-size: 14px;
+font-weight: bold;
+border-radius: 12px;
+padding: 12px 15px;
+}
+.buttons:hover{
+transition: 0.6s;
+}
+
+/* content */
+
+
+#lol{
+  min-height: 75vh;
+}
+
+#log{
+  display: none;
+}
+
+/* end of content */
+footer{
+  min-height: 15vh;
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+
+footer a:hover{
+  margin-left: 8px;
+  transition-duration: 0.4s;
+}
+
+.footerContainer{
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer .footerTeam{
+  width: 15%;
+  flex-direction: column;
+  display: flex;
+  margin: 40px;
+}
+.footerContainer .footerTeam h3{
+  margin-bottom: 30px;
+}
+
+.footerContainer .footerAbout{
+  width: 13%;
+  flex-direction: column;
+  display: flex;
+  margin: 40px;
+}
+.footerContainer .footercopyr{
+  margin: 40px;
+  font-weight: 600;
+  font-size: 35px;
+}
+.footerContainer a{
+  padding-top: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footerAbout a{
+  padding-top: 14px;
+  font-weight: 600;
+  font-size: 21px;
+}
