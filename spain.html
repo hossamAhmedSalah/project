@@ -4,326 +4,354 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="style/style.css">
-  <link rel="stylesheet" href="style/spstyle.css">
-  <script src="script/theme.js"></script>
-  <link id="kek" rel="stylesheet" href="style/light.css">
-  <link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="style.css">
+  
     <title>Spain</title>
 </head>
 <body>
 
-  <header class="navbar">
-    <div class="logo">
-        <a href="index.html"><img src="style/images/logo.png" alt="" class="logo"></a>
-    </div>
-    <div class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Where to go</a></li>
-            <li><a href="what.html">What to do</a></li>
-            <li><a href="covid.html">Covid-19</a></li>
-            <li><a href="hotelBooking.html">Hotel</a></li>
-            <li><a href="flights.html">Flight</a></li>
-            <li><a href="#">Food</a></li>
-            <li><a href="#">News</a></li>
-        </ul>
-    </div>
-    <div id="buttonwrap">
-        <button class="buttons" class="logout" id="log">logout</button>
-        <button class="buttons" type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
-        <button class="buttons" type="button" id="btn"></button>
-    </div>
-</header>
-  <div id="lol">
-      <section class="hero">
-          <div class="hero-section">
-            <div class="content">
-              <h4>You <span> deserve</span>  to travel to</h4>
-              <h1>
-                SPAIN
-              </h1>
-            </div>
-            <div >
-              <img src="./spimg/travel-tourism-stock-photography-infographic-city-travel-globalization-96ee422ecd9556a46172eef3a3ae570c.png" alt="travel" /> 
-            </div>
-          </div>
-        </section>
-        <section class="country-section">
-              <h3> Tourism in Spain</h3>
-            <p>Tourism in Spain is very prosperous and is developing because of its many components that made travel to Spain a prominent option for tourists around the world, and it should be noted that tourism in Spain is the biggest supporter of the Spanish economy.
-            
-            Spain ranked fourth in the world tourism in terms of the number of tourists in 2010, where the number of tourists this year reached 53 million.
-            
-            Tourism in Europe, Spain, is famous for the diversity of its landmarks, where you find many historical monuments, museums and palaces dating back to the ancient Islamic eras, and the cities of Spain are distinguished by the splendor of their nature and the beauty of their architecture.</p>
-          <div class="countries">
-            <div class="country" id="travel-around-spain">
-              <a href="#madrid"><img src="./spimg/madrid.jpeg" alt="" ></a>
-              <h3 >madrid</h3>
-            </div>
-            <div class="country">
-              <a href="#barcelona"><img src="./spimg/barcelona.jpeg" alt=""></a>
-              <h3>barcelona</h3>
-            </div>
-            <div class="country">
-              <a href="#malaga"><img src="./spimg/malaga.jpeg" alt=""></a>
-              <h3>malaga</h3>
-            </div>
-            <div class="country">
-              <a href="#garanda"><img src="./spimg/garnada.jpeg" alt=""></a>
-              <h3>garnada</h3>
-            </div>
-            <div class="country">
-              <a href="#seville"><img src="./spimg/seville.jpeg" alt=""></a>
-              <h3>seville</h3>
-            </div>
-            <div class="country">
-              <a href="#canary_islands"><img src="./spimg/canary.jpeg" alt=""></a>
-              <h3>canary islands</h3>
-            </div>
-          </div>
-        </section>
-        <section class="madrid " id="madrid">
-          <img src="./spimg/madrid.jpeg" alt="">
-          <div>        <h3> Tourism in Madrid</h3>
-            <p>Madrid, the Spanish capital, is considered one of the most beautiful cities in Spain. Tourism is famous for its tourist attractions, especially the historical ones. The city includes many palaces and museums.
+  <header class="header">
+    <div>
+  <h1 id="logo"><i class="fa-solid fa-plane-circle-check"></i>Travelism</h1>
+</div>
+<div class="menu">
+  <div class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Where to go</a></li>
+                <li><a href="#">What to do</a></li>
+                <li><a href="#"> <i class="fa-solid fa-caret-down"></i> counteries</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                          <li><a href="#">Egypt</a></li>
+                          <li><a href="#">Greek</a></li>
+                          <li><a href="#">India</a></li>
+                          <li><a href="#">France</a></li>
+                          <li><a href="#">Turkey</a></li>
+                          <li><a href="#">Itali</a></li>
+                          <li><a href="#">Spain</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li><a href="#">Hotel</a></li>
+                <li><a href="#">Flight</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Covid-19</a></li>
+                <li><a href="#">News</a></li>
+                <li>
+                    <div class="buttons">
+                        <Button type="button" class="icon-style">
+                            <i class="fa-solid fa-moon"></i>
+                        </Button>
+                        <Button type="button" class="icon-style">
+                            <i class="fa-solid fa-user"></i>
+                        </Button>
+                        <label >user-name</label>
+                        
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+
     
-              Many of the pioneers of tourism in Spain take the capital, Madrid, as the first stop on their trip, as it is famous for its distinctive restaurants and cafes, and includes many buildings with high-end architectural design.</p>
-            </div>
-          </section>
-          <section class="in-madrid">
-            <h3>Warner Bros. Madrid</h3>
-            <p>Warner Bros. amusement park Madrid is one of the most important tourist places in Madrid for children, located south of the city of Madrid tourism, thirty kilometers from the city center.
-
-              It is one of the most famous and interesting game cities in Madrid, Spain, and one of the tourist attractions in Spain</p>
-            <img src="./spimg/Parque-warner-madrid-spain1.jpg" alt="">
-            <h3>Museo del Prado</h3>
-            <p>The Museo del Prado is the main national museum in Spain and one of the oldest places of tourism in Madrid. The history of the museum dates back to the eighteenth century and includes inside it a large amount of works and paintings by the most important international artists, which belong to European art between the twelfth and nineteenth centuries.</p>
-            <img src="./spimg/madrid-attractions-22.jpg" alt="">
-            <h3>Retiro Park</h3>
-            <p>Spain is famous for its famous Retiro Park, which is one of the most beautiful tourist areas in Madrid. The park extends over large areas and includes many recreational activities that help you spend an enjoyable time amidst the picturesque nature and trees</p>
-            <img src="./spimg/madrid-attractions-2.jpg" alt="">
-            <h3>The Plaza de Cibeles</h3>
-            <p>The Plaza de Cibeles is one of the most beautiful tourist places in Madrid in general and the most wonderful among its squares, as it includes many buildings with beautiful designs of a neo-classical character</p>
-            <img src="./spimg/madrid-attractions-3.jpg" alt="">
-            <h3>Plaza Mayor Madrid</h3>
-            <p>It is also called the Great Square in Madrid, and it is one of the most important and prominent places of tourism in Madrid, Spain. It is located in the center of the city to be a destination for all visitors and tourists from different parts of the world. The Great Square includes a large selection of Spanish restaurants and cafes</p>
-            <img src="./spimg/madrid-attractions-4.jpg" alt="">
-            <h3>Puerta del Sol Square</h3>
-            <p>Puerta del Sol Square is located in the center of the city and includes many buildings with a distinctive architectural design, which makes it one of the most beautiful tourist places in Madrid. In the middle of the square are a number of statues that express the symbol of the Spanish city of Madrid, which attracts many tourists to it, in addition to the presence of many international shops</p>
-            <img src="./spimg/madrid-attractions-5.jpg" alt="">
-            <h3>Gran Via Street</h3>
-            <p>Gran Via Street, located in the center of the city, is considered one of the most famous and bustling streets of Madrid. It was completed in 1910 AD. There are a large group of restaurants and many shops on this street, so it is one of the most prominent tourist places in Madrid</p>
-            <img src="./spimg/madrid-attractions-6.jpg" alt="">
-            <h3>Royal palace</h3>
-            <p>The Royal Palace is distinguished by its luxury and wonderful design, which makes it one of the most beautiful tourist places in Madrid. The palace contains about 2500 royal rooms and is surrounded by many picturesque green gardens</p>
-            <img src="./spimg/madrid-attractions-7.jpg" alt="">
-            <h3>Royal Botanical Garden of Madrid</h3>
-            <p>The Royal Botanical Garden of Madrid is located in the heart of the Madrid region, specifically in Moreio Square in front of the Prado Museum, with a total area of approximately 8 hectares, and it is one of the most beautiful tourist areas in Madrid for children</p>
-            <img src="./spimg/The-Royal-Botanical-Garden-of-Madrid-6.jpg" alt="">
-            <h3>Sabatini Gardens</h3>
-            <p>The Jardines Sabatini Madrid is part of the Royal Palace in the Spanish city of Madrid, and is one of the most beautiful tourist places in Madrid, Spain
-
-              These gardens are one of Madrid's most beautiful tourist attractions, characterized by calm, beauty and a charming natural atmosphere</p>
-            <img src="./spimg/Jardines-De-Sabatini-3.jpg" alt="">
-          </section>
-          <section class="barcelona" id="barcelona">
-            <img src="./spimg/barcelona.jpeg" alt="">
-          <div>  <h3>Tourism in Barcelona</h3>
-            <p>The capital of the Spanish province of Catalonia, one of the most important tourist areas in Spain. Tourism. Barcelona is located on the Mediterranean coast and surrounded by the Queserola mountain range. It is one of the most beautiful cities in Spain.
-
-              One of the most important tourist places in Spain is Barcelona, the old town with its historical monuments, the famous Rambla Street with its fine restaurants and shops, and the Gothic Quarter that has preserved its character since the Middle Ages and Roman times</p>
+</header>
+    <section class="hero">
+        <div class="hero-section">
+          <div class="content">
+            <h4>You <span> deserve</span>  to travel to</h4>
+            <h1>
+              SPAIN
+            </h1>
           </div>
-          </section>
-          <section class="in-barcelona">
-            <h3>Sagrada Familia Church</h3>
-            <p>One of the most famous tourist attractions in Barcelona is a huge Roman Catholic church classified as a World Heritage Site by UNESCO. The construction of the church began in 1882 and it is not yet complete</p>
-          <img src="./spimg/barcelona-attractions-1.jpg" alt="">
-          <h3>La Rambla Street</h3>
-          <p>Also known as the Ramblas Street, it is located in the heart of Barcelona, and it is one of the most important tourist places in Barcelona and the most famous street in the city. You rarely find a visitor who has left Barcelona without passing through this commercial street.</p>
-          <img src="./spimg/barcelona-attractions-2 (1).jpg" alt="">
-          <h3>Jewel's Garden</h3>
-          <p>It is almost one of the most beautiful places of tourism in Barcelona. It is a complex of gardens containing unique architectural masterpieces designed by the famous Catalan architect Antoni Gaudi, between 1900 and 1914.</p>
-          <img src="./spimg/barcelona-attractions-3.jpg" alt="">
-          <h3>Barcelona Botanical Garden</h3>
-          <p>Barcelona Botanical Garden
-            The Botanical Garden of Barcelona is one of the most important tourist places in Barcelona. It is located on the Montjuïc plateau in Barcelona and includes types of plants that were brought from many countries.</p>
-          <img src="./spimg/barcelona-attractions-5.jpg" alt="">
-          <h3>Gothic Quarter</h3>
-          <p>look at the lifestyle of the Goths and walk through the corridors of the old town and see the buildings dating from AD AD in Barcelona and frequented by tourists in Barcelona and frequented by tourists</p>
-          <img src="./spimg/barcelona-attractions-11.jpg" alt="">
-          <h3>Horta Labyrinth Park in Barcelona</h3>
-          <p>The Parc del Laberint d'Horta is one of Barcelona's tourist attractions and is located at the intersection of Horta Guinardo. It is the oldest of its kind in the charming city of Barcelona</p>
-          <img src="./spimg/barcelona-attractions-6.jpg" alt="">
-          <h3>Barcelona Zoo</h3>
-          <p>Barcelona Zoo is one of the most prominent tourist attractions in Barcelona, located in the Ciutadella region of Catalonia, Spain.
+          <div >
+            <img src="./img/travel-tourism-stock-photography-infographic-city-travel-globalization-96ee422ecd9556a46172eef3a3ae570c.png" alt="travel" /> 
+          </div>
+        </div>
+      </section>
+      <section class="country-section">
+            <h3> Tourism in Spain</h3>
+          <p>Tourism in Spain is very prosperous and is developing because of its many components that made travel to Spain a prominent option for tourists around the world, and it should be noted that tourism in Spain is the biggest supporter of the Spanish economy.
+          
+          Spain ranked fourth in the world tourism in terms of the number of tourists in 2010, where the number of tourists this year reached 53 million.
+          
+          Tourism in Europe, Spain, is famous for the diversity of its landmarks, where you find many historical monuments, museums and palaces dating back to the ancient Islamic eras, and the cities of Spain are distinguished by the splendor of their nature and the beauty of their architecture.</p>
+        <div class="countries">
+          <div class="country" id="travel-around-spain">
+            <a href="#madrid"><img src="./img/madrid.jpeg" alt="" ></a>
+             <h3 >madrid</h3>
+          </div>
+          <div class="country">
+            <a href="#barcelona"><img src="./img/barcelona.jpeg" alt=""></a>
+             <h3>barcelona</h3>
+          </div>
+          <div class="country">
+            <a href="#malaga"><img src="./img/malaga.jpeg" alt=""></a>
+             <h3>malaga</h3>
+          </div>
+          <div class="country">
+            <a href="#garanda"><img src="./img/garnada.jpeg" alt=""></a>
+             <h3>garnada</h3>
+          </div>
+          <div class="country">
+            <a href="#seville"><img src="./img/seville.jpeg" alt=""></a>
+             <h3>seville</h3>
+          </div>
+          <div class="country">
+            <a href="#canary_islands"><img src="./img/canary.jpeg" alt=""></a>
+             <h3>canary islands</h3>
+          </div>
+        </div>
+      </section>
+      <section class="madrid " id="madrid">
+        <img src="./img/madrid.jpeg" alt="">
+        <div>        <h3> Tourism in Madrid</h3>
+          <p>Madrid, the Spanish capital, is considered one of the most beautiful cities in Spain. Tourism is famous for its tourist attractions, especially the historical ones. The city includes many palaces and museums.
+  
+            Many of the pioneers of tourism in Spain take the capital, Madrid, as the first stop on their trip, as it is famous for its distinctive restaurants and cafes, and includes many buildings with high-end architectural design.</p>
+          </div>
+        </section>
+        <section class="in-madrid">
+          <h3>Warner Bros. Madrid</h3>
+          <p>Warner Bros. amusement park Madrid is one of the most important tourist places in Madrid for children, located south of the city of Madrid tourism, thirty kilometers from the city center.
 
-            The park has a large number of very popular animals such as giraffes, tigers, lions, elephants, bears, deer and other animals</p>
-          <img src="./spimg/barcelona-attractions-4.jpg" alt="">
-          <h3>Plaza Catalunya in Barcelona</h3>
-          <p>One of the most important tourist areas in Barcelona and one of the most famous squares in Barcelona, Spain. It is considered the center of the city that connects its old and modern parts</p>
-          <img src="./spimg/barcelona-attractions-8.jpg" alt="">
-          <h3>Camp Nou Stadium</h3>
-          <p>The name Barcelona is linked to its famous team Barcelona, ​​so the stadium of this ancient team, known as the Camp Nou stadium, is one of the most important tourist places in Barcelona, ​​Spain, especially for football lovers and fans of this team in particular.</p>
-          <img src="./spimg/barcelona-attractions-7.jpg" alt="">
-          <h3>Palau Guell Palace</h3>
-          <p>A Catalan masterpiece designed by architect Antonio Gaudi, this palace was built between 1886 and 1888 and is included in the list of UNESCO World Heritage Sites.
+            It is one of the most famous and interesting game cities in Madrid, Spain, and one of the tourist attractions in Spain</p>
+          <img src="./img/Parque-warner-madrid-spain1.jpg" alt="">
+          <h3>Museo del Prado</h3>
+          <p>The Museo del Prado is the main national museum in Spain and one of the oldest places of tourism in Madrid. The history of the museum dates back to the eighteenth century and includes inside it a large amount of works and paintings by the most important international artists, which belong to European art between the twelfth and nineteenth centuries.</p>
+          <img src="./img/madrid-attractions-22.jpg" alt="">
+          <h3>Retiro Park</h3>
+          <p>Spain is famous for its famous Retiro Park, which is one of the most beautiful tourist areas in Madrid. The park extends over large areas and includes many recreational activities that help you spend an enjoyable time amidst the picturesque nature and trees</p>
+          <img src="./img/madrid-attractions-2.jpg" alt="">
+          <h3>The Plaza de Cibeles</h3>
+          <p>The Plaza de Cibeles is one of the most beautiful tourist places in Madrid in general and the most wonderful among its squares, as it includes many buildings with beautiful designs of a neo-classical character</p>
+          <img src="./img/madrid-attractions-3.jpg" alt="">
+          <h3>Plaza Mayor Madrid</h3>
+          <p>It is also called the Great Square in Madrid, and it is one of the most important and prominent places of tourism in Madrid, Spain. It is located in the center of the city to be a destination for all visitors and tourists from different parts of the world. The Great Square includes a large selection of Spanish restaurants and cafes</p>
+          <img src="./img/madrid-attractions-4.jpg" alt="">
+          <h3>Puerta del Sol Square</h3>
+          <p>Puerta del Sol Square is located in the center of the city and includes many buildings with a distinctive architectural design, which makes it one of the most beautiful tourist places in Madrid. In the middle of the square are a number of statues that express the symbol of the Spanish city of Madrid, which attracts many tourists to it, in addition to the presence of many international shops</p>
+          <img src="./img/madrid-attractions-5.jpg" alt="">
+          <h3>Gran Via Street</h3>
+          <p>Gran Via Street, located in the center of the city, is considered one of the most famous and bustling streets of Madrid. It was completed in 1910 AD. There are a large group of restaurants and many shops on this street, so it is one of the most prominent tourist places in Madrid</p>
+          <img src="./img/madrid-attractions-6.jpg" alt="">
+          <h3>Royal palace</h3>
+          <p>The Royal Palace is distinguished by its luxury and wonderful design, which makes it one of the most beautiful tourist places in Madrid. The palace contains about 2500 royal rooms and is surrounded by many picturesque green gardens</p>
+          <img src="./img/madrid-attractions-7.jpg" alt="">
+          <h3>Royal Botanical Garden of Madrid</h3>
+          <p>The Royal Botanical Garden of Madrid is located in the heart of the Madrid region, specifically in Moreio Square in front of the Prado Museum, with a total area of approximately 8 hectares, and it is one of the most beautiful tourist areas in Madrid for children</p>
+          <img src="./img/The-Royal-Botanical-Garden-of-Madrid-6.jpg" alt="">
+          <h3>Sabatini Gardens</h3>
+          <p>The Jardines Sabatini Madrid is part of the Royal Palace in the Spanish city of Madrid, and is one of the most beautiful tourist places in Madrid, Spain
 
-            The palace was used in the past to entertain guests from the high social classes in its main hall. The palace is one of the best tourist places in Barcelona and attracts many visitors daily.</p>
-          <img src="./spimg/barcelona-attractions-9.jpg" alt="">
-          <h3>Barcelona History Museum</h3>
-          <p>This museum displays the history of Barcelona from Roman times to the present, located within a 3-storey Gothic palace in the Gothic district of Bari near the Lasso church.
+            These gardens are one of Madrid's most beautiful tourist attractions, characterized by calm, beauty and a charming natural atmosphere</p>
+          <img src="./img/Jardines-De-Sabatini-3.jpg" alt="">
+        </section>
+         <section class="barcelona" id="barcelona">
+          <img src="./img/barcelona.jpeg" alt="">
+         <div>  <h3>Tourism in Barcelona</h3>
+          <p>The capital of the Spanish province of Catalonia, one of the most important tourist areas in Spain. Tourism. Barcelona is located on the Mediterranean coast and surrounded by the Queserola mountain range. It is one of the most beautiful cities in Spain.
 
-            The museum includes antiquities and excavations dating back to the Roman settlements that inhabited the area. It also displays the history of Catalonia and the history of the emergence of the historic city of Barcelona and the stages of its inception. The museum is considered one of the most important tourist attractions in Barcelona, ​​Spain.</p>
-          <img src="./spimg/barcelona-attractions-10.jpg" alt="">
-          </section>
-          <section class="malaga" id="malaga">
-          <img src="./spimg/malaga.jpeg" alt="">
+            One of the most important tourist places in Spain is Barcelona, the old town with its historical monuments, the famous Rambla Street with its fine restaurants and shops, and the Gothic Quarter that has preserved its character since the Middle Ages and Roman times</p>
+         </div>
+        </section>
+        <section class="in-barcelona">
+          <h3>Sagrada Familia Church</h3>
+          <p>One of the most famous tourist attractions in Barcelona is a huge Roman Catholic church classified as a World Heritage Site by UNESCO. The construction of the church began in 1882 and it is not yet complete</p>
+         <img src="./img/barcelona-attractions-1.jpg" alt="">
+         <h3>La Rambla Street</h3>
+         <p>Also known as the Ramblas Street, it is located in the heart of Barcelona, and it is one of the most important tourist places in Barcelona and the most famous street in the city. You rarely find a visitor who has left Barcelona without passing through this commercial street.</p>
+         <img src="./img/barcelona-attractions-2 (1).jpg" alt="">
+         <h3>Jewel's Garden</h3>
+         <p>It is almost one of the most beautiful places of tourism in Barcelona. It is a complex of gardens containing unique architectural masterpieces designed by the famous Catalan architect Antoni Gaudi, between 1900 and 1914.</p>
+         <img src="./img/barcelona-attractions-3.jpg" alt="">
+         <h3>Barcelona Botanical Garden</h3>
+         <p>Barcelona Botanical Garden
+          The Botanical Garden of Barcelona is one of the most important tourist places in Barcelona. It is located on the Montjuïc plateau in Barcelona and includes types of plants that were brought from many countries.</p>
+         <img src="./img/barcelona-attractions-5.jpg" alt="">
+         <h3>Gothic Quarter</h3>
+         <p>look at the lifestyle of the Goths and walk through the corridors of the old town and see the buildings dating from AD AD in Barcelona and frequented by tourists in Barcelona and frequented by tourists</p>
+         <img src="./img/barcelona-attractions-11.jpg" alt="">
+         <h3>Horta Labyrinth Park in Barcelona</h3>
+         <p>The Parc del Laberint d'Horta is one of Barcelona's tourist attractions and is located at the intersection of Horta Guinardo. It is the oldest of its kind in the charming city of Barcelona</p>
+         <img src="./img/barcelona-attractions-6.jpg" alt="">
+         <h3>Barcelona Zoo</h3>
+         <p>Barcelona Zoo is one of the most prominent tourist attractions in Barcelona, located in the Ciutadella region of Catalonia, Spain.
+
+          The park has a large number of very popular animals such as giraffes, tigers, lions, elephants, bears, deer and other animals</p>
+         <img src="./img/barcelona-attractions-4.jpg" alt="">
+         <h3>Plaza Catalunya in Barcelona</h3>
+         <p>One of the most important tourist areas in Barcelona and one of the most famous squares in Barcelona, Spain. It is considered the center of the city that connects its old and modern parts</p>
+         <img src="./img/barcelona-attractions-8.jpg" alt="">
+         <h3>Camp Nou Stadium</h3>
+         <p>The name Barcelona is linked to its famous team Barcelona, ​​so the stadium of this ancient team, known as the Camp Nou stadium, is one of the most important tourist places in Barcelona, ​​Spain, especially for football lovers and fans of this team in particular.</p>
+         <img src="./img/barcelona-attractions-7.jpg" alt="">
+         <h3>Palau Guell Palace</h3>
+         <p>A Catalan masterpiece designed by architect Antonio Gaudi, this palace was built between 1886 and 1888 and is included in the list of UNESCO World Heritage Sites.
+
+          The palace was used in the past to entertain guests from the high social classes in its main hall. The palace is one of the best tourist places in Barcelona and attracts many visitors daily.</p>
+         <img src="./img/barcelona-attractions-9.jpg" alt="">
+         <h3>Barcelona History Museum</h3>
+         <p>This museum displays the history of Barcelona from Roman times to the present, located within a 3-storey Gothic palace in the Gothic district of Bari near the Lasso church.
+
+          The museum includes antiquities and excavations dating back to the Roman settlements that inhabited the area. It also displays the history of Catalonia and the history of the emergence of the historic city of Barcelona and the stages of its inception. The museum is considered one of the most important tourist attractions in Barcelona, ​​Spain.</p>
+         <img src="./img/barcelona-attractions-10.jpg" alt="">
+        </section>
+        <section class="malaga" id="malaga">
+        <img src="./img/malaga.jpeg" alt="">
+        <div>
+          <h3>The most important tourist places in Spain Malaga</h3>
+          <p>Malacca is one of Spain's cities rich in important historical monuments. In this tab, you will know the most famous tourist places in Spain Malacca</p>
+        </div>
+        </section>
+        <section class="in-malaga">
+          <h3>Malacca Castle</h3>
+          <p>One of the most famous tourist attractions in Malacca, Spain, was built by Muslims in the 11th century AD. It was considered one of the most beautiful forts in Andalusia at that time. This castle is located on a hill in the center of Málaga and overlooks the port</p>
+          <img src="./img/The-Alcazaba-3.jpg" alt="">
+          <h3>Malacca Cathedral</h3>
+          <p>One of the most important tourist places in Malaga, Spain, was built on the site of the Sultanate Islamic Mosque, which was present during the era of Islamic rule, where the Spanish rulers of Malaga ordered its construction after the fall of the city.</p>
+          <img src="./img/Cathedral-of-Málaga-1.jpg" alt="">
+          <h3>Roman Theater</h3>
+          <p>One of the most important tourist places in Malaga, Spain, was discovered in 1951 in the western part of the city. It was buried underground for several centuries before it was excavated and discovered.</p>
+          <img src="./img/El-teatro-romano-4.jpg" alt="">
+          <h3>Nerkha cave</h3>
+          <p>One of the most beautiful tourist attractions in Malaga, Spain, which is a series of caves extending for approximately 5 km, including rock formations, stalagmites and stalactites of great beauty that arose as a result of water falling from the ceiling of the cave</p>
+          <img src="./img/Nerja-Caves-Nerja-18-1.jpg" alt="">
+          <h3>mountain lighthouse castle</h3>
+          <p>Castillo de Gibralfaro is located at the top of Mount Menara in the north-east of the ancient Spanish city of Malaga.
+
+            Jabal Al-Manara Fort Malacca was built in the tenth century AD by order of the Muslim Caliph (Abdul Rahman III). Today, it is considered a tourist attraction in Malacca.</p>
+          <img src="./img/Castillo-de-Gibralfaro-2.jpg" alt="">
+        </section>
+        <section class="garanda" id="garanda">
+        <img src="./img/garnada.jpeg" alt="">
+        <div>
+          <h3>Tourism in Granada</h3>
+          <p>Granada is one of the most famous historical Andalusian cities. It is one of the mountainous cities of Spain. It rises about 700 meters above sea level. It is located on the slopes of the Sierra Nevada Mountains.
+
+            The city of Granada is one of the most important tourist areas in Spain because of its prominent Islamic landmarks, such as buildings and interesting cobblestone streets.</p>
+        </div>
+        </section>
+        <section class="in-garanda">
+        <h3>Alhambra Palace</h3>
+        <p>The Alhambra Palace in Granada is considered one of the most important tourist places in Granada. It is an ancient palace that dates back to the year 889. It was at that time an impregnable fortress until it was converted into a royal palace by the Sultan of Granada Yusuf I.</p>
+        <img src="./img/granada-attractions-1.jpg" alt="">
+        <h3>Albayazin district</h3>
+        <p>One of the most beautiful tourist places in Granada, which is an old Andalusian neighborhood that still retains its Andalusian identity. The Albayazin neighborhood is one of the most famous tourist destinations in Granada, Spain, where many tourists go to see its historical landmarks that are embodied in its narrow streets and beautiful buildings. The neighborhood is classified by UNESCO as a World Heritage Site</p>
+        <img src="./img/granada-attractions-2.jpg" alt="">
+        <h3>Granada Cathedral</h3>
+        <p>The cathedral is one of the most famous landmarks of Granada, Spain. It is characterized by its architectural design that combines the Gothic and Renaissance styles. The cathedral was built over the Granada Mosque, which was built by the Red Banu, who were the princes of Granada at the time after seizing the city in 1492, and it is now one of the most important tourist places in Granada.</p>
+        <img src="./img/granada-attractions-3.jpg" alt="">
+        <h3>Science Park</h3>
+        <p>A great place for a picnic with the family that combines knowledge and entertainment, the Science Park is a science museum that attracts many visitors of all ages. The museum is located on an area of ​​70,000 square meters and is one of the most important tourist attractions in Granada and the first museum of its kind in Spain.
+
+          The museum includes many sections, including the astronomical observatory, the physics and mechanics department, an interactive section dedicated to experiments that are suitable for children, and other sections.</p>
+        <img src="./img/granada-attractions-4.jpg" alt="">
+        <h3>Archaeological Museum of Granada</h3>
+        <p>This museum is considered one of the most important tourist attractions in Granada, as it includes many rare artifacts. The Archaeological Museum of Granada is located in a historic palace dating back to the 16th century AD. It consists of two floors and displays many civilizations that ruled the region, including the Roman, Phoenician, Carthaginian, Arab and other civilizations.</p>
+        <img src="./img/granada-attractions.jpg" alt="">
+        <h3>Corporal's paradise</h3>
+        <p>The Generalife, located inside the Red Palace, is one of the most beautiful places of tourism in Granada, Spain, as it attracts many visitors who seek calm and relaxation amid the beautiful scenery it contains.
+
+          This group of gardens is located in a high place so that it can be seen from all over the city of Granada</p>
+        <img src="./img/granada-attractions-6.jpg" alt="">
+        <h3>Sierra Nevada National Park</h3>
+        <p>One of the most famous national parks in the city of Granada, Spain, and it is part of a nature reserve. The park includes wonderful natural scenes represented by rivers, lakes and snow-covered mountains. It also contains many animals that live in the mountainous environment.
+
+          The park is one of the most beautiful places of tourism in Granada, Spain, and attracts many tourists, especially lovers of snowboarding and mountaineering.</p>
+        <img src="./img/granada-attractions-7.jpg" alt="">
+        </section>
+        <section class="seville" id="seville" >
+          <img src="./img/seville.jpeg" alt="">
           <div>
-            <h3>The most important tourist places in Spain Malaga</h3>
-            <p>Malacca is one of Spain's cities rich in important historical monuments. In this tab, you will know the most famous tourist places in Spain Malacca</p>
-          </div>
-          </section>
-          <section class="in-malaga">
-            <h3>Malacca Castle</h3>
-            <p>One of the most famous tourist attractions in Malacca, Spain, was built by Muslims in the 11th century AD. It was considered one of the most beautiful forts in Andalusia at that time. This castle is located on a hill in the center of Málaga and overlooks the port</p>
-            <img src="./spimg/The-Alcazaba-3.jpg" alt="">
-            <h3>Malacca Cathedral</h3>
-            <p>One of the most important tourist places in Malaga, Spain, was built on the site of the Sultanate Islamic Mosque, which was present during the era of Islamic rule, where the Spanish rulers of Malaga ordered its construction after the fall of the city.</p>
-            <img src="./spimg/Cathedral-of-Málaga-1.jpg" alt="">
-            <h3>Roman Theater</h3>
-            <p>One of the most important tourist places in Malaga, Spain, was discovered in 1951 in the western part of the city. It was buried underground for several centuries before it was excavated and discovered.</p>
-            <img src="./spimg/El-teatro-romano-4.jpg" alt="">
-            <h3>Nerkha cave</h3>
-            <p>One of the most beautiful tourist attractions in Malaga, Spain, which is a series of caves extending for approximately 5 km, including rock formations, stalagmites and stalactites of great beauty that arose as a result of water falling from the ceiling of the cave</p>
-            <img src="./spimg/Nerja-Caves-Nerja-18-1.jpg" alt="">
-            <h3>mountain lighthouse castle</h3>
-            <p>Castillo de Gibralfaro is located at the top of Mount Menara in the north-east of the ancient Spanish city of Malaga.
+            <h3>Tourism in Seville</h3>
+            <p>Seville, the capital of Andalusia, is located in the south of Spain and constitutes a distinctive mixture in which Spanish culture is mixed with Moroccan culture in North Africa.
 
-              Jabal Al-Manara Fort Malacca was built in the tenth century AD by order of the Muslim Caliph (Abdul Rahman III). Today, it is considered a tourist attraction in Malacca.</p>
-            <img src="./spimg/Castillo-de-Gibralfaro-2.jpg" alt="">
-          </section>
-          <section class="garanda" id="garanda">
-          <img src="./spimg/garnada.jpeg" alt="">
+              It is undoubtedly one of the most beautiful tourist cities in Spain, for its cultural and historical richness, and the large number of ancient tourist attractions in it</p>
+          </div>
+        </section>
+        <section class="in-seville">
+           <h3>Al Mawarq Palace</h3>
+           <p>A historical palace built by the Almoravid Arabs in the city of Seville, Spain, in the late first millennium by the Arab rulers of Seville. The Spaniards continued to develop it after the fall of the Islamic state in Andalusia, to become a symbol of the city of Seville
+
+            The palace is distinguished by the beauty of its architecture, design and wonderful gardens. It is undoubtedly one of the most important tourist attractions in Seville</p>
+           <img src="./img/seville-tourism.jpg" alt="">
+           <h3>Santa Cruz area</h3>
+           <p>One of the most beautiful tourist places in Seville, Spain, this historical area is located east of the city on the borders of the Grand Valley River.</p>
+           <img src="./img/santa-cruz-seville.jpg" alt="">          
+            <h3>colorful solar metropol</h3>
+           <p>One of the most beautiful tourist attractions in Seville, Spain. It was completed in 2004. It is a wonderful masterpiece located in a square in the old town area of Seville. The building includes 6 structures that form a large canopy made of imported Finnish birch wood.</p>
+           <img src="./img/metropol-parasol-seville.jpg" alt="">         
+             <h3>Maria Luisa Garden</h3>
+           <p>Maria Luisa Park extends along the Guadalquivir River near the center of Seville, Spain, and is considered one of the most important tourist attractions in the city.</p>
+           <img src="./img/maria-luisa-park-seville.jpg" alt="">     
+           <h3>Giralda Tower</h3>
+           <p>La Giralda Tower in Seville is one of the most important tourist places in Spain. It is a minaret of the Great Mosque during the Almohad era during the Islamic state of Andalusia.</p>
+           <img src="./img/La-Giralda-10.jpg" alt="">           
+           <h3>Seville cathedral</h3>
+           <p>This cathedral is considered the most famous tourist attraction in Seville, Spain. It was built from 1401-1519 on the site of the Jameh Mosque, where it was converted into a cathedral after the end of the Muslim rule of Andalusia.
+
+            The cathedral was built in the Gothic style and is now the third largest cathedral in Europe in terms of size</p>
+           <img src="./img/Seville-Cathedral.jpg" alt="">           
+           <h3>Casa de Pilatos Palace</h3>
+           <p>La Casa de Pilatos is a true embodiment of the form taken by medieval buildings, the palace is also known among the people of Seville as the Palace of the Andalusians.
+
+            The palace is a tourist attraction in Seville and is the home of the Rivera family, who ruled Seville and its territory in the sixteenth century.</p>
+           <img src="./img/La-Casa-de-Pilatos-36.jpg" alt="">  
+        </section>
+        <section class="canary" id="canary_islands">
+          <img src="./img/canary.jpeg" alt="">
           <div>
-            <h3>Tourism in Granada</h3>
-            <p>Granada is one of the most famous historical Andalusian cities. It is one of the mountainous cities of Spain. It rises about 700 meters above sea level. It is located on the slopes of the Sierra Nevada Mountains.
+            <h3>Tourism in the Canary Islands</h3>
+            <p>The Canary Islands is one of the most beautiful tourist destinations in Spain, as it embraces unusual landscapes that enchant the eye and enjoy a mild climate all year round.
 
-              The city of Granada is one of the most important tourist areas in Spain because of its prominent Islamic landmarks, such as buildings and interesting cobblestone streets.</p>
+              The Canary Islands include a number of UNESCO World Heritage sites, the third tallest volcano in the world, and many recreational sites</p>
           </div>
-          </section>
-          <section class="in-garanda">
-          <h3>Alhambra Palace</h3>
-          <p>The Alhambra Palace in Granada is considered one of the most important tourist places in Granada. It is an ancient palace that dates back to the year 889. It was at that time an impregnable fortress until it was converted into a royal palace by the Sultan of Granada Yusuf I.</p>
-          <img src="./spimg/granada-attractions-1.jpg" alt="">
-          <h3>Albayazin district</h3>
-          <p>One of the most beautiful tourist places in Granada, which is an old Andalusian neighborhood that still retains its Andalusian identity. The Albayazin neighborhood is one of the most famous tourist destinations in Granada, Spain, where many tourists go to see its historical landmarks that are embodied in its narrow streets and beautiful buildings. The neighborhood is classified by UNESCO as a World Heritage Site</p>
-          <img src="./spimg/granada-attractions-2.jpg" alt="">
-          <h3>Granada Cathedral</h3>
-          <p>The cathedral is one of the most famous landmarks of Granada, Spain. It is characterized by its architectural design that combines the Gothic and Renaissance styles. The cathedral was built over the Granada Mosque, which was built by the Red Banu, who were the princes of Granada at the time after seizing the city in 1492, and it is now one of the most important tourist places in Granada.</p>
-          <img src="./spimg/granada-attractions-3.jpg" alt="">
-          <h3>Science Park</h3>
-          <p>A great place for a picnic with the family that combines knowledge and entertainment, the Science Park is a science museum that attracts many visitors of all ages. The museum is located on an area of ​​70,000 square meters and is one of the most important tourist attractions in Granada and the first museum of its kind in Spain.
-
-            The museum includes many sections, including the astronomical observatory, the physics and mechanics department, an interactive section dedicated to experiments that are suitable for children, and other sections.</p>
-          <img src="./spimg/granada-attractions-4.jpg" alt="">
-          <h3>Archaeological Museum of Granada</h3>
-          <p>This museum is considered one of the most important tourist attractions in Granada, as it includes many rare artifacts. The Archaeological Museum of Granada is located in a historic palace dating back to the 16th century AD. It consists of two floors and displays many civilizations that ruled the region, including the Roman, Phoenician, Carthaginian, Arab and other civilizations.</p>
-          <img src="./spimg/granada-attractions.jpg" alt="">
-          <h3>Corporal's paradise</h3>
-          <p>The Generalife, located inside the Red Palace, is one of the most beautiful places of tourism in Granada, Spain, as it attracts many visitors who seek calm and relaxation amid the beautiful scenery it contains.
-
-            This group of gardens is located in a high place so that it can be seen from all over the city of Granada</p>
-          <img src="./spimg/granada-attractions-6.jpg" alt="">
-          <h3>Sierra Nevada National Park</h3>
-          <p>One of the most famous national parks in the city of Granada, Spain, and it is part of a nature reserve. The park includes wonderful natural scenes represented by rivers, lakes and snow-covered mountains. It also contains many animals that live in the mountainous environment.
-
-            The park is one of the most beautiful places of tourism in Granada, Spain, and attracts many tourists, especially lovers of snowboarding and mountaineering.</p>
-          <img src="./spimg/granada-attractions-7.jpg" alt="">
-          </section>
-          <section class="seville" id="seville" >
-            <img src="./spimg/seville.jpeg" alt="">
-            <div>
-              <h3>Tourism in Seville</h3>
-              <p>Seville, the capital of Andalusia, is located in the south of Spain and constitutes a distinctive mixture in which Spanish culture is mixed with Moroccan culture in North Africa.
-
-                It is undoubtedly one of the most beautiful tourist cities in Spain, for its cultural and historical richness, and the large number of ancient tourist attractions in it</p>
-            </div>
-          </section>
-          <section class="in-seville">
-            <h3>Al Mawarq Palace</h3>
-            <p>A historical palace built by the Almoravid Arabs in the city of Seville, Spain, in the late first millennium by the Arab rulers of Seville. The Spaniards continued to develop it after the fall of the Islamic state in Andalusia, to become a symbol of the city of Seville
-
-              The palace is distinguished by the beauty of its architecture, design and wonderful gardens. It is undoubtedly one of the most important tourist attractions in Seville</p>
-            <img src="./spimg/seville-tourism.jpg" alt="">
-            <h3>Santa Cruz area</h3>
-            <p>One of the most beautiful tourist places in Seville, Spain, this historical area is located east of the city on the borders of the Grand Valley River.</p>
-            <img src="./spimg/santa-cruz-seville.jpg" alt="">          
-              <h3>colorful solar metropol</h3>
-            <p>One of the most beautiful tourist attractions in Seville, Spain. It was completed in 2004. It is a wonderful masterpiece located in a square in the old town area of Seville. The building includes 6 structures that form a large canopy made of imported Finnish birch wood.</p>
-            <img src="./spimg/metropol-parasol-seville.jpg" alt="">         
-              <h3>Maria Luisa Garden</h3>
-            <p>Maria Luisa Park extends along the Guadalquivir River near the center of Seville, Spain, and is considered one of the most important tourist attractions in the city.</p>
-            <img src="./spimg/maria-luisa-park-seville.jpg" alt="">     
-            <h3>Giralda Tower</h3>
-            <p>La Giralda Tower in Seville is one of the most important tourist places in Spain. It is a minaret of the Great Mosque during the Almohad era during the Islamic state of Andalusia.</p>
-            <img src="./spimg/La-Giralda-10.jpg" alt="">           
-            <h3>Seville cathedral</h3>
-            <p>This cathedral is considered the most famous tourist attraction in Seville, Spain. It was built from 1401-1519 on the site of the Jameh Mosque, where it was converted into a cathedral after the end of the Muslim rule of Andalusia.
-
-              The cathedral was built in the Gothic style and is now the third largest cathedral in Europe in terms of size</p>
-            <img src="./spimg/Seville-Cathedral.jpg" alt="">           
-            <h3>Casa de Pilatos Palace</h3>
-            <p>La Casa de Pilatos is a true embodiment of the form taken by medieval buildings, the palace is also known among the people of Seville as the Palace of the Andalusians.
-
-              The palace is a tourist attraction in Seville and is the home of the Rivera family, who ruled Seville and its territory in the sixteenth century.</p>
-            <img src="./spimg/La-Casa-de-Pilatos-36.jpg" alt="">  
-          </section>
-          <section class="canary" id="canary_islands">
-            <img src="./spimg/canary.jpeg" alt="">
-            <div>
-              <h3>Tourism in the Canary Islands</h3>
-              <p>The Canary Islands is one of the most beautiful tourist destinations in Spain, as it embraces unusual landscapes that enchant the eye and enjoy a mild climate all year round.
-
-                The Canary Islands include a number of UNESCO World Heritage sites, the third tallest volcano in the world, and many recreational sites</p>
-            </div>
-          </section>
-          <section  class="in-canary">
-            <p>According to statistics, the number of people who come for tourism in the Canary Islands has reached nearly 12 million visitors annually, especially Gran Canaria and Tenerife.</p>
-            <img src="./spimg/Canary-Islands-View.jpg" alt="">
-            <h3>Activities you can do</h3>
-            <p>• You can visit El Hierro Island, which is one of the most beautiful Canary Islands and is considered a world ocean reserve on the UNESCO World Heritage List, and includes stunning beaches such as El Golfo Beach.</p>
-            <img src="./spimg/Castillo-de-Gibralfaro-2.jpg" alt="">
-            <p>• You can also visit one of the best islands, which is the island of Fuerteventura, the second largest and oldest of the Canary Islands, which is also a nature reserve, and includes buildings dating back to the Middle Ages.</p>
-            <img src="./spimg/Canary-Islands-CaletadeFusteCastle.jpg" alt="">
-            <p>• Gran Canaria is the most visited Canary Islands, and includes many entertainments that you can enjoy such as Palmetos Bird Park, Maspalomas Lighthouse</p>
-            <img src="./spimg/Canary-Islands-GranCanaria.jpg" alt="">
-            <p>• The island of La Gomera includes the Garagonay National Park, which was included in the UNESCO list of World Heritage Sites in 1986 AD, and occupies 40 square kilometers of its area, and is considered one of the most beautiful tourist areas in the Canary Islands</p>
-            <img src="./spimg/Canary-Islands-GarajonayNationalPark.jpg" alt="">
-            <p>• You must visit the unique Malvasia vineyards on the island of Lanzarote, and Papagayo Beach, which is characterized by its calm waves and clear waters</p>
-            <img src="./spimg/Canary-Islands-PapagayoBeach.jpg" alt="">
-            <p>• You can also visit the William Herschel Observatory, which is located above Mount de los Mochachos, the highest peaks of the islands, especially the island of La Palma.</p>
-            <img src="./spimg/Canary-Islands-HerschelTelescope.jpg" alt="">
-            <p>• Do not forget to visit the island of Tenerife, which includes several tourist resorts such as Playa de las Americas, Siam Water Park, and the Opera House.</p>
-            <img src="./spimg/Canary-Islands-AuditoriodeTenerife.jpg" alt="">
-          </section>
+        </section>
+        <section class="in-canary">
+          <p>According to statistics, the number of people who come for tourism in the Canary Islands has reached nearly 12 million visitors annually, especially Gran Canaria and Tenerife.</p>
+          <img src="./img/Canary-Islands-View.jpg" alt="">
+          <h3>Activities you can do</h3>
+          <p>• You can visit El Hierro Island, which is one of the most beautiful Canary Islands and is considered a world ocean reserve on the UNESCO World Heritage List, and includes stunning beaches such as El Golfo Beach.</p>
+          <img src="./img/Castillo-de-Gibralfaro-2.jpg" alt="">
+          <p>• You can also visit one of the best islands, which is the island of Fuerteventura, the second largest and oldest of the Canary Islands, which is also a nature reserve, and includes buildings dating back to the Middle Ages.</p>
+          <img src="./img/Canary-Islands-CaletadeFusteCastle.jpg" alt="">
+          <p>• Gran Canaria is the most visited Canary Islands, and includes many entertainments that you can enjoy such as Palmetos Bird Park, Maspalomas Lighthouse</p>
+          <img src="./img/Canary-Islands-GranCanaria.jpg" alt="">
+          <p>• The island of La Gomera includes the Garagonay National Park, which was included in the UNESCO list of World Heritage Sites in 1986 AD, and occupies 40 square kilometers of its area, and is considered one of the most beautiful tourist areas in the Canary Islands</p>
+          <img src="./img/Canary-Islands-GarajonayNationalPark.jpg" alt="">
+          <p>• You must visit the unique Malvasia vineyards on the island of Lanzarote, and Papagayo Beach, which is characterized by its calm waves and clear waters</p>
+          <img src="./img/Canary-Islands-PapagayoBeach.jpg" alt="">
+          <p>• You can also visit the William Herschel Observatory, which is located above Mount de los Mochachos, the highest peaks of the islands, especially the island of La Palma.</p>
+          <img src="./img/Canary-Islands-HerschelTelescope.jpg" alt="">
+          <p>• Do not forget to visit the island of Tenerife, which includes several tourist resorts such as Playa de las Americas, Siam Water Park, and the Opera House.</p>
+          <img src="./img/Canary-Islands-AuditoriodeTenerife.jpg" alt="">
+        </section>
+        </body>
         <footer>
           <div class="footerContainer">
               <div class="footerTeam">
                    <h3>Developers</h3>
-                   <a href="https://www.facebook.com/hossam.ahmed.9615566">Hossam Ahmed</a>
-                   <a href="https://www.facebook.com/profile.php?id=100068870207513">Hamid Walid</a>
-                   <a href="https://www.facebook.com/profile.php?id=100071538840923">Hazem Ahmed</a>
-                   <a href="https://www.facebook.com/hazem.waleed.5220">Hazem Walid</a>
-                   <a href="https://www.facebook.com/profile.php?id=100004266527214">Hafez Adel</a>
-                   <a href="https://www.facebook.com/profile.php?id=100010574882468">Gamal Eldeen Ayman</a>
-                   <a href="https://www.facebook.com/profile.php?id=100005993741552">Basma Alaa</a>
-                   <a href="https://www.facebook.com/toka.mahmoud.56">Toqa Mahmoud</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Hossam Ahmed</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Hamid Walid</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Hazem Ahmed</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Hazem Walid</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Hafez Adel</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Gamal Eldeen Ayman</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Basma Alaa</a>
+                   <a href="" target="_blank"><i class="fa-brands fa-facebook"></i>Toqa Mahmoud</a>
   
               </div>
               <div class="footerAbout">
-                  <a href="index.html">Home</a>
+                  <a href="">Home</a>
                   <a href="">Where to go</a>
                   <a href="">What to do</a>
                   <a href="">Covid-19</a>
@@ -334,6 +362,6 @@
          </div>
           </div>
       </footer>
-        </body>
-
 </html>
+
+
