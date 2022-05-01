@@ -257,6 +257,6 @@ input[type=text]:focus {
   }
 
   #price{
-      position: absolute;
-      
+      position: relative;
+
   }
