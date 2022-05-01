@@ -255,3 +255,8 @@ input{
 input[type=text]:focus {
     border: 7px solid rgba(99, 102, 102, 0.281);
   }
+
+  #price{
+      position: absolute;
+      
+  }

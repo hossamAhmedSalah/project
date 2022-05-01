@@ -275,3 +275,7 @@ footer a:hover{
 #pair a:hover, #sair a:hover{
     background-color: #ffd242;
 }
+
+h2{
+    color: white;
+}
