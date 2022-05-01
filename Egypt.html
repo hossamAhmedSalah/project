@@ -13,27 +13,51 @@
 </head>
 <body>
    
-    <header class="navbar">
-        <div class="logo">
-            <a href="index.html"><img src="style/images/logo.png" alt="" class="logo"></a>
-        </div>
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Where to go</a></li>
-                <li><a href="what.html">What to do</a></li>
-                <li><a href="covid.html">Covid-19</a></li>
-                <li><a href="hotelBooking.html">Hotel</a></li>
-                <li><a href="flights.html">Flight</a></li>
-                <li><a href="#">Food</a></li>
-                <li><a href="#">News</a></li>
-            </ul>
-        </div>
-        <div id="buttonwrap">
-            <button class="buttons" class="logout" id="log">logout</button>
-            <button class="buttons" type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
-            <button class="buttons" type="button" id="btn"></button>
-        </div>
+     <header class="header">
+        <div>
+			<h1 id="logo"><i class="fa-solid fa-plane-circle-check"></i>Travelism</h1>
+		</div>
+		<div class="menu">
+			<div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Where to go</a></li>
+                    <li><a href="#">What to do</a></li>
+                    <li><a href="#"> <i class="fa-solid fa-caret-down"></i> counteries</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                              <li><a href="#">Egypt</a></li>
+                              <li><a href="#">Greek</a></li>
+                              <li><a href="#">India</a></li>
+                              <li><a href="#">France</a></li>
+                              <li><a href="#">Turkey</a></li>
+                              <li><a href="#">Itali</a></li>
+                              <li><a href="#">Spain</a></li>
+                            </ul>
+                          </div>
+                    </li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Flight</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Covid-19</a></li>
+                    <li><a href="#">News</a></li>
+                    <li>
+                        <div class="buttons">
+                            <Button type="button" class="icon-style">
+                                <i class="fa-solid fa-moon"></i>
+                            </Button>
+                            <Button type="button" class="icon-style">
+                                <i class="fa-solid fa-user"></i>
+                            </Button>
+                            <label >user-name</label>
+                            
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+		
+        
     </header>
     <div id="lol">
         <main>
