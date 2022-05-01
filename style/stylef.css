@@ -74,8 +74,8 @@ body{
 }
 .body img{
   width: 100%;
-  height: 80vh;
-  margin-top: 80px;
+  height: 90vh;
+  margin-top: 0px;
   align-items: center;
   background-position: center;
 }

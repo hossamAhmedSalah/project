@@ -48,6 +48,15 @@
     margin: 50px 70px;
 }
 
+video{
+    height: 120%;
+    width: 120%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.9;
+}
 
 .yu{
     display: flex;
