@@ -330,3 +330,16 @@ body{
 .card{background-color: #101010;}
 .card:hover{background-color: #ffd53d;
     color: #fff;}
+
+    
+    #cn input[type=text]:focus{
+        background-color: rgba(68, 83, 68, 0.178);
+    }
+
+    #regbox input[type=email]:focus,#regbox input[type=password]:focus,#regbox input[type=text]:focus{
+        background-color: rgba(80, 77, 77, 0.178);
+    }
+
+    #signbox input[type=email]:focus,#signbox input[type=password]:focus,#signbox input[type=text]:focus{
+        background-color: rgba(80, 77, 77, 0.178);
+    }

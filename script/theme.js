@@ -1,5 +1,6 @@
 window.onload = function(){  
 
+    document.cookie = "se='a';path=/project";
     let sign = document.getElementById("sign");
 
     if(document.cookie == ''){

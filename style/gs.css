@@ -252,14 +252,9 @@ input{
 }
 
 
-#cn input[type=text]:focus{
-    background-color: rgba(68, 83, 68, 0.178);
-}
+
 
 #price{
       position: relative;
 }
 
-input[type=email]:focus,input[type=password]:focus,#regbox input[type=text]:focus{
-    background-color: rgba(80, 77, 77, 0.178);
-}
