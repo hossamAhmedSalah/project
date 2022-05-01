@@ -250,11 +250,8 @@ footer a:hover{
     color: #ddd3d3;
 }
 
-#pair{
-    background-color: black;
-}
-#sair{
-    background-color: black;
+#pair,#sair{
+    background-color: rgb(155, 155, 155);
 }
 
 #signbox h2,#regbox h2,form label{
@@ -265,18 +262,18 @@ footer a:hover{
     color: var(--second-dark);
 }
 
-#alertbox{
+#alertbox,#falertbox{
     background-color: #1f252b;
+    color: white;
 }
 
 #pair a,#sair a{
-    color: #147da3;
+    color: #0067B3;
 }
 #pair a:hover, #sair a:hover{
-    background-color: #ffd242;
+    background-color: #74726a88;
 }
-
-
+#results div
 
 .where{
     background: black;

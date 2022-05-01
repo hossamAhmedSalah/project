@@ -55,7 +55,7 @@ function dark(){
 
 function getCookie(str){
     if(document.cookie == ''){
-        return "";
+        return '';
     }
     const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
     return cookieValue;
