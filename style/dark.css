@@ -267,11 +267,15 @@ footer a:hover{
     color: white;
 }
 
-#pair a,#sair a{
-    color: #0067B3;
+#sair,#pair{
+    background-color: #272a2e;
 }
-#pair a:hover, #sair a:hover{
-    background-color: #74726a88;
+.temp a{
+    color: #8485b4;
+}
+.temp a:hover{
+    background-color: #474748;
+    color: black;
 }
 .where{
     background: black;
@@ -354,4 +358,9 @@ footer a:hover{
 
 #aircard{
     background-color: #8485b4d0;
+}
+
+#aname{
+    background-color: #545577;
+    border-radius: 15px;
 }

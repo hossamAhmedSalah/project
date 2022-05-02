@@ -235,6 +235,8 @@ input{
 }
 
 #aname{
+    padding: 4px;
+    margin-left: 12px;
     font-size: 2rem;
 }
 #niceone{
@@ -250,10 +252,16 @@ input{
     align-items: baseline;
 }
 
-
-
-
 #price{
       position: relative;
 }
 
+#aircard a,#aircard a:after{
+    color: black;
+    text-decoration: none;
+}
+
+#aircard a:hover{
+    color: #ffd242;
+    transition-duration: 0.3s;
+}
