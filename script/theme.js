@@ -60,8 +60,7 @@ function getCookie(str){
         return "";
     }
 
-    if(document.cookie!= undefined){
-        console.log(document.cookie.split('; '));
+    if(document.cookie.split('; ').length>1){
         const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
         return cookieValue;
     }

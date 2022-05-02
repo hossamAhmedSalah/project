@@ -12,8 +12,10 @@ function getCookie(str){
     if(document.cookie == ''){
         return "";
     }
-    const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
-    return cookieValue;
+    if(document.cookie.split('; ').length>1){
+        const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
+        return cookieValue;
+    }
 }
 
 function setCookie(cName, cValue, expDays) {
