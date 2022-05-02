@@ -315,10 +315,10 @@ footer a:hover{
     background-color: white;
 }
 
-#pair a,#sair a{
+.temp a{
     color: black;
 }
-#pair a:hover, #sair a:hover{
+.temp a:hover{
     background-color: #a3d9ee;
 }
 
@@ -406,4 +406,9 @@ body{
 
 #aircard{
     background-color: #eeeeee4b;
+}
+
+#aname{
+    background-color: #6b6969a1;
+    border-radius: 15px;
 }
