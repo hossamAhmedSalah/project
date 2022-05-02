@@ -13,6 +13,10 @@
     color: #FFD53D;
 }
 
+.menu ul li:hover .dropdown-menu {
+    background-color:#0067b2;
+}
+
 body{
     background-color: #d1e2ea;
 }

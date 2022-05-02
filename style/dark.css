@@ -21,6 +21,11 @@
     --font-color-old: #ffd242; 
 }
 
+.menu ul li:hover .dropdown-menu {
+    background-color:#015088;
+}
+
+
 body{
     background-color: var(--main-dark);
 }
