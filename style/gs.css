@@ -1,6 +1,6 @@
 .sob{
     padding: 0px !important;
-    margin-top: 15px;
+    margin-top: 20px;
     height: 1.5rem !important;
     width: 5rem !important;
 }
@@ -23,6 +23,7 @@ label{
     font-size: 1.3rem;
 }
 input{
+    padding-left: 3px;
     height: 1.9rem;
     width: 18rem;
     margin-bottom: 8px;
@@ -37,6 +38,10 @@ input{
     height: 100%;
     border-radius: 5px;
     padding: 5px;
+}
+
+#signin input,#signup input{
+    border-radius: 6px;
 }
 
 /*end of content*/
@@ -68,6 +73,7 @@ input{
 }
 
 #pair,#sair{
+    border-radius: 6px;
     margin-top: -6px;
     max-height:190px; 
     overflow-y :scroll; 
@@ -82,10 +88,6 @@ input{
 #pair a,#sair a{
     margin: 0 0 2px 6px;
     display: block;
-}
-
-#dep{
-    width: 224px;
 }
 
 #date h4{
@@ -104,8 +106,9 @@ input{
 }
 
 .numb{
-    width: 40px;
-    margin-right: 10px;
+    border-radius: 5px;
+    border: 4px black;
+    width: 30px;
 }
 
 #signbox{
@@ -123,21 +126,17 @@ input{
 }
 
 #one{
-    display: block;
+    width: 244px;
     position: relative;
     margin-top: 7vh;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #one input{
     width: 30px;
     height: 30px;
-    vertical-align: middle;
-}
-
-#one label span{
-    margin-right: 110px;
-    vertical-align: middle;
 }
 
 #passen{
@@ -192,8 +191,10 @@ input{
     }
 }
 
-#date input{
+#date input,#dep,#des{
     width: 224px;
+    border-radius: 6px;
+    border: 1px solid black;
 }
 #date label{
     margin: 0 0 0 -235px;
@@ -252,8 +253,9 @@ input{
     align-items: baseline;
 }
 
-#price{
-      position: relative;
+#price {
+    position: absolute;
+    margin: 22px 0 0 360px;
 }
 
 #aircard a,#aircard a:after{
@@ -264,4 +266,29 @@ input{
 #aircard a:hover{
     color: #ffd242;
     transition-duration: 0.3s;
+}
+
+#clselect{
+    border-radius: 5px;
+    border: 0.5px solid rgb(84, 82, 82);
+    margin-left: 5px;
+}
+
+#qqq{
+    display: flex;
+    max-height: 35px;
+    align-items: center;
+}
+
+#sss{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ged{
+    margin-top: 5px;
+    margin-bottom: -15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

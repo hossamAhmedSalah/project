@@ -8,23 +8,6 @@ function kek(){
     nsub.addEventListener("click",newa);
 }
 
-function getCookie(str){
-    if(document.cookie == ''){
-        return "";
-    }
-    if(document.cookie.split('; ').length>1){
-        const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
-        return cookieValue;
-    }
-}
-
-function setCookie(cName, cValue, expDays) {
-    let date = new Date();
-    date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
-    const expires = "expires=" + date.toUTCString();
-    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
-}
-
 function newa(){
     document.getElementById('alertwrap').style.display='block';
     document.getElementById('alertbox').style.animation='fading 0.3s';
@@ -92,7 +75,7 @@ function get(){
                     window.location.href='index.html';
                 });
             }
-            else if(email==getCookie("nemail=") && pass==getCookie('npass=')){
+            else if(email==getCookie("nemail=") && pass==getCookie('npass=') && email!=""){
                 myalert("Welcome "+getCookie("nuser="));
                 setCookie('email',getCookie('nemail='),30);
                 setCookie('pass',getCookie('npass='),30);

@@ -109,14 +109,14 @@ function meow(){
 
     var images = ['style/flight/egyptair.webp','style/flight/flopair.webp','style/flight/emirates.webp','style/flight/japan.webp','style/flight/omanair.webp','style/flight/singapore.webp','style/flight/gulf.webp','style/flight/italy.webp']
     var names = ['Egypt Air','Flopair','Emirates', 'Japan Airlines', 'Oman Air', 'Singapore Airlines','Gulf Air','Italy Airways'];
-    var links = ['https://www.egyptair.com/en/Pages/HomePage.aspx',
-                'https://www.reddit.com/r/bigfloppa/comments/kzwaj9/airflopp_airlines_welcome_aboard/',
-                'https://www.emirates.com/eg/english/',
-                'https://www.jal.com/index.html',
-                'https://www.omanair.com/eg/en',
-                'https://www.singaporeair.com/en_UK/sg/home',
+    var links = ['https://www.egyptair.com/',
+                'https://i.redd.it/bwad7fvpv3c61.jpg',
+                'https://www.emirates.com/',
+                'https://www.jal.com/',
+                'https://www.omanair.com/',
+                'https://www.singaporeair.com/',
                 'https://www.gulfair.com/',
-                'https://www.gulfair.com/'];
+                'https://www.ita-airways.com/en_en'];
 
     let num = Math.floor(Math.random() * 6);
     let adult = document.getElementById("adu").value*1;
@@ -139,12 +139,15 @@ function meow(){
         let time = 2+Math.floor(Math.random() * 6);
         
         $divclone = $("#aircard").clone();
-        console.log(pprice);
 
         $divclone.attr("class", "");
         $divclone.find("img").attr('src',images[kek]);
+        $divclone.find("#imglink").attr('href',links[kek]);
+        $divclone.find("#imglink").attr('target','_blank');
+        
         $divclone.find("#aname").html(names[kek]);
         $divclone.find("#aname").attr('href',links[kek]);
+        $divclone.find("#aname").attr('target','_blank');
 
         $divclone.find("#price").html("$"+(passen*pprice*clls));
         $divclone.find("#time").html(time+" hrs");

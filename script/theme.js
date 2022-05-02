@@ -58,7 +58,9 @@ function getCookie(str){
         return "";
     }
 
-    if(document.cookie.split('; ').length>1){
+    if(document.cookie.split('; ').length>1 && document.cookie.split('; ').find(row => row.startsWith(str))!=undefined){
+        console.log("begin "+document.cookie.split('; ').find(row => row.startsWith(str))+"end ");
+        console.log("str "+str);
         const cookieValue = document.cookie.split('; ').find(row => row.startsWith(str)).split('=')[1];
         return cookieValue;
     }

@@ -94,28 +94,37 @@
                         </div>
                     </div>
                     <div id="one">
-                        <label><span>One way</span><input id="chk" type="checkbox"></label>
+                        <div>
+                            <label>One way</label>
+                        </div>
+                        <div>
+                            <input id="chk" type="checkbox">
+                        </div>
                     </div>
                     <div id="passen">
                         <div id="qqq">
-                            <label for="class">Class:</label>
-                            <select name="class" id="clselect">
-                                <option name="Economy">Economy</option>
-                                <option name="Business">Business Class</option>
-                            </select>
+                            <div>
+                                <label for="class">Class</label>
+                            </div>
+                            <div>
+                                <select name="class" id="clselect">
+                                    <option name="Economy">Economy</option>
+                                    <option name="Business">Business</option>
+                                </select>
+                            </div>
                         </div>
                         <br>
-                        <div id="ppp" style="padding-right: 87px; margin-top: -48px;">
+                        <div id="ppp" style="padding-right: 88px; margin-top: -48px;">
                             <label for="passen">Passengers</label>
                             <br>
                             <label for="nadult">Adults</label>
-                            <input type="number" class="numb" min="1" max="10" value="1" step="1" id="adu">
+                            <input style="margin-left: 41px;padding-left: 3px;" type="number" class="numb" min="1" max="10" value="1" step="1" id="adu">
                             <br>
                             <label for="nadult">Children</label>
-                            <input type="number" class="numb" min="0" max="10" value="0" step="1" id="chi">
+                            <input style="margin-left: 20px;padding-left: 3px;" type="number" class="numb" min="0" max="10" value="0" step="1" id="chi">
                             <br>
                             <label for="nadult">Infants</label>
-                            <input type="number" class="numb" min="0" max="10" value="0" step="1" id="inf">
+                            <input style="margin-left: 35px;padding-left: 3px;" type="number" class="numb" min="0" max="10" value="0" step="1" id="inf">
 
                         </div>
                     </div>
@@ -125,7 +134,9 @@
                 </div>
                 <div id="results">
                     <div id="aircard" class="pls">
-                        <img src="/style/flight/flopair.webp">
+                        <a id="imglink">
+                            <img src="/style/flight/flopair.webp">
+                        </a>
                         <div id="niceone">
                             <p id="from">flight</p>
                             <p id="time">3hrs</p>

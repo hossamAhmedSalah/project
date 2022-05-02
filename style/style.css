@@ -116,3 +116,13 @@ footer a:hover{
     font-weight: 600;
     font-size: 21px;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
