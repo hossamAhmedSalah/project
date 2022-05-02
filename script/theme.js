@@ -1,11 +1,9 @@
 window.onload = function(){  
 
-    document.cookie = "se='a';path=/project";
     let sign = document.getElementById("sign");
 
     if(document.cookie == ''){
         if(window.matchMedia('(prefers-color-scheme: light)').matches){
-            setCookie('email','',90);
             document.cookie = 'set=light';
         }
         else{

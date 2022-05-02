@@ -109,6 +109,15 @@ function meow(){
 
     var images = ['style/flight/egyptair.webp','style/flight/flopair.webp','style/flight/emirates.webp','style/flight/japan.webp','style/flight/omanair.webp','style/flight/singapore.webp','style/flight/gulf.webp','style/flight/italy.webp']
     var names = ['Egypt Air','Flopair','Emirates', 'Japan Airlines', 'Oman Air', 'Singapore Airlines','Gulf Air','Italy Airways'];
+    var links = ['https://www.egyptair.com/en/Pages/HomePage.aspx',
+                'https://www.reddit.com/r/bigfloppa/comments/kzwaj9/airflopp_airlines_welcome_aboard/',
+                'https://www.emirates.com/eg/english/',
+                'https://www.jal.com/index.html',
+                'https://www.omanair.com/eg/en',
+                'https://www.singaporeair.com/en_UK/sg/home',
+                'https://www.gulfair.com/',
+                'https://www.gulfair.com/'];
+
     let num = Math.floor(Math.random() * 6);
     let adult = document.getElementById("adu").value*1;
     let children = document.getElementById("chi").value*0.7;
@@ -135,6 +144,8 @@ function meow(){
         $divclone.attr("class", "");
         $divclone.find("img").attr('src',images[kek]);
         $divclone.find("#aname").html(names[kek]);
+        $divclone.find("#aname").attr('href',links[kek]);
+
         $divclone.find("#price").html("$"+(passen*pprice*clls));
         $divclone.find("#time").html(time+" hrs");
         $divclone.find("#from").html(dep);
