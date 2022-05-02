@@ -23,7 +23,7 @@ body{
 }
 
 .logo{
-    margin-left: -30px;
+    margin-left: -10px;
     position: relative;
     width: 4in;
     margin-right: -50px;
@@ -38,7 +38,7 @@ body{
 	text-decoration: none;
 	padding: 5px 12px;
 	letter-spacing: 2px;
-	font-size: 20px;
+	font-size: 18px;
     font-weight: 700;
 }
 .menu ul li a:hover{
