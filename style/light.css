@@ -447,8 +447,7 @@ body{
     align-items: center;
     margin: 0 auto;
     padding: 0 5rem;
-    background-color: #97fceb;
-  }
+      }
   .hero-section .content h4 {
     color: #4b4646;
     font-family: 'Inconsolata', monospace;
