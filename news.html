@@ -2,58 +2,49 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>news</title>
+<title>News</title>
+<link rel="icon" type="image/x-icon" href="style/images/favicon.ico">
+<script src="script/theme.js"></script>
+<link rel="stylesheet" href="style/style.css">
 <link rel="stylesheet" href="style/news.css">
-<link rel="stylesheet" href="dark.css">
-<link rel="stylesheet" href="light.css">
+<link rel="stylesheet" id="kek" href="style/light.css">
 </head>
 
 <body>
-    <header class="header">
-        <div>
-			<h1 id="logo"><i class="fa-solid fa-plane-circle-check"></i>Travelism</h1>
-		</div>
-		<div class="menu">
-			<div class="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="where.html">Where to go</a></li>
-                    <li><a href="what.html">What to do</a></li>
-                    <li><a href="#"> <i class="fa-solid fa-caret-down"></i> counteries</a>
-                        <div class="dropdown-menu">
-                            <ul>
-                              <li><a href="Egypt.html">Egypt</a></li>
-                              <li><a href="greece.html">Greek</a></li>
-                              <li><a href="india.html">India</a></li>
-                              <li><a href="france.html">France</a></li>
-                              <li><a href="turkey.html">Turkey</a></li>
-                              <li><a href="italia.html">Itali</a></li>
-                              <li><a href="spain.html">Spain</a></li>
-                            </ul>
-                          </div>
-                    </li>
-                    <li><a href="hotelBooking.html">Hotel</a></li>
-                    <li><a href="flights.html">Flight</a></li>
-                    <li><a href="food.html">Food</a></li>
-                    <li><a href="covid.html">Covid-19</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li>
-                        <div class="buttons">
-                            <Button type="button" class="icon-style">
-                                <i class="fa-solid fa-moon"></i>
-                            </Button>
-                            <Button type="button" class="icon-style">
-                                <i class="fa-solid fa-user"></i>
-                            </Button>
-                            <label >user-name</label>
-                            
-                        </div>
-                    </li>
-                    
-                </ul>
-            </div>
-		
-        
+    <header class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="style/images/logo.png" alt="" class="logo"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="where.html">Where to go</a></li>
+                <li><a href="what.html">What to do</a></li>
+                <li><a href="#">Counteries</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                          <li><a href="Egypt.html">Egypt</a></li>
+                          <li><a href="greece.html">Greek</a></li>
+                          <li><a href="india.html">India</a></li>
+                          <li><a href="france.html">France</a></li>
+                          <li><a href="turkey.html">Turkey</a></li>
+                          <li><a href="italia.html">Itali</a></li>
+                          <li><a href="spain.html">Spain</a></li>
+                        </ul>
+                      </div>
+                </li>
+                <li><a href="hotelBooking.html">Hotel</a></li>
+                <li><a href="flights.html">Flight</a></li>
+                <li><a href="food.html">Food</a></li>
+                <li><a href="covid.html">Covid-19</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+        <div id="buttonwrap">
+            <button class="buttons" class="logout" id="log">logout</button>
+            <button class="buttons" type="button" onclick="window.location.href = 'login.html'" id="sign">Login/Sign up</button>
+            <button class="buttons" type="button" id="btn"></button>
+        </div>
     </header>
     <main>
         <div class="ultimate">
@@ -848,7 +839,7 @@ Judiciary: India has a three-tier unitary independent judiciary[251] comprising 
                 <div class="nav">
                     <label for="r1" class="bar">india</label>
                     <label for="r2" class="bar">turkey</label>
-                    <label for="r3" class="bar">pain</label>
+                    <label for="r3" class="bar">spain</label>
                     <label for="r4" class="bar">italy</label>
                 </div>
             </div>
@@ -873,7 +864,6 @@ Judiciary: India has a three-tier unitary independent judiciary[251] comprising 
                 <a href="where.html">Where to go</a>
                 <a href="what.html">What to do</a>
                 <a href="covid.html">Covid-19</a>
-                <a href="">Feedback</a>
            </div>
            <div class="footercopyr">
             <span>&copy; Travelism</span>

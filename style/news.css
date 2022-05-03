@@ -1,20 +1,16 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box ;
-}
 @font-face{
     font-family: google; src: url('fonts/google.ttf');
 }
 
 body{
     font-family: google;
+    overflow-x: hidden;
+
 }
 *{
     box-sizing: border-box;
   
     text-decoration: none;
-    font-family:cursive;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -160,7 +156,7 @@ body{
 .ultimate{
     width: 100%;
     height: 3745px;
-    overflow: hidden;
+    
 }
 .container{
     width: 800%;
@@ -171,49 +167,28 @@ body{
     transition: 1s;
     width: 14.28571428571429%;
 }
-.section1{
-    background-color: rgb(173, 201, 15);
-}
-.section2{
-    background-color: blue;
-}
-.section3{
-    background-color: blue;
-}
-.section4{
-    background-color: blueviolet;
-}
-.section5{
-    background-color: brown;
-}
-.section6{
-    background-color: chartreuse;
-}
-.section7{
-    background-color: cadetblue;
-}
-.section8{
-    background-color: coral;
-}
+
 .nav{
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
 }
 .bar{
     width: 100px;
-    height: 20px;
+    height: 30px;
     border: 2px solid #fff;
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
     border-radius: 15px;
-    color: darkgreen;
+    color: white;
     text-align: center;
+    padding: 3px;
 }
 .bar:hover{
+    color: black;
     background: #fff;
 }
 input[name="r"]{
@@ -246,25 +221,25 @@ input[name="r"]{
 }*/
 .president{
     height: 200px;
-    background-color: blue;
-    overflow: hidden;
+    background-color: #02375e;
     position: initial;
     text-align: center;
 }
 .president h1{
     padding-top: 75px;
+    color: rgb(212, 209, 209);
 }
 .aboutpresident{
     display: flex;
     height: 250px;
-    overflow: hidden;
     background-color: #fff;
 }
 .aboutpresident img{
     height: 100%;
 }
 .title{
-    background-color: blue;
+    color: rgb(212, 209, 209);
+    background-color: #02375e;
     height: 60px;
     padding-top: 1px;
     text-align: center;
@@ -272,32 +247,32 @@ input[name="r"]{
 .aboutcapital{
     display: flex;
     height: 400px;
-    overflow: hidden;
+    
     background-color: #fff;
 }
 .abouthistory{
     background-color: #fff;
-    overflow: hidden;
+    
     height: 375px;
 }
 .abouttemp{
     background-color: #fff;
-    overflow: hidden;
+    
     height: 100px;
 }
 .aboutancient{
     background-color: #fff;
-    overflow: hidden;
+    
     height: 500px;
 }
 .aboutpolitics{
     background-color: #fff;
-    overflow: hidden;
+    
     height: 600px;
 }
 .aboutgovernment{
     background-color: #fff;
-    overflow: hidden;
+    
     height: 400px;
 }
 .fix2{
