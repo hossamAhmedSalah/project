@@ -3,7 +3,7 @@
     box-sizing: border-box;
   
     text-decoration: none;
-    font-family:cursive;
+    
     margin: 0;
     padding: 0;
     list-style: none;
@@ -390,11 +390,12 @@ footer{
 .footerAbout a{
     padding-top: 14px;
     font-weight: 600;/*our colors #0067B3   #40B0DF #FFD53D light*/
+}
 *{
     box-sizing: border-box;
   
     text-decoration: none;
-    font-family:cursive;
+    
     margin: 0;
     padding: 0;
     list-style: none;
@@ -781,7 +782,5 @@ footer{
 .footerAbout a{
     padding-top: 14px;
     font-weight: 600;
-    font-size: 21px;
-}
     font-size: 21px;
 }
