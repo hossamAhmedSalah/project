@@ -173,7 +173,7 @@ h4{
   width: 400px;
   padding: 20px;
   color: white;
-  background-image: url("/franceimg/5260.webp");
+  background-image: url("../franceimg/5260.webp");
   background-size: cover;
   display: flex;
   position: relative;
