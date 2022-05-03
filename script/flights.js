@@ -118,7 +118,7 @@ function meow(){
                 'https://www.gulfair.com/',
                 'https://www.ita-airways.com/en_en'];
 
-    let num = Math.floor(Math.random() * 6);
+    let num = 1+Math.floor(Math.random() * 5);
     let adult = document.getElementById("adu").value*1;
     let children = document.getElementById("chi").value*0.7;
     let infant = document.getElementById("inf").value*0.4;
@@ -150,9 +150,9 @@ function meow(){
         $divclone.find("#aname").attr('target','_blank');
 
         $divclone.find("#price").html("$"+(passen*pprice*clls));
-        $divclone.find("#time").html(time+" hrs");
-        $divclone.find("#from").html(dep);
-        $divclone.find("#to").html(des);
+        $divclone.find("#time").html("Duration: "+time+" hrs");
+        $divclone.find("#from").html("From: "+dep);
+        $divclone.find("#to").html("To: "+des);
         $divclone.find("#aclass").html($("#clselect").val());
 
         $divclone.attr("style", "fading 0.4s");

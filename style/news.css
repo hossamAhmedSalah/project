@@ -7,6 +7,9 @@ body{
     overflow-x: hidden;
 
 }
+p{
+    font-size: 22px;
+}
 *{
     box-sizing: border-box;
   
@@ -233,6 +236,7 @@ input[name="r"]{
     display: flex;
     height: 250px;
     background-color: #fff;
+    padding: 20px;
 }
 .aboutpresident img{
     height: 100%;
@@ -245,39 +249,52 @@ input[name="r"]{
     text-align: center;
 }
 .aboutcapital{
+    padding: 20px;
+
     display: flex;
-    height: 400px;
+    height: 500px;
     
     background-color: #fff;
 }
 .abouthistory{
+    padding: 20px;
     background-color: #fff;
-    
-    height: 375px;
+    height: 475px;
 }
 .abouttemp{
+    padding: 20px;
     background-color: #fff;
     
-    height: 100px;
+    height: 140px;
 }
 .aboutancient{
+    padding: 20px;
+
     background-color: #fff;
     
-    height: 500px;
+    height: 900px;
 }
 .aboutpolitics{
+    padding: 20px;
+
+    background-color: #fff;
+    
+    height: 660px;
+}
+.aboutgovernment{
+    padding: 20px;
+
     background-color: #fff;
     
     height: 600px;
-}
-.aboutgovernment{
-    background-color: #fff;
-    
-    height: 400px;
 }
 .fix2{
     width: 87.5%;
 }
 .felx{
     display: flex;
+}
+
+footer{
+    margin-top: 1300px;
 }

@@ -30,6 +30,8 @@ input{
 }
 
 #book{
+    background-image: url(/style/flight/flight-back.webp);
+    opacity: 0.8;
     margin-bottom: 15px !important;
     margin-top: 13px !important;
     margin: auto;
@@ -291,4 +293,11 @@ input{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#aclass{
+    border-radius: 6px;
+    padding: 2px;
+    margin-right: 19px;
+    background-color: rgba(181, 197, 191, 0.658);
 }
