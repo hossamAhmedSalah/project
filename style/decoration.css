@@ -32,7 +32,13 @@ a{
     padding: 10px;
 
 }
-
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+}
 .input{
     border: none;
     height: 50px;
@@ -94,6 +100,7 @@ a{
     font-size: 1.1em;
 }
 .contener{
+    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -117,11 +124,13 @@ a{
 }
 
 .information{
+    
     font-size: 1.6em;
     font-family: Cursive;
 }
 
 .card:hover{
+    
     transform:scale(1.1,1.1)
 }
 
@@ -262,46 +271,143 @@ a{
     font-size: 1.4em;
 
 }
-
-.conte{
+.poz{
+    border: solid 1px blue;
+    border-radius: 40px;
+    margin: 30px 30px 30px 25px;
+    width: 97%;
+    min-height: 100vh;
+}
+.must{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 100vh;
-    
-    
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 30px 30px 30px 30px;
+}
+.ym{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.fast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    margin-left: 30px;
+}
+.ip{
+    margin: 20px 0px 30px 20px;
+    font-size: 2.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.zxc{
+    width: 45%;
+    float: right;
+    padding: 10px;
+}
+.pk{
+    padding:  0px 15px 15px 15px;
+    font-size: 1.3em;
+}
+.kz{
+    margin: 20px 15px 20px 0px;
 }
 
-.places{
-    
+
+.elpos{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68vh;
+
+}
+
+.yq{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
+    max-width: 1100px;
+}
+
+.yq .jm{
     overflow: hidden;
     position: relative;
     width: 400px;
-    height: 300px;
-    margin-left: 70px;
+    height: 400px;
+    margin: 15px;
 }
 
-.videos{
-    width: 400px;
-    
-    
+.yq .jm .imgbx,
+.yq .jm .conbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-.para{
-    margin-bottom: 10px;
+
+.yq .jm .imgbx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yq .jm .conbox::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+transform: scaleX(0);
+transition: transform 0.5s ease;
+transform-origin: left;
+opacity: 0.8;
+}
+.yq .jm:hover .conbox::before{
+    transform: scaleX(1);
+    transition: transform 0.5s ease;
+    transform-origin: left;
+    opacity: 0.8;
+}
+
+.yq .jm .conbox{
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 30px;
-    transition: 0.5s ease;
-    font-size: 1.6em;
-    font-family:'Times New Roman', Times, serif;
+    align-items: center;
+}
+.yq .jm .conbox .contyu{
+    position: relative;
+    padding: 30px;
+    z-index: 1;
+    transition: 0.5s;
+    transform: translateX(-400px);
 }
 
-
-
-.places:hover{
-    opacity: 0.9; 
+.yq .jm:hover .conbox .contyu{
+    transform: translateX(0px);
 }
+.contyu h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    padding-bottom: 35px;
+}
+.contyu p{
+    font-size: 1.em;
+    font-weight: 400;
+}
+
