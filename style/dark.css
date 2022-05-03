@@ -21,11 +21,6 @@
     --font-color-old: #ffd242; 
 }
 
-.menu ul li:hover .dropdown-menu {
-    background-color:#015088;
-}
-
-
 body{
     background-color: var(--main-dark);
 }
@@ -71,6 +66,35 @@ body{
 
 
 /* greece */
+.contyu h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    padding-bottom: 35px;
+    color: white;
+}
+.contyu p{
+    font-size: 1.em;
+    font-weight: 400;
+    color: white;
+}
+.yq .jm .conbox::before{
+    background:black;
+}
+.pk{
+    color: white;
+}
+.ip{
+    color: white;
+}
+.must{
+    color: white;
+}
+.fast{
+    color: white;
+}
+.poz{
+    background-color: #535457;
+}
 .input{
     background-color:  rgb(187, 183, 183);
 }
@@ -84,8 +108,13 @@ body{
     background-color: white;
 }
 
-.where{
+.wherey{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
     color: #c8c8ee;
+    margin: 45px 90px;
 }
 
 .his{
@@ -93,20 +122,18 @@ body{
 }
 
 .imp{
-    color: rgb(110, 108, 108);
+    color: white
 
 }
-
+.information2{
+    color: white;
+}
 .information{
     color: #c8c8ee;
 }
 
 .card,.card2{
     background-color: #535457;
-}
-
-.cardc{
-  background-color: #50545f;
 }
 
 .contener{
@@ -118,7 +145,7 @@ body{
 }
 
 .clim{
-    color: rgb(110, 108, 108);
+    color: white;
 }
 
 .tabli thead tr{
@@ -276,15 +303,11 @@ footer a:hover{
     color: white;
 }
 
-#sair,#pair{
-    background-color: #272a2e;
+#pair a,#sair a{
+    color: #0067B3;
 }
-.temp a{
-    color: #8485b4;
-}
-.temp a:hover{
-    background-color: #474748;
-    color: black;
+#pair a:hover, #sair a:hover{
+    background-color: #74726a88;
 }
 .where{
     background: black;
@@ -362,798 +385,4 @@ footer a:hover{
 }
 .qatar{
     background-color: #45474a;
-}
-
-
-#aircard{
-    background-color: #8485b4d0;
-}
-
-#aname{
-    background-color: #545577;
-    border-radius: 15px;
-}
-
-#price{
-    color: rgb(174, 15, 15);
-}
-
-#signin input,#signup input{
-    border-radius: 6px;
-    border: 2px solid grey;
-}
-
-#signin input:focus,#signup input:focus{
-    border-radius: 12px;
-    transition-duration: 0.3s;
-    background-color: rgb(214, 213, 213);
-}
-
-#signbox,#regbox{
-    background-color: #5f6266b5;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-
-
-/* darkfood */
-
-.hero-section .content h4 {
-    color: #ffffff;
-    font-family: 'Inconsolata', monospace;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .hero-section .content h1 {
-    color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 2.3rem;
-     margin-bottom: 1rem;
-   }
-   .hero-section .content h1:hover{
-    display: grid;
-    align-items: center;
-    color: #ff0037;
-    font-size: 2.9rem;
-    transition: .5s;
-  }
-  .span{
-    color: #151b25;
-}
-.food{
-    
-    background-color: #272a2e;
-}
-
-  .country-restaurant-section{
-    background-color: #151b25;
-  }
-  .country-restaurant-section p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-  
-   .country-restaurant-section  h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.2rem;
-    margin-bottom: .5rem;
-  
-  
-  }
-  .egypt{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .egypt p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .egypt h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-egypt {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-egypt p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-egypt h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .greece{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .greece p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .greece h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-greece {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-greece p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-greece h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .italy{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .italy p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .italy h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-italy {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-italy p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-italy h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .india{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .india p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .india h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-india {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-india p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-india h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .spain{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .spain p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .spain h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-spain {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-spain p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-spain h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .turkey{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .turkey p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .turkey h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-turkey {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-turkey p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-turkey h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .france{
-    width: 100%;
-    height: 110vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .france p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-  }
-  
-   .france h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-france {
-    display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1  1;
-  padding: 0 5rem;
-  background-color: rgb(15, 2, 33);
-  }
-  
-
-  .in-france p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
-    margin-bottom: 1.3rem;
-  }
-  
-   .in-france h3{
-    margin-top: 2rem;
-  color: #eff6ff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  }
-  .country-maindishes-section{
-    background-color: #151b25;
-  }
-  .country-maindishes-section p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-  
-   .country-maindishes-section  h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3.2rem;
-    margin-bottom: .5rem;
-  
-  
-  }
-  .main{
-    background-color: #f4fafd;
-}
-
-
-
-
-/* darkspain */
-.hero-section {
-    max-width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 5rem;
-  }
-  .hero-section .content h4 {
-    color: #e4edfd;
-    font-family: 'Inconsolata', monospace;
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  .hero-section .content h1 {
-    color: #02345a;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 2.3rem;
-     margin-bottom: 1rem;
-   }
-   .hero-section .content h1:hover{
-     display: grid;
-     align-items: center;
-     color: #ff2323;
-     font-size: 2.9rem;
-     transition: .5s;
-   }
-   .span{
-    color: #151b25;
-}
-.country-section{
-    width: 100%;
-    background-color: #272a2e;
-  }
-  .country-section p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-  
-   .country-section  h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5rem;
-    margin-bottom: .5rem;
-    margin-top: 2rem;
-  
-  }
-  .madrid{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .madrid p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-  
-   .madrid h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-madrid {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: rgb(15, 2, 33);
-  }
-  
-  .in-madrid h3{
-    margin-top: 2rem;
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-madrid p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 1.3rem;
-  }
-  .barcelona {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  .barcelona h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .barcelona p {
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-  .in-barcelona {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: rgb(15, 2, 33);
-  }
-  .in-barcelona h3{
-    margin-top: 2rem;
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-barcelona p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 1.3rem;
-  }
-  .malaga{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-  
-  .malaga h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .malaga p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-
-  .in-malaga{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: rgb(15, 2, 33);
-  }
-  .in-malaga h3{
-    margin-top: 2rem;
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-malaga p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 1.3rem;
-  }
-
-  .garanda{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    margin-top: 2rem;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
- 
-  .garanda h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .garanda p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
- 
-  .in-garanda{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: rgb(15, 2, 33);
-  }
-  .in-garanda h3{
-    margin-top: 2rem;
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-garanda p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 1.3rem;
-  }
- 
-  .seville {
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
-
-  .seville h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .seville p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
- 
-  .in-seville{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: rgb(15, 2, 33);
-  }
-  .in-seville h3{
-    margin-top: 2rem;
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .in-seville p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 1.3rem;
-  }
-
-  .canary{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: #151b25;
-  }
- 
-  .canary h3{
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  .canary p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-  }
-  
-  .in-canary{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1  1;
-    padding: 0 5rem;
-    background-color: rgb(15, 2, 33);
-  }
-  .in-canary h3{
-    margin-top: 3rem;
-    color: #eff6ff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 2rem;
-  }
-  .in-canary p{
-    color: #e4edfd;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
-    margin-bottom: 1.3rem;
-    margin-top: 1rem;
-  }
-
-.events p,.events h4{
-  color: white;
-}
-
-.card h4,.card p{
-  color: white;
-}
-
-.info1 div, .info1 h1{
-  color: white;
-}
-
-.info2 div, .info2 h1{
-  color: white;
-}
-
-.info3 div, .info3 h1{
-  color: white;
-}
-
-.info4 div, .info4 h1{
-  color: white;
 }
