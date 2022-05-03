@@ -1133,3 +1133,23 @@ footer a:hover{
 .events p,.events h4{
   color: white;
 }
+
+.card h4,.card p{
+  color: white;
+}
+
+.info1 div, .info1 h1{
+  color: white;
+}
+
+.info2 div, .info2 h1{
+  color: white;
+}
+
+.info3 div, .info3 h1{
+  color: white;
+}
+
+.info4 div, .info4 h1{
+  color: white;
+}
