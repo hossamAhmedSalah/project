@@ -437,3 +437,765 @@ body{
     padding: 30px;
     border-radius: 10px;
 }
+
+/* lightspain */
+.hero-section {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+    background-color: #97fceb;
+  }
+  .hero-section .content h4 {
+    color: #4b4646;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-section .content h1 {
+    color: #ff2323;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 2.3rem;
+     margin-bottom: 1rem;
+   }
+   .hero-section .content h1:hover{
+     display: grid;
+     align-items: center;
+     color: #6d0000;
+     font-size: 2.9rem;
+     transition: .5s;
+   }
+   .span{
+    color: #151b25;
+}
+.country-section{
+    width: 100%;
+    background-color: #97fceb;
+  }
+  .country-section p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  
+   .country-section  h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    margin-top: 2rem;
+  
+  }
+  .madrid{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #8ccbe5;
+  }
+  .madrid p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  
+   .madrid h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-madrid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #d7f3ff;
+  }
+  
+  .in-madrid h3{
+    margin-top: 2rem;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-madrid p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+  .barcelona {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #8ccbe5;
+  }
+  .barcelona h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .barcelona p {
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  .in-barcelona {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #d7f3ff;
+  }
+  .in-barcelona h3{
+    margin-top: 2rem;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-barcelona p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+  .malaga{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #8ccbe5;
+  }
+  
+  .malaga h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .malaga p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+
+  .in-malaga{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #d7f3ff;
+  }
+  .in-malaga h3{
+    margin-top: 2rem;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-malaga p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .garanda{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    margin-top: 2rem;
+    padding: 0 5rem;
+    background-color: #8ccbe5;
+  }
+ 
+  .garanda h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .garanda p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+ 
+  .in-garanda{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #d7f3ff;
+  }
+  .in-garanda h3{
+    margin-top: 2rem;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-garanda p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+ 
+  .seville {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #8ccbe5;
+  }
+
+  .seville h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .seville p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+ 
+  .in-seville{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #d7f3ff;
+  }
+  .in-seville h3{
+    margin-top: 2rem;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-seville p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .canary{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #8ccbe5;
+  }
+ 
+  .canary h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .canary p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  .in-canary{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #d7f3ff;
+  }
+  .in-canary h3{
+    margin-top: 3rem;
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+  .in-canary p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  /* lightfoods */
+  .hero-section .content h4 {
+    color: #ffffff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .hero-section .content h1 {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 2.3rem;
+     margin-bottom: 1rem;
+   }
+   .hero-section .content h1:hover{
+    display: grid;
+    align-items: center;
+    color: #ff0037;
+    font-size: 2.9rem;
+    transition: .5s;
+  }
+  .span{
+    color: #151b25;
+}
+.food{
+    
+    background-color: #97fceb;
+    height:130vh;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  .text {
+    color: rgb(160, 160, 160);
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .country-restaurant-section{
+    background-color: #acadff;
+  }
+  .country-restaurant-section p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  
+   .country-restaurant-section  h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+  
+  
+  }
+  .egypt{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .egypt p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .egypt h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-egypt {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-egypt p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-egypt h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .greece{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .greece p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .greece h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-greece {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-greece p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-greece h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .italy{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .italy p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .italy h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-italy {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-italy p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-italy h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .india{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .india p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .india h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-india {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-india p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-india h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .spain{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .spain p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .spain h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-spain {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-spain p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-spain h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .turkey{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .turkey p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .turkey h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-turkey {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-turkey p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-turkey h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .france{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1  1;
+    padding: 0 5rem;
+    background-color: #5350e9;
+  }
+  .france p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+  }
+  
+   .france h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .in-france {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1  1;
+  padding: 0 5rem;
+  background-color: #d7f3ff;
+  }
+  
+
+  .in-france p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+  }
+  
+   .in-france h3{
+    margin-top: 2rem;
+  color: #535353;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  .country-maindishes-section{
+    background-color: #acadff;
+  }
+  .country-maindishes-section p{
+    color: #151b25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+  }
+  
+   .country-maindishes-section  h3{
+    color: #535353;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+  
+  
+  }
+  .main{
+    background-color: #f4fafd;
+}
