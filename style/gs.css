@@ -30,7 +30,7 @@ input{
 }
 
 #book{
-    background-image: url(/style/flight/flight-back.webp);
+    background-image: url(flight/flight-back.webp);
     opacity: 0.8;
     margin-bottom: 15px !important;
     margin-top: 13px !important;
