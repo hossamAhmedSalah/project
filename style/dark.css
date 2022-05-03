@@ -1129,3 +1129,7 @@ footer a:hover{
     margin-bottom: 1.3rem;
     margin-top: 1rem;
   }
+
+.events p,.events h4{
+  color: white;
+}
