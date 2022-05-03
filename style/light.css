@@ -37,7 +37,7 @@ body{
 
 /* main */
 
-.content div{
+.content div,.contentc div{
     background-color: #f9fbfc;
 }
 

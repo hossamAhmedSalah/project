@@ -206,7 +206,7 @@ h4{
 .gar:hover .opera{
   opacity: 1;
 }
-.content {
+.contentc {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -218,7 +218,7 @@ h4{
 
 }
 
-.card {
+.cardc {
   background-color: #fff;
   width: 21.25em;
   box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
@@ -228,11 +228,11 @@ h4{
   transition: 0.7s ease;
 }
 
-.card:hover {
+.cardc:hover {
   transform: scale(1.1);
 }
 
-.card .icon {
+.cardc .icon {
   color: #0067b2;
   font-size: 8em;
   text-align: center;
