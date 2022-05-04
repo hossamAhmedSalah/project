@@ -425,3 +425,326 @@ body{
         background-color: rgba(80, 77, 77, 0.178);
     }
     
+
+    .hero-section .content h4 {
+        color: #ffffff;
+      }
+      .hero-section .content h1 {
+        color: #ffffff;
+       }
+       .hero-section .content h1:hover{
+        color: #ff0037;
+      }
+      .span{
+        color: #151b25;
+    }
+    .food{
+        background-color: #97fceb;
+      }
+      .overlay {
+        background-color: #008CBA;
+      }
+      .text {
+        color: rgb(160, 160, 160);
+      }
+      .country-restaurant-section{
+        background-color: #acadff;
+      }
+      .country-restaurant-section p{
+        color: #151b25;
+      }
+      
+       .country-restaurant-section  h3{
+        color: #535353;
+      }
+      .egypt{
+        background-color: #5350e9;
+      }
+      .egypt p{
+        color: #151b25;
+      }
+       .egypt h3{
+        color: #535353;
+      }
+      .in-egypt {
+      background-color: #d7f3ff;
+      }
+      .in-egypt p{
+        color: #151b25;
+      }
+      
+       .in-egypt h3{
+      color: #535353;
+      }
+      .greece{
+        background-color: #5350e9;
+      }
+      .greece p{
+        color: #151b25;
+      }
+      
+       .greece h3{
+        color: #535353;
+      }
+      .in-greece {
+      background-color: #d7f3ff;
+      }
+      .in-greece p{
+        color: #151b25;
+      }
+      
+       .in-greece h3{
+      color: #535353;
+      }
+      .italy{
+        background-color: #5350e9;
+      }
+      .italy p{
+        color: #151b25;
+      }
+      
+       .italy h3{
+        color: #535353;
+      }
+      .in-italy {
+      background-color: #d7f3ff;
+      }
+      .in-italy p{
+        color: #151b25;
+      }
+       .in-italy h3{
+      color: #535353;
+      }
+      .india{
+        background-color: #5350e9;
+      }
+      .india p{
+        color: #151b25;
+      }
+       .india h3{
+        color: #535353;
+      }
+      .in-india {
+      background-color: #d7f3ff;
+      }
+      .in-india p{
+        color: #151b25;
+      }
+       .in-india h3{
+      color: #535353;
+      }
+      .spain{
+        background-color: #5350e9;
+      }
+      .spain p{
+        color: #151b25;
+      }
+       .spain h3{
+        color: #535353;
+      }
+      .in-spain {
+      background-color: #d7f3ff;
+      }
+      .in-spain p{
+        color: #151b25;
+      }
+       .in-spain h3{
+      color: #535353;
+      }
+      .turkey{
+        background-color: #5350e9;
+      }
+      .turkey p{
+        color: #151b25;
+      }
+       .turkey h3{
+        color: #535353;
+      }
+      .in-turkey {
+      background-color: #d7f3ff;
+      }
+      .in-turkey p{
+        color: #151b25;
+      }
+       .in-turkey h3{
+      color: #535353;
+      }
+      .france{
+        background-color: #5350e9;
+      }
+      .france p{
+        color: #151b25;
+      }
+       .france h3{
+        color: #535353;
+      }
+      .in-france {
+      background-color: #d7f3ff;
+      }
+      .in-france p{
+        color: #151b25;
+      }
+       .in-france h3{
+      color: #535353;
+      }
+      .country-maindishes-section{
+        background-color: #acadff;
+      }
+      .country-maindishes-section p{
+        color: #151b25;
+      }
+       .country-maindishes-section  h3{
+        color: #535353;
+      }
+      .main{
+        background-color: #f4fafd;
+    }
+
+    .hero-section {
+        background-color: #97fceb;
+      }
+      .hero-section .content h4 {
+        color: #4b4646;
+      }
+      .hero-section .content h1 {
+        color: #ff2323;
+       }
+       .hero-section .content h1:hover{
+         color: #6d0000;
+       }
+       .span{
+        color: #151b25;
+    }
+    .country-section{
+        background-color: #97fceb;
+      }
+      .country-section p{
+        color: #151b25;
+      }
+      
+       .country-section  h3{
+        color: #535353;
+      
+      }
+      .madrid{
+        background-color: #8ccbe5;
+      }
+      .madrid p{
+        color: #151b25;
+      }
+      
+       .madrid h3{
+        color: #535353;
+      }
+      .in-madrid {
+        background-color: #d7f3ff;
+      }
+      
+      .in-madrid h3{
+        color: #535353;
+      }
+      .in-madrid p{
+        color: #151b25;
+      }
+      .barcelona {
+        background-color: #8ccbe5;
+      }
+      .barcelona h3{
+        color: #535353;
+      }
+      
+      .barcelona p {
+        color: #151b25;
+      }
+      .in-barcelona {
+        background-color: #d7f3ff;
+      }
+      .in-barcelona h3{
+        color: #535353;
+      }
+      .in-barcelona p{
+        color: #151b25;
+      }
+      .malaga{
+        background-color: #8ccbe5;
+      }
+      
+      .malaga h3{
+        color: #535353;
+      }
+      .malaga p{
+        color: #151b25;
+      }
+    
+      .in-malaga{
+        background-color: #d7f3ff;
+      }
+      .in-malaga h3{
+        color: #535353;
+      }
+      .in-malaga p{
+        color: #151b25;
+      }
+    
+      .garanda{
+        background-color: #8ccbe5;
+      }
+     
+      .garanda h3{
+        color: #535353;
+      }
+      .garanda p{
+        color: #151b25;
+      }
+     
+      .in-garanda{
+        background-color: #d7f3ff;
+      }
+      .in-garanda h3{
+        color: #535353;
+      }
+      .in-garanda p{
+        color: #151b25;
+      }
+     
+      .seville {
+        background-color: #8ccbe5;
+      }
+    
+      .seville h3{
+        color: #535353;
+      }
+      .seville p{
+        color: #151b25;
+      }
+     
+      .in-seville{
+        background-color: #d7f3ff;
+      }
+      .in-seville h3{
+        color: #535353;
+      }
+      .in-seville p{
+        color: #151b25;
+      }
+    
+      .canary{
+        background-color: #8ccbe5;
+      }
+     
+      .canary h3{
+        color: #535353;
+      }
+      .canary p{
+        color: #151b25;
+      }
+      
+      .in-canary{
+        background-color: #d7f3ff;
+      }
+      .in-canary h3{
+        color: #535353;
+      }
+      .in-canary p{
+        color: #151b25;
+      }

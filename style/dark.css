@@ -390,3 +390,355 @@ footer a:hover{
 .qatar{
     background-color: #45474a;
 }
+
+.hero-section .content h4 {
+    color: #ffffff;
+  }
+  .hero-section .content h1 {
+    color: #ffffff;
+   }
+   .hero-section .content h1:hover{
+    color: #ff0037;
+  }
+  .span{
+    color: #151b25;
+}
+.food{
+    background-color: #272a2e;
+  }
+  .overlay {
+    background-color: #02345a;
+  }
+  .text {
+    color: rgb(255, 255, 255);
+  }
+  .country-restaurant-section{
+    background-color: #151b25;
+  }
+  .country-restaurant-section p{
+    color: #e4edfd;
+  }
+  
+   .country-restaurant-section  h3{
+    color: #eff6ff;
+  }
+  .egypt{
+    background-color: #151b25;
+  }
+  .egypt p{
+    color: #e4edfd;
+  }
+   .egypt h3{
+    color: #eff6ff;
+  }
+  .in-egypt {
+  background-color: rgb(15, 2, 33);
+  }
+  .in-egypt p{
+    color: #e4edfd;
+  }
+   .in-egypt h3{
+  color: #eff6ff;
+  }
+  .greece{
+    background-color: #151b25;
+  }
+  .greece p{
+    color: #e4edfd;
+  }
+  
+   .greece h3{
+    color: #eff6ff;
+  }
+  .in-greece {
+  background-color: rgb(15, 2, 33);
+  }
+  
+
+  .in-greece p{
+    color: #e4edfd;
+  }
+  
+   .in-greece h3{
+  color: #eff6ff;
+  }
+  .italy{
+    background-color: #151b25;
+  }
+  .italy p{
+    color: #e4edfd;
+  }
+  
+   .italy h3{
+    color: #eff6ff;
+  }
+  .in-italy {
+  background-color: rgb(15, 2, 33);
+  }
+  .in-italy p{
+    color: #e4edfd;
+  }
+   .in-italy h3{
+  color: #eff6ff;
+  }
+  .india{
+    background-color: #151b25;
+  }
+  .india p{
+    color: #e4edfd;
+  }
+   .india h3{
+    color: #eff6ff;
+  }
+  .in-india {
+  background-color: rgb(15, 2, 33);
+  }
+  .in-india p{
+    color: #e4edfd;
+  }
+   .in-india h3{
+  color: #eff6ff;
+  }
+  .spain{
+    background-color: #151b25;
+  }
+  .spain p{
+    color: #e4edfd;
+  }
+   .spain h3{
+    color: #eff6ff;
+  }
+  .in-spain {
+  background-color: rgb(15, 2, 33);
+  }
+  .in-spain p{
+    color: #e4edfd;
+  }
+   .in-spain h3{
+  color: #eff6ff;
+  }
+  .turkey{
+    background-color: #151b25;
+  }
+  .turkey p{
+    color: #e4edfd;
+  }
+   .turkey h3{
+    color: #eff6ff;
+  }
+  .in-turkey {
+  background-color: rgb(15, 2, 33);
+  }
+  .in-turkey p{
+    color: #e4edfd;
+  }
+   .in-turkey h3{
+  color: #eff6ff;
+  }
+  .france{
+    background-color: #151b25;
+  }
+  .france p{
+    color: #e4edfd;
+  }
+   .france h3{
+    color: #eff6ff;
+  }
+  .in-france {
+  background-color: rgb(15, 2, 33);
+  }
+  .in-france p{
+    color: #e4edfd;
+  }
+   .in-france h3{
+  color: #eff6ff;
+  }
+  .country-maindishes-section{
+    background-color: #151b25;
+  }
+  .country-maindishes-section p{
+    color: #e4edfd;
+  }
+   .country-maindishes-section  h3{
+    color: #eff6ff;
+  }
+  .main{
+    background-color: #f4fafd;
+}
+
+.hero-section {
+    background-color: #272a2e;
+  }
+  .hero-section .content h4 {
+    color: #e4edfd;
+  }
+  .hero-section .content h1 {
+    color: #02345a;
+   }
+   .hero-section .content h1:hover{
+     color: #ff2323;
+   }
+   .span{
+    color: #151b25;
+}
+.country-section{
+    background-color: #272a2e;
+  }
+  .country-section p{
+    color: #e4edfd;
+  }
+  
+   .country-section  h3{
+    color: #eff6ff;
+  
+  }
+  .madrid{
+    background-color: #151b25;
+  }
+  .madrid p{
+    color: #e4edfd;
+  }
+  
+   .madrid h3{
+    color: #eff6ff;
+  }
+  .in-madrid {
+    background-color: rgb(15, 2, 33);
+  }
+  
+  .in-madrid h3{
+    color: #eff6ff;
+  }
+  .in-madrid p{
+    color: #e4edfd;
+  }
+  .barcelona {
+    background-color: #151b25;
+  }
+  .barcelona h3{
+    color: #eff6ff;
+  }
+  
+  .barcelona p {
+    color: #e4edfd;
+  }
+  .in-barcelona {
+    background-color: rgb(15, 2, 33);
+  }
+  .in-barcelona h3{
+    color: #eff6ff;
+  }
+  .in-barcelona p{
+    color: #e4edfd;
+  }
+  .malaga{
+    background-color: #151b25;
+  }
+  
+  .malaga h3{
+    color: #eff6ff;
+  }
+  .malaga p{
+    color: #e4edfd;
+  }
+
+  .in-malaga{
+    background-color: rgb(15, 2, 33);
+  }
+  .in-malaga h3{
+    color: #eff6ff;
+  }
+  .in-malaga p{
+    color: #e4edfd;
+  }
+
+  .garanda{
+    background-color: #151b25;
+  }
+ 
+  .garanda h3{
+    color: #eff6ff;
+  }
+  .garanda p{
+    color: #e4edfd;
+  }
+ 
+  .in-garanda{
+    background-color: rgb(15, 2, 33);
+  }
+  .in-garanda h3{
+    color: #eff6ff;
+  }
+  .in-garanda p{
+    color: #e4edfd;
+  }
+ 
+  .seville {
+    background-color: #151b25;
+  }
+
+  .seville h3{
+    color: #eff6ff;
+  }
+  .seville p{
+    color: #e4edfd;
+  }
+ 
+  .in-seville{
+    background-color: rgb(15, 2, 33);
+  }
+  .in-seville h3{
+    color: #eff6ff;
+  }
+  .in-seville p{
+    color: #e4edfd;
+  }
+
+  .canary{
+    background-color: #151b25;
+  }
+ 
+  .canary h3{
+    color: #eff6ff;
+  }
+  .canary p{
+    color: #e4edfd;
+  }
+  
+  .in-canary{
+    background-color: rgb(15, 2, 33);
+  }
+  .in-canary h3{
+    color: #eff6ff;
+  }
+  .in-canary p{
+    color: #e4edfd;
+  }
+
+  .cardc{
+    background-color: #50545f;
+  }
+
+  .events p,.events h4{
+    color: white;
+  }
+  
+  .card h4,.card p{
+    color: white;
+  }
+  
+  .info1 div, .info1 h1{
+    color: white;
+  }
+  
+  .info2 div, .info2 h1{
+    color: white;
+  }
+  
+  .info3 div, .info3 h1{
+    color: white;
+  }
+  
+  .info4 div, .info4 h1{
+    color: white;
+  } 
