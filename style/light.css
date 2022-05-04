@@ -33,7 +33,7 @@ body{
 
 /* main */
 
-.content div{
+.content div,.contentc div{
     background-color: #f9fbfc;
 }
 
@@ -195,6 +195,10 @@ body{
     border: 0px solid white;
 }
 
+.card{
+    color: white;
+}
+
 .card a{
     background-color: white;
     
@@ -337,10 +341,10 @@ footer a:hover{
     background-color: white;
 }
 
-#pair a,#sair a{
+.temp a{
     color: black;
 }
-#pair a:hover, #sair a:hover{
+.temp a:hover{
     background-color: #a3d9ee;
 }
 
@@ -395,13 +399,13 @@ body{
     background-color: white;
 }
 
-.yellow{color: yellow;}
-.info1{background-color: blueviolet;}
-.evil{color: yellow;}
-.info2{background-color: aqua;}
-.info3{background-color: #101010;}
-.info3inner2{color: chocolate;}
-.info4{color: #ffd53d;}
+.yellow{color: black;}
+.info1{background-color: #1186da;}
+.evil{color: black;}
+.info2{background-color: #004f88;}
+.info3{background-color: #1186da;}
+.info3inner2{color: black;}
+.info4{color: black;}
 .info5{background-color: #fff;}
  HEAD
 .card:hover{
@@ -416,15 +420,49 @@ body{
     #cn input[type=text]:focus{
         background-color: rgba(68, 83, 68, 0.178);
     }
-
+    
     #regbox input[type=email]:focus,#regbox input[type=password]:focus,#regbox input[type=text]:focus{
         background-color: rgba(80, 77, 77, 0.178);
     }
-
+    
     #signbox input[type=email]:focus,#signbox input[type=password]:focus,#signbox input[type=text]:focus{
         background-color: rgba(80, 77, 77, 0.178);
     }
+
+    #aircard{
+        background-color: #eeeeee4b;
+    }
     
+    #aname{
+        background-color: #6b6969a1;
+        border-radius: 15px;
+    }
+    
+    #price{
+        color: red;
+    }
+    
+    #signin input,#signup input{
+        border-radius: 6px;
+        border: 2px solid black;
+    }
+    
+    #signin input:focus,#signup input:focus{
+        border-radius: 12px;
+        transition-duration: 0.3s;
+        background-color: #bbb9b9 !important;
+    }
+    
+    #signbox,#regbox{
+        background-color: #004f88b5;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+
+
+
+
 
     .hero-section .content h4 {
         color: #ffffff;

@@ -1,87 +1,7 @@
-body {color: #151b25;}
-header *{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-header{
-    width: 100vw;
-    height: 100px;
-    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
-    background-color: #0067b3;
-}
-
-header .inner{
-    width: 100%; 
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-header .logo{
-    display: table;
-    height: 100%;
-    float: left;
-    margin-left: 50px;
-}
-
-header .logo div{
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-header .logo img{
-    height: 50px;
-    margin-top: 5px;
-}
-
-header nav{
-    float: right;
-    height: 100%;
-}
-
-header nav li{
-    display: table;
-    height: 100%;
-    float: left;
-    margin-right: 25px;
-}
-
-header nav li:last-of-type{
-    margin-right: 25;
-}
-
-header nav span {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-header nav a{
-    color: #101010;
-}
-
-header nav .button{
-    background-color: #ffd53d;
-    color: #101010;
-    padding: 10px 20px;
-    border-radius: 4px;
-}
-
-header nav .button:hover{
-    filter: brightness(1.05);
-    background-color: #e9c646;
-}
 body{
 	line-height: 1.5;
 }
-footer *{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
-}
+
 .container{
 	max-width: 1170px;
 	margin:auto;
@@ -130,7 +50,6 @@ ul{
 body{
     margin: 0;
     padding: 0;
-    background: #151b25;
   }
 
   .slidershow{
@@ -199,7 +118,7 @@ body{
     margin-left: -80%;
   }
   .savinglife{
-      min-height: 500px;
+      min-height: 700px;
   }
 .yellow{
     color: yellow;
@@ -266,134 +185,16 @@ justify-content: center;
   background-size: cover;
 }
 .car_1{
-  background-image: url(/indimg/greaves_best_indian_restaurants_karavalli.jpg);
+  background-image: url(../indimg/greaves_best_indian_restaurants_karavalli.jpg);
 }
 .car_2{
-  background-image: url(/indimg/greaves_indian_restaurants_bukhara.jpg);
+  background-image: url(../indimg/greaves_indian_restaurants_bukhara.jpg);
 }
 .car_3{
-  background-image: url(/indimg/greaves_indian_restaurants_the_bangala_no_credit.jpg);
+  background-image: url(../indimg/greaves_indian_restaurants_the_bangala_no_credit.jpg);
 }
 .card:hover{
   transform: scale(1.03);
   margin: 3px;
   transition: .8s;
-}
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing:border-box ;
-}
-
-@font-face{
-  font-family: google; src: url('fonts/google.ttf');
-}
-
-body{
-  font-family: google;
-}
-
-.navbar{
-  min-height: 10vh;
-width: 100%;
-height: 80px;
-display: flex;
-  /* position: fixed; */
-justify-content: space-around;
-align-items: center;
-  z-index: 1;
-}
-
-.logo{
-  position: relative;
-  width: 4.333in;
-  height: 0.903;
-}
-
-.menu ul{
-display: flex;
-align-items: center;
-  list-style: none;
-}
-.menu ul li a{
-text-decoration: none;
-padding: 5px 12px;
-letter-spacing: 2px;
-font-size: 20px;
-  font-weight: 700;
-}
-.menu ul li a:hover{
-transition: 0.4s;
-} 
-.buttons{
-text-decoration: none;
-color: #000;
-font-size: 14px;
-font-weight: bold;
-border-radius: 12px;
-padding: 12px 15px;
-}
-.buttons:hover{
-transition: 0.6s;
-}
-
-/* content */
-
-
-#lol{
-  min-height: 75vh;
-}
-
-#log{
-  display: none;
-}
-
-/* end of content */
-footer{
-  min-height: 15vh;
-  margin-top: 40px;
-  padding-bottom: 80px;
-}
-
-footer a:hover{
-  margin-left: 8px;
-  transition-duration: 0.4s;
-}
-
-.footerContainer{
-  width: 100%;
-  height: 260px;
-  display: flex;
-  justify-content: space-between;
-}
-.footerContainer .footerTeam{
-  width: 15%;
-  flex-direction: column;
-  display: flex;
-  margin: 40px;
-}
-.footerContainer .footerTeam h3{
-  margin-bottom: 30px;
-}
-
-.footerContainer .footerAbout{
-  width: 13%;
-  flex-direction: column;
-  display: flex;
-  margin: 40px;
-}
-.footerContainer .footercopyr{
-  margin: 40px;
-  font-weight: 600;
-  font-size: 35px;
-}
-.footerContainer a{
-  padding-top: 5px;
-  text-decoration: none;
-  font-weight: 600;
-}
-.footerAbout a{
-  padding-top: 14px;
-  font-weight: 600;
-  font-size: 21px;
 }

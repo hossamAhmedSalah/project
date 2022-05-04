@@ -140,6 +140,10 @@ body{
     background-color: #535457;
 }
 
+.cardc{
+    background-color: #50545f;
+  }
+
 .contener{
     border: 0px solid white;
 }
@@ -288,10 +292,10 @@ footer a:hover{
 
 #x{
     color: #ddd3d3;
-}
+}   
 
 #pair,#sair{
-    background-color: rgb(155, 155, 155);
+    background-color: #272a2e;
 }
 
 #signbox h2,#regbox h2,form label{
@@ -307,11 +311,12 @@ footer a:hover{
     color: white;
 }
 
-#pair a,#sair a{
-    color: #0067B3;
+.temp a{
+    color: #8485b4;
 }
-#pair a:hover, #sair a:hover{
-    background-color: #74726a88;
+.temp a:hover{
+    background-color: #474748;
+    color: black;
 }
 .where{
     background: black;
@@ -742,3 +747,33 @@ footer a:hover{
   .info4 div, .info4 h1{
     color: white;
   } 
+
+  #aircard{
+    background-color: #8485b4d0 !important;
+}
+
+#aname{
+    background-color: #545577;
+    border-radius: 15px;
+}
+
+#price{
+    color: rgb(174, 15, 15);
+}
+
+#signin input,#signup input{
+    border-radius: 6px;
+    border: 2px solid grey;
+}
+
+#signin input:focus,#signup input:focus{
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    background-color: rgb(214, 213, 213);
+}
+
+#signbox,#regbox{
+    background-color: #5f6266b5;
+    padding: 30px;
+    border-radius: 10px;
+}
