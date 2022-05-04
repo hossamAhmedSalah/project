@@ -12,35 +12,7 @@
     margin-left: 10px;
     
 }
-.header{
-    display: flex;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    background-color: #144da3;
-    color: #FFD53D;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    transition: 0.7s ease;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: stretch;
-    
-   
-    
 
-}
-.header a{
-    color: #FFD53D;
-    padding: 20px;
-    font-size: 1.2em;
-}
-.header a:hover{
-  color: #fff;
-  text-shadow: 2px 2px 8px #FFD53D;
- 
- 
-}
 .icon-style{
     font-size: 2em;
     margin-left: 30px;
@@ -56,44 +28,7 @@
     padding-left: 40px;
 }
 /*header drop-menu*/
-.menu{
-  
-  margin-left: 30px;
-}
-.menu ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-  }
-  .menu ul li a {
-    text-decoration: none;
-    color: #ffd242;
-    padding: 5px 12px;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .menu ul li a:hover {
-    color: white;
-    transition: 0.6s;
-  }
-  .dropdown-menu {
-    display: none;
-  }
-  
-  .dropdown-menu ul {
-    display: block;
-  }
-  .dropdown-menu ul li{
-      padding: 8px;
-  }
 
-  .menu ul li:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    background-color:#144da3;
-    padding: 15px;
-
-  }
   
 h3{
     padding: 10px;
@@ -347,92 +282,7 @@ section{
 #starsRating button:hover{
     background-color: silver;
 }
-footer{
-    margin-top: 40px;
-    background-color: #144da3;
-    padding-bottom: 80px;
-    border: 1px solid #FFD53D;
-   
-
-}
-.footerContainer{
-    width: 100%;
-    height: 350px;
-    color: #ffd53d;
-    display: flex;
-    justify-content: space-between;
-}
-.footerContainer .footerTeam{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footerTeam h3{
-    margin-bottom: 30px;
-}
-
-.footerContainer .footerAbout{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footercopyr{
-    margin: 40px;
-    font-weight: 600;
-    font-size: 35px;
-}
-.footerContainer a{
-    padding-top: 5px;
-    text-decoration: none;
-    color: #FFD53D;
-    font-weight: 600;
-}
-.footerAbout a{
-    padding-top: 14px;
-    font-weight: 600;/*our colors #0067B3   #40B0DF #FFD53D light*/
-}
-*{
-    box-sizing: border-box;
-  
-    text-decoration: none;
-    
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-#logo{
-    margin-left: 10px;
-    
-}
-.header{
-    display: flex;
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    background-color: #144da3;
-    color: #FFD53D;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    transition: 0.7s ease;
-    justify-content: flex-start;
-    align-content: stretch;
-    align-items: stretch;
-    
-   
-    
-
-}
-.header a{
-    color: #FFD53D;
-    padding: 20px;
-    font-size: 1.2em;
-}
-.header a:hover{
-  color: #fff;
-  text-shadow: 2px 2px 8px #FFD53D;
- 
- 
-}
+/* 
 .icon-style{
     font-size: 2em;
     margin-left: 30px;
@@ -447,46 +297,7 @@ footer{
 #home{
     padding-left: 40px;
 }
-/*header drop-menu*/
-.menu{
-  
-  margin-left: 30px;
-}
-.menu ul {
-    display: flex;
-    align-items: center;
-    list-style: none;
-  }
-  .menu ul li a {
-    text-decoration: none;
-    color: #ffd242;
-    padding: 5px 12px;
-    font-size: 20px;
-    font-weight: 700;
-  }
-  .menu ul li a:hover {
-    color: white;
-    transition: 0.6s;
-  }
-  .dropdown-menu {
-    display: none;
-  }
-  
-  .dropdown-menu ul {
-    display: block;
-  }
-  .dropdown-menu ul li{
-      padding: 8px;
-  }
-
-  .menu ul li:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    background-color:#144da3;
-    padding: 15px;
-
-  }
-  
+ 
 h3{
     padding: 10px;
 }
@@ -738,49 +549,4 @@ section{
 }
 #starsRating button:hover{
     background-color: silver;
-}
-footer{
-    margin-top: 40px;
-    background-color: #144da3;
-    padding-bottom: 80px;
-    border: 1px solid #FFD53D;
-   
-
-}
-.footerContainer{
-    width: 100%;
-    height: 350px;
-    color: #ffd53d;
-    display: flex;
-    justify-content: space-between;
-}
-.footerContainer .footerTeam{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footerTeam h3{
-    margin-bottom: 30px;
-}
-
-.footerContainer .footerAbout{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footercopyr{
-    margin: 40px;
-    font-weight: 600;
-    font-size: 35px;
-}
-.footerContainer a{
-    padding-top: 5px;
-    text-decoration: none;
-    color: #FFD53D;
-    font-weight: 600;
-}
-.footerAbout a{
-    padding-top: 14px;
-    font-weight: 600;
-    font-size: 21px;
-}
+} */
