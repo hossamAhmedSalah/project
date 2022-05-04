@@ -1,98 +1,3 @@
-*{
-  box-sizing: border-box;
-
-  text-decoration: none;
-  font-family:cursive;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-#logo{
-  margin-left: 10px;
-  
-}
-.header{
-  display: flex;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  background-color: #144da3;
-  color: #FFD53D;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  transition: 0.7s ease;
-  justify-content: flex-start;
-  align-content: stretch;
-  align-items: stretch;
-  
- 
-  
-
-}
-.header a{
-  color: #FFD53D;
-  padding: 20px;
-  font-size: 1.2em;
-}
-.header a:hover{
-color: #fff;
-text-shadow: 2px 2px 8px #FFD53D;
-
-
-}
-.icon-style{
-  font-size: 2em;
-  margin-left: 30px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #ffd53d;
-  border: none;
-  cursor: pointer;
-}
-
-#home{
-  padding-left: 40px;
-}
-/*header drop-menu*/
-.menu{
-
-margin-left: 30px;
-}
-.menu ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-.menu ul li a {
-  text-decoration: none;
-  color: #ffd242;
-  padding: 5px 12px;
-  font-size: 20px;
-  font-weight: 700;
-}
-.menu ul li a:hover {
-  color: white;
-  transition: 0.6s;
-}
-.dropdown-menu {
-  display: none;
-}
-
-.dropdown-menu ul {
-  display: block;
-}
-.dropdown-menu ul li{
-    padding: 8px;
-}
-
-.menu ul li:hover .dropdown-menu {
-  display: block;
-  position: absolute;
-  background-color:#144da3;
-  padding: 15px;
-
-}
 .hero {
   height: 100vh;
   width: 100%;
@@ -109,7 +14,6 @@ margin-left: 30px;
   align-items: center;
   margin: 0 auto;
   padding: 0 5rem;
-  background-color: #97fceb;
 }
 .hero-section .content {
   display: flex;
@@ -117,14 +21,12 @@ margin-left: 30px;
   padding-left: 5rem;
 }
 .hero-section .content h4 {
-  color: #4b4646;
   font-family: 'Inconsolata', monospace;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
 .hero-section .content h1 {
- color: #ff2323;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.3rem;
   margin-bottom: 1rem;
@@ -132,7 +34,6 @@ margin-left: 30px;
 .hero-section .content h1:hover{
   display: grid;
   align-items: center;
-  color: #6d0000;
   font-size: 2.9rem;
   transition: .5s;
 }
@@ -143,24 +44,18 @@ margin-left: 30px;
   margin-top: 5rem;
 }
 
-.span{
-    color: #151b25;
-}
 
 .country-section{
   width: 100%;
   /*margin-top: 3rem;
   margin-bottom: 3rem;*/
-  background-color: #97fceb;
 }
 .country-section p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
 }
 
  .country-section  h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   margin-bottom: .5rem;
@@ -222,13 +117,11 @@ margin-left: 30px;
   flex-direction: column;
 }
 .madrid p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
 }
 
  .madrid h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -251,18 +144,15 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #d7f3ff;
 }
 
 .in-madrid h3{
   margin-top: 2rem;
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .in-madrid p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
   margin-bottom: 1.3rem;
@@ -282,21 +172,18 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #8ccbe5;
 }
 .barcelona div{
   display: flex;
   flex-direction: column;
 }
 .barcelona h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
 .barcelona p {
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
 }
@@ -318,7 +205,6 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #d7f3ff;
 }
 .in-barcelona h3{
   margin-top: 2rem;
@@ -328,7 +214,6 @@ margin-left: 30px;
   margin-bottom: 2rem;
 }
 .in-barcelona p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
   margin-bottom: 1.3rem;
@@ -347,14 +232,12 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #8ccbe5;
 }
 .malaga div{
   display: flex;
   flex-direction: column;
 }
 .malaga h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
@@ -380,7 +263,6 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #d7f3ff;
 }
 .in-malaga h3{
   margin-top: 2rem;
@@ -410,20 +292,17 @@ margin-left: 30px;
   margin: 1  1;
   margin-top: 2rem;
   padding: 0 5rem;
-  background-color: #8ccbe5;
 }
 .garanda div{
   display: flex;
   flex-direction: column;
 }
 .garanda h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .garanda p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
 }
@@ -443,7 +322,6 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #d7f3ff;
 }
 .in-garanda h3{
   margin-top: 2rem;
@@ -472,20 +350,17 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #8ccbe5;
 }
 .seville div{
   display: flex;
   flex-direction: column;
 }
 .seville h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .seville p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
 }
@@ -505,17 +380,14 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #d7f3ff;
 }
 .in-seville h3{
   margin-top: 2rem;
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .in-seville p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
   margin-bottom: 1.3rem;
@@ -534,20 +406,17 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #8ccbe5;
 }
 .canary div{
   display: flex;
   flex-direction: column;
 }
 .canary h3{
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 .canary p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
 }
@@ -567,17 +436,14 @@ margin-left: 30px;
   align-items: center;
   margin: 1  1;
   padding: 0 5rem;
-  background-color: #d7f3ff;
 }
 .in-canary h3{
   margin-top: 3rem;
-  color: #535353;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
   margin-bottom: 2rem;
 }
 .in-canary p{
-  color: #151b25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.4rem;
   margin-bottom: 1.3rem;
