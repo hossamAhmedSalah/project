@@ -46,6 +46,10 @@ body{
     color: white;
 }
 
+.dropdown-menu{
+    background-color: #015088;
+}
+
 .buttons{
     border: 2px solid #ffd242;
 	background-color: var(--second-dark);
