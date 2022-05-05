@@ -1590,8 +1590,9 @@ color:#eeeeee;
 .info2{background-color: #012b49;}
 .info3{background-color: #0c5d97;}
 .info3inner2{color: black;}
-.info4{color: black;}
-.info5{background-color: #fff;}
+.info4{color: white;}
+.info5{background-color: #272a2e;
+color: white;}
 
 .img-cont{
   background-color: #272a2e;
