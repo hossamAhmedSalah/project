@@ -1032,9 +1032,9 @@ footer a:hover{
 .i p{
   color: #eeeeee98;
 }
-section{
+/* section{
   background-color: #272a2e;
-}
+} */
 .player{
   background-color: white;
   box-shadow: 0 50px 80px rgba(0, 0, 0,0.5);

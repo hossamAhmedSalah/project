@@ -985,9 +985,9 @@ body{
 .i h5{
   color:black;
 }
-section{
+/* section{
   background-color: #d2e2ea;
-}
+} */
 .player{
   background-color: white;
   box-shadow: 0 50px 80px rgba(0, 0, 0,0.5);
@@ -1459,3 +1459,7 @@ section{
   background-color: #717171;
 }
 /* end of what */
+
+.details .text h1{
+  color: black;
+}
