@@ -58,6 +58,10 @@ body{
     background-color: #0067B3;
 }
 
+.card p,.card h4{
+  color: black;
+}
+
 .buttons{
     border: 2px solid #ffd242;
     background-color: #0067b2;
@@ -198,6 +202,8 @@ body{
 .card{
     color: white;
 }
+
+
 
 .card a{
     background-color: white;

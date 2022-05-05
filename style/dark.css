@@ -727,7 +727,7 @@ footer a:hover{
   }
   
   .card h4,.card p{
-    color: white;
+    color: black;
   }
   
   .info1 div, .info1 h1{
@@ -1586,3 +1586,13 @@ color:#eeeeee;
 }
 
 /* end of news */
+
+
+.yellow{color: black;}
+.info1{background-color: #0c5d97;}
+.evil{color: black;}
+.info2{background-color: #012b49;}
+.info3{background-color: #0c5d97;}
+.info3inner2{color: black;}
+.info4{color: black;}
+.info5{background-color: #fff;}
