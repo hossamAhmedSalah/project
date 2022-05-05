@@ -81,6 +81,7 @@ function get(){
                 setCookie('pass',getCookie('npass='),30);
                 setCookie('user',getCookie('nuser='),30);
                 document.getElementById("log").style.display='inline';
+                var bttn = document.getElementById("alertbtn");
                 bttn.addEventListener("click",function(){
                     window.location.href='index.html';
                 });
