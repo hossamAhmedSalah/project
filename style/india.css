@@ -1,6 +1,3 @@
-body{
-	line-height: 1.5;
-}
 
 .container{
 	max-width: 1170px;
@@ -47,10 +44,6 @@ ul{
 	color: #ffffff;
 	margin-left: 8px;
 }
-body{
-    margin: 0;
-    padding: 0;
-  }
 
   .slidershow{
     width: 700px;

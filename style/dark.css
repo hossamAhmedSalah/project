@@ -915,6 +915,9 @@ footer a:hover{
 .hotel-cards{
   background-color: #272a2e;
 }
+#main h3{
+  color: white;
+}
 .title-hotel h2{
   color:#eeeeee ;
 }
@@ -1550,3 +1553,36 @@ color:#eeeeee;
 .active, .dot:hover {
   background-color: #717171;
 }
+
+/* news */
+.aboutpresident{
+  color: white;
+  background-color: #272a2e;
+}
+
+.aboutcapital{
+  color: white;
+  background-color: #272a2e;
+}
+.abouthistory{
+  color: white;
+  background-color: #272a2e;
+}
+.abouttemp{
+  color: white;
+  background-color: #272a2e;
+}
+.aboutancient{
+  color: white;
+  background-color: #272a2e;
+}
+.aboutpolitics{
+  color: white;
+  background-color: #272a2e;
+}
+.aboutgovernment{
+  color: white;
+  background-color: #272a2e;
+}
+
+/* end of news */
