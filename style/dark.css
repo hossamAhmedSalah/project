@@ -567,9 +567,7 @@ footer a:hover{
    .country-maindishes-section  h3{
     color: #eff6ff;
   }
-  .main{
-    background-color: #f4fafd;
-}
+
 
 .hero-section {
     background-color: #272a2e;
@@ -779,4 +777,776 @@ footer a:hover{
 }
 #slidertxt{
   color: white;
+}
+
+/* covid */
+
+.accordion {
+  background-color:rgba(114, 110, 110, 0.495);
+  color:#eeeeee;
+}
+
+.active, .accordion:hover {
+  background-color:#01508853;
+}
+
+.accordion:after {
+  color: #777;
+}
+.desc {
+  background-color: rgba(188, 184, 184, 0.732);
+}
+.second h2{
+    color: #eeeeee;
+}
+.second h3{
+    color: #eeeeee;
+}
+.second p{
+    color: #eeeeee;
+}
+.instruct li{
+    color: #eeeeeec7;
+}
+.instruct p{
+    color:#eeeeee85;
+}
+
+.table th{
+  background-color:#e1c66c;
+}
+.table td{
+  color: #eee;
+  background-color:#358ac6;
+}
+.table table,th,td{
+  border: 5px solid black;
+}
+.table th,td{
+  border: 2px solid black;
+}
+.table caption{
+  color:#eeeeee ;
+  background-color: #272a2e;
+  
+}
+/* end of covid */
+
+/* turkey */
+
+.text h2{
+  color:#66a6d1;
+}
+.text h4{
+  color: #eeeeee;
+}
+.main-btn{
+  color: #FFD53D;
+  background-color: #015088;
+}
+.cards{
+  background-color: #272a2e;
+}
+.title h2{
+  color:#eeeeee ;
+}
+.title h3{
+  color: #eeeeee98;
+}
+.row{
+  background-color: #272a2e;
+}
+.image{
+  background-color: #8ccbe5;
+}
+.image .info{
+  color: #fff;
+}
+.more{
+  background-color: rgba(75, 72, 72, 0.84);
+}
+
+.more .know-more{
+  color: #eeeeee;
+}
+.card-food{
+  background-color: #272a2e;
+}
+.title-food h2{
+  color: #eeeeee;
+}
+.title-food h4{
+  color: #eeeeee98;
+}
+.title-food p{
+  color: #eeeeee73;
+}
+.read{
+  color: #FFD53D;
+  background-color: #015088;
+}
+.contentr{
+  background-color: #272a2e;
+}
+.image-food{
+  background-color: #8ccbe5;
+}
+.image-food .details{
+  color:#fff;
+}
+.video-cards{
+  background-color: #272a2e;
+}
+.video-title h2{
+  color:#eeeeee ;
+}
+.video-title h4{
+  color: #eeeeee98;
+}
+.content-v{
+  background-color: #272a2e;
+}
+.video{
+  border-color: #0067B3;
+}
+.video .text{
+  color:#fff;
+}
+.hotel-cards{
+  background-color: #272a2e;
+}
+.title-hotel h2{
+  color:#eeeeee ;
+}
+.title-hotel h3{
+  color: #eeeeee98;
+}
+.see{
+  color: #FFD53D;
+  background-color: #015088;
+}
+.square{
+  background-color: #272a2e;
+}
+.image-hotel{
+  background-color: #8ccbe5;
+  box-shadow: 0px 5px 25px rgba(1 1 1 /50%);
+}
+.image-hotel .name{
+  color:white;
+}
+.title-information{
+  background-color: #272a2e;
+}
+.title-information h2{
+  color:#eeeeee ;
+}
+.inform{
+  background-color: rgba(87, 81, 84, 0.689);
+}
+.a h1{
+  color:#66a6d1;   
+}
+.a h5{
+  color:#eeeeee;
+}
+.a p{
+  color: #eeeeee98;
+}
+
+.b h5{
+  color:#eeeeee;
+}
+.b p{
+  color: #eeeeee98;
+}
+.c h5{
+  color:#eeeeee;
+}
+.c p{
+  color: #eeeeee98;
+}
+.d h1{
+  color:#66a6d1;
+}
+.d h5{
+  color:#eeeeee;
+}
+.d p{
+ color: #eeeeee98;
+}
+.inform-2{
+  background-color:rgba(87, 81, 84, 0.689) ;
+}
+.e h5{
+  color:#eeeeee;
+}
+.e p{
+  color: #eeeeee98;
+}
+.inform-3{
+  background-color: rgba(87, 81, 84, 0.689);
+}
+.f h1{
+  color:#66a6d1;
+}
+
+.f h5{
+  color:#eeeeee;
+}
+.f p{
+  color: #eeeeee98;
+}
+.g h5{
+  color:#eeeeee;
+}
+.g p{
+  color: #eeeeee98;
+}
+.inform-4{
+  background-color: rgba(87, 81, 84, 0.689);
+}
+.h h1{
+  color:#66a6d1;
+}
+
+.h h5{
+  color:#eeeeee;
+}
+.h p{
+  color: #eeeeee98;
+}
+.inform-5{
+  background-color: rgba(87, 81, 84, 0.689);
+}
+.i h1{
+  color:#66a6d1;
+}
+
+.i h5{
+  color:#eeeeee;
+}
+.i p{
+  color: #eeeeee98;
+}
+section{
+  background-color: #272a2e;
+}
+.player{
+  background-color: white;
+  box-shadow: 0 50px 80px rgba(0, 0, 0,0.5);
+}
+
+.audio p{
+  color:#eeeeee ;
+}
+.table table,th,td{
+  border: 5px solid #66a6d1;
+}
+.table caption{
+  color:#eeeeee ;
+}
+.table td{
+  color: #eeeeee;
+}
+.table tr:nth-child(odd){
+  background: #fed53d;
+  
+}
+/* end of turkey */
+
+/* italy */
+
+
+.parent{
+  background-color: #fff;
+  
+}
+
+
+.main h2 {
+   color:#002fb0;
+
+}
+.main h2 span  {
+  color:rgba(255, 120, 102, 0.986);
+
+}
+.main-btn{
+  color:#FFD53D;
+   background-color: #015088;
+
+
+}
+.main-btn:hover {
+  background-color: #002fb0;
+ 
+}
+body {
+ background-color: #272a2e;
+   
+   
+}
+
+.special-heading {
+   color:#eeeeee;
+}
+.card{
+   background-color: #fff;
+ 
+   box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+   
+   
+}
+.host p{
+   color:#99aab5;
+}
+
+
+
+.title h2{
+   color:#eeeeee;
+ 
+}
+.title p{
+   color: #eeeeee;
+}
+.btn-food{
+  color:#FFD53D;
+   background-color: #015088;
+  
+
+}
+.btn-food:hover {
+   background-color: #002fb0;
+
+}
+
+
+
+.food .image-food{
+  
+  
+   box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+   
+   background-color: #fff;
+   
+}
+
+   
+
+
+
+
+
+.colo h1{
+   
+
+  
+  color:#eeeeee;
+  
+
+}
+
+.omg{
+   background: #50A7FF;
+  
+   
+   
+
+}
+
+
+.omg .details{
+ 
+   color:#fff;
+
+
+}
+
+.read-more{
+
+   background-color: #f6f6f6;
+  
+}
+
+.bi h1{
+  color:#eeeeee;
+  
+
+}
+.bi p{
+  
+   color:#eeeeee;
+  
+}
+.one{
+  
+   background-color:#ffdbac;
+  
+}
+
+.text-1 h1{
+   color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+   
+   
+}
+.text-1 h5{
+  
+   color:#002fb0;
+   
+}
+
+
+.text-2 h5{
+  
+   color:#002fb0;
+  
+}
+
+
+.text-3 h5{
+  
+   color:#002fb0;
+  
+}
+
+
+.two{
+  
+   background-color: #99aab5 ;
+  
+}
+
+.text2-1 h1{
+  color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text2-1 h5{
+  
+   color:#002fb0;
+   
+}
+
+
+
+.text2-2 h5{
+
+  color:#002fb0;
+   
+}
+
+.text2-3 h5{
+   
+   color:#002fb0;
+   
+}
+
+.three{
+  
+   background-color: #8b9dc3 ;
+  
+}
+
+.text3-1 h1{
+   color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+   
+   
+}
+.text3-1 h5{
+   
+   color:#002fb0;
+  
+}
+
+
+
+.text3-2 h5{
+ 
+   color:#002fb0;
+  
+}
+
+
+.text3-3 h5{
+  
+   color:#002fb0;
+ 
+}
+
+
+.four{
+   
+   background-color:#c0c5ce;
+
+}
+
+.text4-1 h1{
+   color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+  
+   
+}
+.text4-1 h5{
+
+   color:#002fb0;
+  
+}
+
+
+.text4-2 h5{
+
+   color:#002fb0;
+   
+}
+
+
+.text4-3 h5{
+   
+   color:#002fb0;
+   
+}
+.finally h1{
+   color: #eeeeee;
+}
+.texto h3{
+color:#eeeeee;
+}
+
+.player{
+  
+   background: #f1f3f4;
+
+   box-shadow: 0 5px 80px #000;
+  
+  
+   
+}
+ /* end of italy */
+
+/* what */
+.ones1{
+  color:#eeeeee;
+}
+
+
+.two{
+  
+  background-color: #99aab567 ;
+ 
+}
+
+.text2-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ ;
+  
+}
+.text2-1 p{
+ 
+  color:#eeeeee;
+ 
+}
+.ones caption{
+  color:#eeeeee;
+}
+.ones tr ,td p{
+  color:#eeeeee;
+}
+.ones th, td{
+  border: 5px solid #000;
+ 
+  
+}
+
+.ones tr:nth-child(even){
+  background-color: #e35d6a;
+}
+.fifty caption{
+  color:#eeeeee;
+}
+.fifty tr,td p{
+  color: #eeeeee;
+}
+.three{
+
+  background-color:#c0c5ce8e ;
+ 
+}
+
+
+.text3-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text3-1 p{
+ 
+  color:#eeeeee;
+  
+}
+
+
+
+
+.fifty table, th, td{
+  border:1px solid #000;
+  
+
+}
+.fifty th, td{
+  border: 5px solid #000;
+  
+}
+
+
+.fifty tr:nth-child(odd){
+  background-color:#36802d;
+}
+
+
+.four{
+ 
+  background-color:#77ab59 ;
+  
+}
+
+
+.text4-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+
+}
+.text4-1 p{
+ 
+  color:#eeeeee;
+ 
+}
+
+
+
+.fourty th, td{
+  border: 5px double #000 ;
+  
+
+}
+
+.fourty tr:nth-child(even) {
+  background-color: #272a2e;
+}
+.fourty tr:nth-child(odd) { 
+  background:#234d20;
+}
+.fourty caption{
+  color:#eeeeee;
+}
+.fourty  tr,td p{
+  color:#eeeeee;
+}
+
+.five{
+  
+  background-color:#ffa9a59d;
+  
+}
+
+.text5-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text5-1 p{
+  
+  color:#eeeeee;
+ 
+}
+
+.fourty th, td{
+  border: 5px solid #000 ;
+
+  
+
+}
+.seventy caption{
+  color: #eeeeee;
+}
+.seventy tr,th p{
+  color:#eeeeee;
+}
+.seventy tr:nth-child(even) {
+  background-color: #272a2e;
+}
+.seventy tr:nth-child(odd) { 
+  background:	#9e379f;
+}
+
+.six{
+  
+  background-color:#83d0ca77;
+
+}
+
+
+
+.text6-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text6-1 p{
+
+  color:#eeeeee;
+  
+}
+
+
+.sixty tr:nth-child(even) {
+  background-color: #272a2e;
+}
+.sixty tr:nth-child(odd) { 
+  background:	#009246;
+}
+.sixty caption{
+  color:#eeeeee;
+}
+.sixty tr,td p{
+  color:#eeeeee;
+}
+.eight h1{
+  align-items: center;
+  font-size: 60px;
+  color:#eeeeee;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ 
+  color: white;
+ 
+}
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+ 
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ 
+  background-color: #bbb;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
 }

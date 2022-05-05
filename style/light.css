@@ -786,3 +786,670 @@ body{
       .in-canary p{
         color: #151b25;
       }
+
+/* covid */
+.accordion {
+  background-color:#eee;
+  color:black;
+}
+
+.active, .accordion:hover {
+  background-color:#0068b289;
+}
+
+.accordion:after {
+  color: #777;
+}
+.desc {
+  background-color: white;
+}
+.instruct p{
+    color: rgba(0, 0, 0, 0.567);
+}
+
+.table th{
+  background-color:#e1c66c;
+}
+.table td{
+  color: #eee;
+  background-color:#358ac6;
+}
+.table table,th,td{
+  border: 5px solid black;
+}
+.table th,td{
+  border: 2px solid black;
+}
+.table caption{
+  color:black ;
+  background-color: #d1e2ea;
+  
+}
+/* end of covid */
+
+/* turkey */
+.text h2{
+  color:#0b588b;
+}
+.text h4{
+  color: #5ab3da;
+}
+.main-btn{
+  color: #FFD53D;
+  background-color: #0067B3;
+}
+.cards{
+  background-color: #d2e2ea;
+}
+.title h2{
+  color:#0b588b ;
+}
+.row{
+  background-color: #d2e2ea;
+}
+.image{
+  background-color: #8ccbe5;
+}
+.image .info{
+  color: #fff;
+}
+.more{
+  background-color: rgba(255,255,255,0.8);
+}
+
+.more .know-more{
+  color: #0b588b;
+}
+.card-food{
+  background-color: #d2e2ea;
+}
+.read{
+  color: #FFD53D;
+  background-color: #0067B3;
+}
+.contentr{
+  background-color: #d2e2ea;
+}
+.image-food{
+  background-color: #8ccbe5;
+}
+.image-food .details{
+  color:#fff;
+}
+.video-cards{
+  background-color: #d2e2ea;
+}
+.video-title h2{
+  color:#0b588b ;
+}
+.content-v{
+  background-color: #d2e2ea;
+}
+.video{
+  border-color: #0067B3;
+}
+.video .text{
+  color:#fff;
+}
+.hotel-cards{
+  background-color: #d2e2ea;
+}
+.title-hotel h2{
+  color:#0b588b ;
+}
+.see{
+  color: #FFD53D;
+  background-color: #0067B3;
+}
+.square{
+  background-color: #d2e2ea;
+}
+.image-hotel{
+  background-color: #8ccbe5;
+  box-shadow: 0px 5px 25px rgba(1 1 1 /50%);
+}
+.image-hotel .name{
+  color:white;
+}
+.title-information{
+  background-color: #d2e2ea;
+}
+.title-information h2{
+  color:#0b588b ;
+}
+.inform{
+  background-color: #fff;
+}
+.a h1{
+  color:#0b588b;   
+}
+.a h5{
+  color:black;
+}
+
+.b h5{
+  color:black;
+}
+.c h5{
+  color:black;
+}
+.d h1{
+  color:#0b588b;
+}
+.d h5{
+  color:black;
+}
+.inform-2{
+  background-color: #fff;
+}
+.e h5{
+  color:black;
+}
+.inform-3{
+  background-color: #fff;
+}
+.f h1{
+  color:#0b588b;
+}
+
+.f h5{
+  color:black;
+}
+
+.g h5{
+  color:black;
+}
+.inform-4{
+  background-color: #fff;
+}
+.h h1{
+  color:#0b588b;
+}
+
+.h h5{
+  color:black;
+}
+.inform-5{
+  background-color: #fff;
+}
+.i h1{
+  color:#0b588b;
+}
+
+.i h5{
+  color:black;
+}
+section{
+  background-color: #d2e2ea;
+}
+.player{
+  background-color: white;
+  box-shadow: 0 50px 80px rgba(0, 0, 0,0.5);
+}
+
+.audio p{
+  color:#0b588b ;
+}
+.table table,th,td{
+  border: 5px solid #0b588b;
+}
+.table caption{
+  color:black ;
+}
+.table tr:nth-child(odd){
+  background: #fed53d;
+}
+/* end of turkey */
+
+
+
+/* italy */
+
+
+.parent{
+  background-color: #eee;
+  
+}
+
+
+.main h2 {
+   color:#3d5aff;
+
+}
+.main h2 span  {
+  color:rgba(255, 120, 102, 0.986);
+
+}
+.main-btn{
+  color:#FFD53D;
+   background-color: #0067B3;
+
+
+}
+.main-btn:hover {
+  background-color: #002fb0;
+ 
+}
+
+
+.special-heading {
+   color:#ebecebc0;
+}
+.card{
+   background-color: #fff;
+ 
+   box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+   
+   
+}
+
+
+
+
+.title h2{
+   color:#002fb0;
+ 
+}
+.btn-food{
+  color:#FFD53D;
+   background-color: #0067B3;
+  
+
+}
+.btn-food:hover {
+   background-color: #002fb0;
+
+}
+
+
+
+.food .image-food{
+  
+  
+   box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
+   
+   background-color: #fff;
+   
+}
+
+   
+
+
+
+
+
+.colo h1{
+   
+
+  
+  color:#002fb0;
+  
+
+}
+
+.omg{
+   background: #50A7FF;
+  
+   
+   
+
+}
+
+
+.omg .details{
+ 
+   color:#fff;
+
+
+}
+
+.read-more{
+
+   background-color: #f6f6f6;
+  
+}
+
+.bi h1{
+  color:#002fb0;
+  
+
+}
+.bi p{
+  
+   color:#002fb0;
+  
+}
+.one{
+  
+   background-color:#ffdbac;
+  
+}
+
+.text-1 h1{
+   color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+   
+   
+}
+.text-1 h5{
+  
+   color:#002fb0;
+   
+}
+
+
+.text-2 h5{
+  
+   color:#002fb0;
+  
+}
+
+
+.text-3 h5{
+  
+   color:#002fb0;
+  
+}
+
+
+.two{
+  
+   background-color: #99aab5 ;
+  
+}
+
+.text2-1 h1{
+  color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text2-1 h5{
+  
+   color:#002fb0;
+   
+}
+
+
+
+.text2-2 h5{
+
+  color:#002fb0;
+   
+}
+
+.text2-3 h5{
+   
+   color:#002fb0;
+   
+}
+
+.three{
+  
+   background-color: #8b9dc3 ;
+  
+}
+
+.text3-1 h1{
+   color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+   
+   
+}
+.text3-1 h5{
+   
+   color:#002fb0;
+  
+}
+
+
+
+.text3-2 h5{
+ 
+   color:#002fb0;
+  
+}
+
+
+.text3-3 h5{
+  
+   color:#002fb0;
+ 
+}
+
+
+.four{
+   
+   background-color:#c0c5ce;
+
+}
+
+.text4-1 h1{
+   color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+  
+   
+}
+.text4-1 h5{
+
+   color:#002fb0;
+  
+}
+
+
+.text4-2 h5{
+
+   color:#002fb0;
+   
+}
+
+
+.text4-3 h5{
+   
+   color:#002fb0;
+   
+}
+
+.player{
+  
+   background: #f1f3f4;
+
+   box-shadow: 0 5px 80px #000;
+  
+  
+   
+}
+
+/* end of italy */
+
+/* what */
+
+.two{
+    
+  background-color: #99aab5 ;
+ 
+}
+
+.text2-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+  
+}
+.text2-1 p{
+ 
+  color:#002fb0;
+ 
+}
+
+
+.ones th, td{
+  border: 5px solid #000;
+  
+}
+
+.ones tr:nth-child(even){
+  background-color: #ffaaa5;
+}
+
+.three{
+
+  background-color:#c0c5ce ;
+ 
+}
+
+
+.text3-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text3-1 p{
+ 
+  color:#002fb0;
+  
+}
+
+
+
+
+.fifty table, th, td{
+  border:1px solid #000;
+  
+
+}
+.fifty th, td{
+  border: 5px solid #000;
+  
+}
+
+.fifty tr:nth-child(odd){
+  background-color:	#a8e6cf;
+}
+
+
+.four{
+ 
+  background-color:#d2e7d6 ;
+  
+}
+
+
+.text4-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+
+}
+.text4-1 p{
+ 
+  color:#002fb0;
+ 
+}
+
+
+
+.fourty th, td{
+  border: 5px double #000 ;
+  
+
+}
+
+.fourty tr:nth-child(even) {
+  background-color: #d1e2ea;
+}
+.fourty tr:nth-child(odd) { 
+  background:palegreen;
+}
+
+.five{
+  
+  background-color:#ffaaa5;
+  
+}
+
+.text5-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text5-1 p{
+  
+  color:#002fb0;
+ 
+}
+
+
+.fourty th, td{
+  border: 5px solid #000 ;
+
+  
+
+}
+
+.seventy tr:nth-child(even) {
+  background-color: #d1e2ea;
+}
+.seventy tr:nth-child(odd) { 
+  background:	#e86af0;
+}
+
+.six{
+  
+  background-color:#83d0c9;
+
+}
+
+
+
+.text6-1 h1{
+ color:linear-gradient(to bottom, #000066 0%, #66ccff 100%);
+ 
+}
+.text6-1 p{
+
+  color:#002fb0;
+  
+}
+
+
+.sixty tr:nth-child(even) {
+  background-color: #d1e2ea;
+}
+.sixty tr:nth-child(odd) { 
+  background:	#b8d8be;
+}
+
+.eight h1{
+  align-items: center;
+  font-size: 60px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ 
+  color: white;
+ 
+}
+
+/* Position the "next button" to the right */
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+ 
+}
+
+/* The dots/bullets/indicators */
+.dot {
+ 
+  background-color: #bbb;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* end of what */

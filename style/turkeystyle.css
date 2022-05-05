@@ -1,66 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Heebo:wght@400;500;600;700;800;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oleo+Script:wght@700&family=Pacifico&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Heebo', sans-serif;
-}
-body{
-    background-color:#d2e2ea;
-}
-.navbar{
-	width: 100%;
-	height: 80px;
-	background-color: #0067b2;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	color: #ffd242;
-}
-h1{
-    font-size: 50px;
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-}
-.menu ul{
-	display: flex;
-	align-items: center;
-    list-style: none;
-}
-.menu ul li a{
-	text-decoration: none;
-	color: #ffd242;
-	padding: 5px 12px;
-	letter-spacing: 2px;
-	font-size: 20px;
-    font-weight: 700;
-}
-.menu ul li a:hover{
-	transition: 0.4s;
-    color: white;
-} 
-.buttons button{
-	text-decoration: none;
-	color: #000;
-	font-size: 14px;
-	font-weight: bold;
-	border-radius: 12px;
-	padding: 12px 15px;
-	border: 2px solid #ffd242;
-    background-color: #0067b2;
-    color: #ffd242;
-}
-.buttons button:hover{
-	border: 2px solid #0067b2;
-    background-color: #ffd242;
-    color: #0067b2;
-	transition: 0.6s;
-}
 section{
     padding: 100px;
    
@@ -70,7 +7,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items:center;
-     background-color: #d2e2ea;
+    /* background-color: #d2e2ea;*/
 }
 .main video{
     position: absolute;
@@ -91,18 +28,18 @@ section{
     padding-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    color:#0b588b;
+   /* color:#0b588b;*/
     font-size: 2em;
     font-weight: 600;
 }
 .text h4{
-    color: #5ab3da;
+   /* color: #5ab3da;*/
     font-size: 1.4em;
     font-weight: 500;
 }
 .main-btn{
-    color: #FFD53D;
-    background-color: #0067B3;
+    /*color: #FFD53D;
+    background-color: #0067B3;*/
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -114,13 +51,13 @@ section{
 .main-btn:hover{
     transform: scale(1.1);
 }
-.cards{
+/*.cards{
     background-color: #d2e2ea;
-}
+}*/
 .title h2{
     display: flex;
     /*justify-content: center;*/
-    color:#0b588b ;
+   /* color:#0b588b ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:30px ;
@@ -134,7 +71,7 @@ section{
     font-size: 35px;
 }
 .row{
-    background-color: #d2e2ea;
+   /* background-color: #d2e2ea;*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -142,7 +79,7 @@ section{
     flex-direction: row;
 }
 .image{
-    background-color: #8ccbe5;
+   /* background-color: #8ccbe5;*/
     position: relative;
     flex: 1;
    max-width: 460px;
@@ -166,7 +103,7 @@ section{
     position: absolute;
     top:0;
     right: 0;
-    color: #fff;
+   /* color: #fff;*/
     width: 100%;
     height: 100%;
 }
@@ -184,7 +121,7 @@ section{
 }
 .more{
     position: absolute;
-    background-color: rgba(255,255,255,0.8);
+    /*background-color: rgba(255,255,255,0.8);*/
     width: 100%;
     display: flex;
     justify-content:space-between;
@@ -206,13 +143,13 @@ section{
     text-transform: uppercase;
 
 }
-.card-food{
+/*.card-food{
     background-color: #d2e2ea;
-}
+}*/
 .title-food h2{
     display: flex;
     /*justify-content: center;*/
-    color:#0b588b ;
+   /* color:#0b588b ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:30px ;
@@ -226,8 +163,8 @@ section{
     margin-bottom: 10px;
 }
 .read{
-    color: #FFD53D;
-    background-color: #0067B3;
+   /* color: #FFD53D;
+    background-color: #0067B3;*/
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 400;
@@ -239,8 +176,8 @@ section{
 .read:hover{
     transform: scale(1.1);
 }
-.content{
-    background-color: #d2e2ea;
+.contentr{
+    /*background-color: #d2e2ea;*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -248,7 +185,7 @@ section{
     flex-direction: row;
 }
 .image-food{
-    background-color: #8ccbe5;
+   /* background-color: #8ccbe5;*/
     position: relative;
     flex: 1;
    max-width: 375px;
@@ -263,7 +200,7 @@ section{
     position: absolute;
     bottom:0;
     right: 0;
-    color:#fff;
+    /*color:#fff;*/
     width: 100%;
     height: 100%;
 }
@@ -274,13 +211,13 @@ section{
     font-weight: 600;
     margin-top: 400px;
 }
-.video-cards{
+/*.video-cards{
     background-color: #d2e2ea;
-}
+}*/
 .video-title h2{
     display: flex;
     /*justify-content: center;*/
-    color:#0b588b ;
+    /*color:#0b588b ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:30px ;
@@ -291,7 +228,7 @@ section{
     font-size: 25px;
 }
 .content-v{
-    background-color: #d2e2ea;
+    /*background-color: #d2e2ea;*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -301,8 +238,8 @@ section{
 }
 .video{
     border-style: solid;
-    border-color: #0067B3;
-    background-color:rgba(189, 180, 208, 0.345);
+    /*border-color: #0067B3;*/
+   /* background-color:rgba(189, 180, 208, 0.345);*/
     position: relative;
     flex: 1;
    max-width: 300px;
@@ -321,7 +258,7 @@ section{
     position: absolute;
     top:0;
     right: 0;
-    color:#fff;
+   /* color:#fff;*/
     width: 100%;
     height: 100%;
 }
@@ -337,13 +274,13 @@ section{
     opacity: 1;
     transform: translateY(-40px);
 }
-.hotel-cards{
+/*.hotel-cards{
     background-color: #d2e2ea;
-}
+}*/
 .title-hotel h2{
     display: flex;
     /*justify-content: center;*/
-    color:#0b588b ;
+    /*color:#0b588b ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:20px ;
@@ -355,8 +292,8 @@ section{
     font-size: 25px;
 }
 .see{
-    color: #FFD53D;
-    background-color: #0067B3;
+   /* color: #FFD53D;
+    background-color: #0067B3;*/
     font-size: 1.1em;
     font-weight: 400;
     display: inline-block;
@@ -370,7 +307,7 @@ section{
     transform: scale(1.1);
 }
 .square{
-    background-color: #d2e2ea;
+    /*background-color: #d2e2ea;*/
     width: 100%;
     display: flex;
     justify-content: center;
@@ -378,14 +315,14 @@ section{
     flex-direction: row;
 }
 .image-hotel{
-    background-color: #8ccbe5;
+   /* background-color: #8ccbe5;*/
     position: relative;
     flex: 1;
    width: 800px;
     height: 400px;
     margin: 20px;
     overflow: hidden;
-    box-shadow: 0px 5px 25px rgba(1 1 1 /50%);
+   /* box-shadow: 0px 5px 25px rgba(1 1 1 /50%);*/
     border-radius: 10px;
 }
 .image-hotel img{
@@ -405,7 +342,7 @@ section{
     position: absolute;
     bottom:0;
     right: 0;
-    color:white;
+    /*color:white;*/
     width: 100%;
     height: 100%;
 }
@@ -418,13 +355,13 @@ section{
     
 }
  .title-information{
-    background-color: #d2e2ea;
+   /* background-color: #d2e2ea;*/
     padding: 20px 70px;
 }
 .title-information h2{
     display: flex;
     /*justify-content: center;*/
-    color:#0b588b ;
+    /*color:#0b588b ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:0px ;
@@ -435,7 +372,7 @@ section{
 .inform{
     width:90%;
     padding: 78px 0px;
-    background-color: #fff;
+   /* background-color: #fff;*/
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -458,7 +395,7 @@ section{
     justify-content: space-around;
 }
 .a h1{
-    color:#0b588b;
+    /*color:#0b588b;*/
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -467,7 +404,7 @@ section{
 .a h5{
     font-style:oblique;
    /* font-family: palatino;*/
-    color:black;
+   /* color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -496,7 +433,7 @@ section{
 .b h5{
     font-style:oblique;
    /* font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -525,7 +462,7 @@ section{
 .c h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+   /* color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -534,7 +471,7 @@ section{
     font-size: 20px;
 }
 .d h1{
-    color:#0b588b;
+   /* color:#0b588b;*/
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -562,7 +499,7 @@ section{
 .d h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -573,7 +510,7 @@ section{
 .inform-2{
     width:90%;
     padding: 78px 0px;
-    background-color: #fff;
+   /* background-color: #fff;*/
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -599,7 +536,7 @@ section{
 .e h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -610,13 +547,13 @@ section{
 .inform-3{
     width:90%;
     padding: 78px 0px;
-    background-color: #fff;
+   /* background-color: #fff;*/
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .f h1{
-    color:#0b588b;
+    /*color:#0b588b;*/
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -644,7 +581,7 @@ section{
 .f h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -673,7 +610,7 @@ section{
 .g h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -684,13 +621,13 @@ section{
 .inform-4{
     width:90%;
     padding: 78px 0px;
-    background-color: #fff;
+   /* background-color: #fff;*/
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .h h1{
-    color:#0b588b;
+   /* color:#0b588b;*/
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -718,7 +655,7 @@ section{
 .h h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -729,13 +666,13 @@ section{
 .inform-5{
     width:90%;
     padding: 78px 0px;
-    background-color: #fff;
+    /*background-color: #fff;*/
     margin-left: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .i h1{
-    color:#0b588b;
+    /*color:#0b588b;*/
     font-size: 50px;
     font-weight: 700;
     letter-spacing: -2px;
@@ -763,7 +700,7 @@ section{
 .i h5{
     font-style:oblique;
     /*font-family: palatino;*/
-    color:black;
+    /*color:black;*/
     font-size: 50px;
     font-weight: 500;
     letter-spacing: -2px;
@@ -771,15 +708,15 @@ section{
 .i p{
     font-size: 20px;
 }
-section{
+/*section{
     background-color: #d2e2ea;
-}
+}*/
 .player{
-    background-color: white;
+   /* background-color: white;*/
     position: relative;
     width: 300px;
     border-radius: 20px ;
-    box-shadow: 0 50px 80px rgba(0, 0, 0,0.5);
+    /*box-shadow: 0 50px 80px rgba(0, 0, 0,0.5);*/
     margin-left: 1000px;
     
 }
@@ -805,7 +742,7 @@ section{
 .audio p{
     display: flex;
     /*justify-content: center;*/
-    color:#0b588b ;
+   /* color:#0b588b ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:0px ;
@@ -823,14 +760,14 @@ section{
     text-align: left;
 }
 .table table,th,td{
-    border: 5px solid #0b588b;
+   /* border: 5px solid #0b588b;*/
     border-collapse: collapse;
     padding: 3px;
     border-radius: 10px;
 }
 .table th,td{
    /* border: 5px solid rgb(154, 48, 48);*/
-   border: none;
+    border: none;
     border-collapse: collapse;
     padding: 5px;
     border-radius: 15px;
@@ -838,64 +775,11 @@ section{
 .table caption{
     display: flex;
     /*justify-content: center;*/
-    color:black ;
+    /*color:black ;*/
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom:0px ;
     /*font-family:palatino;*/
     font-style: oblique;
     margin-left: 30px;
-}
-.table tr:nth-child(odd){
-    background: #fed53d;
-}
-footer{
-    margin-top: 40px;
-    background-color: #0067b2;
-    padding-bottom: 80px;
-    border: 1px solid black;
-}
-.footerContainer{
-    width: 100%;
-    height: 350px;
-    color: #fed53d;
-    display: flex;
-    justify-content: space-between;
-}
-.footerContainer .footerTeam{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footerTeam h3{
-    margin-bottom: 30px;
-}
-
-.footerContainer .footerAbout{
-    flex-direction: column;
-    display: flex;
-    margin: 40px;
-}
-.footerContainer .footercopyr{
-    margin: 40px;
-    font-weight: 600;
-    font-size: 35px;
-}
-.footerContainer a{
-    padding-top: 5px;
-    text-decoration: none;
-    color: #fed53d;
-    font-weight: 600;
-}
-.footerAbout a{
-    padding-top: 14px;
-    font-weight: 600;
-    font-size: 21px;
-}
-.fa-brands{
-    padding: 10px;
-}
-
-.content div{
-    background-color: rgba(255, 255, 255, 0);
 }
