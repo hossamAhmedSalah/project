@@ -1463,3 +1463,7 @@ body{
 .details .text h1{
   color: black;
 }
+
+.img-cont{
+  background-color: #fff;
+}
