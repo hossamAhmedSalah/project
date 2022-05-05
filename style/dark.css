@@ -1085,16 +1085,12 @@ section{
   background-color: #002fb0;
  
 }
-body {
- background-color: #272a2e;
-   
-   
-}
+
 
 .special-heading {
    color:#eeeeee;
 }
-.card{
+.cardi{
    background-color: #fff;
  
    box-shadow: 0 5px 25px rgba(1 1 1 / 50%);

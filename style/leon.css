@@ -76,7 +76,7 @@ section{
     flex-wrap: wrap;
 
 }
-.card{
+.cardi{
    /* background-color: #fff;*/
     width:21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 50%);
@@ -94,7 +94,7 @@ section{
     width:200px;
     height: 500px;
 }
-.card:hover{
+.cardi:hover{
     transform: scale(1.1);
     
 }
