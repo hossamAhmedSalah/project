@@ -301,3 +301,9 @@ input{
     margin-right: 19px;
     background-color: rgba(181, 197, 191, 0.658);
 }
+
+#floaty:hover{
+    transform: scale(1.15);
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+}

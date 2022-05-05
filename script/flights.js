@@ -156,7 +156,7 @@ function meow(){
         $divclone.find("#aclass").html($("#clselect").val());
 
         $divclone.attr("style", "fading 0.4s");
-        $("#results").append($divclone).fadeIn(600);
+        $("#results").append($divclone);
     }
     
 }
