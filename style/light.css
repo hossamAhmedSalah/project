@@ -644,9 +644,6 @@ body{
         background-color: #f4fafd;
     }
 
-    .hero-section {
-        background-color: #97fceb;
-      }
       .hero-section .content h4 {
         color: #4b4646;
       }
@@ -1474,4 +1471,8 @@ section.main{
 
 .container1{
   background-color: #d1e2ea;
+}
+
+div.art1,h2.activites{
+  background-color: white;
 }
