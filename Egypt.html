@@ -652,13 +652,93 @@
                 <h3 id="userName"></h3>
                 <img src="images/userGray.jfif" alt="profile deafult" id="imagc">
             </div>
-            <div class="stars">
+           <div class="stars">
                     
-                  <input type="radio" id="star1"><label for="star1"></label>
-                  <input type="radio" id="star2"><label for="star2"></label>
-                  <input type="radio" id="star3"><label for="star3"></label>
-                  <input type="radio" id="star4"><label for="star4"></label>
-                  <input type="radio" id="star5"><label for="star5"></label>
+                  <input type="radio" id="star1" class="starrs" onclick="rateME5()" ><label for="star1"></label>
+                  <input type="radio" id="star2" class="starrs" onclick="rateME4()" ><label for="star2"></label>
+                  <input type="radio" id="star3" class="starrs" onclick="rateME3()"  ><label for="star3"></label>
+                  <input type="radio" id="star4" class="starrs" onclick="rateME2()"><label for="star4"></label>
+                  <input type="radio" id="star5" class="starrs" onclick="rateME1()"><label for="star5"></label>
+                  <h3 id="rateStar">your rate⭐</h3>
+                  <script>
+                      const starrs = document.querySelectorAll(".starrs");
+                      const rateStar = document.querySelector("#rateStar");
+                      const oneStar = localStorage.setItem("oneStar","1⭐");
+                     const twoStar = localStorage.setItem("twoStar","2⭐⭐");
+                     const threeStar = localStorage.setItem("threeStar","3⭐⭐⭐");
+                     const fourStar = localStorage.setItem("fourStar","4⭐⭐⭐⭐");
+                     const fiveStar = localStorage.setItem("fiveStar","5⭐⭐⭐⭐⭐");
+                     var choice1 = 0 ;
+                     let choice2 = 0 ;
+                     let choice3 = 0 ;
+                     let choice4 = 0 ;
+                     let choice5 = 0 ;
+
+                      console.log(starrs);
+                      window.addEventListener('load', ()=>{
+                     
+                    
+                        
+                      rateStar.innerHTML = localStorage.getItem("fiveStar");
+                    
+                    /* function select1(){
+                        rateStar.innerHTML = localStorage.getItem("oneStar");
+                     };
+                     function select2(){
+                        rateStar.innerHTML = localStorage.getItem("twoStar");
+                     };
+                     function select3(){
+                        rateStar.innerHTML = localStorage.getItem("threeStar");
+                     };
+                     function select4(){
+                        rateStar.innerHTML = localStorage.getItem("fourStar");
+                     };
+                     function select5(){
+                        rateStar.innerHTML = localStorage.getItem("fiveStar");
+                     };
+                    */
+
+                     
+                    
+                     
+                      
+                     
+                     
+                     
+                   
+                  });
+                    
+                      function rateME5(){
+                       
+                         rateStar.innerHTML = '5⭐⭐⭐⭐⭐';
+                        
+
+                       // rateStar.innerHTML = localStorage.getItem("oneStar");
+                      };
+                      function rateME4(){
+                       
+                        rateStar.innerHTML = '4⭐⭐⭐⭐';
+                     //   rateStar.innerHTML = localStorage.getItem("twoStar");
+                      };
+                      function rateME3(){
+                       
+                         rateStar.innerHTML = '3⭐⭐⭐';
+                        // rateStar.innerHTML = localStorage.getItem("threeStar");
+                      };
+                      function rateME2(){
+                      
+                         rateStar.innerHTML = '2⭐⭐';
+                       //  rateStar.innerHTML = localStorage.getItem("fourStar");
+                      };
+                      function rateME1(){
+                       
+                         rateStar.innerHTML = '1⭐';
+                       //  rateStar.innerHTML = localStorage.getItem("fiveStar");
+                      };
+                      
+
+
+                  </script>
             </div>
             <div class="caption">
                 <P id="com">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</P>
